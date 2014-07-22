@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+     Copyright 2014, NICTA
+
+     This software may be distributed and modified according to the terms of
+     the BSD 2-Clause license. Note that NO WARRANTY is provided.
+     See "LICENSE_BSD2.txt" for details.
+
+     @TAG(NICTA_BSD)
+  -->
+
+<manifest>
+    <remote name="seL4"
+        fetch="."
+    />
+
+    <!-- default revision for each project, and name of the remote -->
+    <default revision="master"
+        remote="seL4"
+    />
+
+    <!-- list of 'projects' (i.e repositories), path is relative to the path in remote above -->
+    <project name="camkes-apps-simple--devel.git" path="apps/simple" revision="master"/>
+    <project name="camkes-apps-event--devel.git" path="apps/event" revision="master"/>
+    <project name="camkes-apps-dataport--devel.git" path="apps/dataport"/>
+    <project name="capdl-loader-app.git" path="apps/capdl-loader-experimental"/>
+
+    <project name="seL4.git" path="kernel" revision="staging" />
+
+    <project name="elfloader-tool.git" path="tools/elfloader"/>
+    <project name="common-tool.git" path="tools/common"/>
+    <project name="kbuild-tool.git" path="tools/kbuild"/>
+    <project name="camkes-tool.git" path="tools/camkes"/>
+    <project name="capDL-tool.git" path="tools/capDL"/>
+    <project name="python-capdl-tool.git" path="tools/python-capdl"/>
+
+    <project name="libmuslc.git" path="libs/libmuslc"/>
+    <project name="libsel4muslcsys.git" path="libs/libsel4muslcsys" revision="master"/>
+    <project name="libsel4muslcsys.git" path="libs/libsel4muslccamkes" revision="camkes"/>
+    <project name="libsel4platsupport.git" path="libs/libsel4platsupport"/>
+    <project name="libplatsupport.git" path="libs/libplatsupport"/>
+    <project name="libcpio.git" path="libs/libcpio"/>
+    <project name="libelf.git" path="libs/libelf"/>
+    <project name="libsel4utils.git" path="libs/libsel4utils"/>
+    <project name="libsel4sync.git" path="libs/libsel4sync"/>
+    <project name="libsel4vspace.git" path="libs/libsel4vspace"/>
+    <project name="libsel4vka.git" path="libs/libsel4vka"/>
+    <project name="libsel4debug.git" path="libs/libsel4debug"/>
+    <project name="libutils.git" path="libs/libutils"/>
+    <project name="libsel4simple.git" path="libs/libsel4simple"/>
+    <project name="libsel4simple-default.git" path="libs/libsel4simple-default"/>
+    <project name="libsel4bench.git" path="libs/libsel4bench"/>
+
+    <project name="camkes.git" path="projects/camkes">
+        <!-- symlinks to make the project structure fit the build system -->
+        <linkfile src="Makefile" dest="Makefile"/>
+        <linkfile src="Kbuild" dest="Kbuild"/>
+        <linkfile src="Kconfig" dest="Kconfig"/>
+        <linkfile src="configs" dest="configs"/>
+        <linkfile src="../../tools/camkes/docs/index.md" dest="README.md"/>
+        <linkfile src="tests" dest="tests"/>
+        <linkfile src="../../kernel/libsel4" dest="libs/libsel4"/>
+        <linkfile src="../../tools/camkes/libsel4camkes" dest="libs/libsel4camkes"/>
+        <linkfile src="compile_all.sh" dest="compile_all.sh"/>
+        <linkfile src="apps/adder" dest="apps/adder"/>
+        <linkfile src="apps/epit" dest="apps/epit"/>
+        <linkfile src="apps/exchangestring" dest="apps/exchangestring"/>
+        <linkfile src="apps/filter" dest="apps/filter"/>
+        <linkfile src="apps/keyboard" dest="apps/keyboard"/>
+        <linkfile src="apps/lockserver" dest="apps/lockserver"/>
+        <linkfile src="apps/multiclient" dest="apps/multiclient"/>
+        <linkfile src="apps/multiplier" dest="apps/multiplier"/>
+        <linkfile src="apps/mutex" dest="apps/mutex"/>
+        <linkfile src="apps/rotate" dest="apps/rotate"/>
+        <linkfile src="apps/socket" dest="apps/socket"/>
+        <linkfile src="apps/terminal" dest="apps/terminal"/>
+        <linkfile src="apps/uart" dest="apps/uart"/>
+    </project>
+
+
+</manifest>
+

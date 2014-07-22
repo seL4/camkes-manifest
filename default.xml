@@ -26,7 +26,7 @@
     <project name="camkes-apps-dataport--devel.git" path="apps/dataport"/>
     <project name="capdl-loader-app.git" path="apps/capdl-loader-experimental"/>
 
-    <project name="seL4.git" path="kernel" revision="staging" />
+    <project name="seL4.git" path="kernel"/>
 
     <project name="elfloader-tool.git" path="tools/elfloader"/>
     <project name="common-tool.git" path="tools/common"/>

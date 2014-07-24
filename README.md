@@ -1,0 +1,18 @@
+camkes-manifest
+===============
+CAmkES is a component platform that provides support for developing and building static 
+seL4 systems as a collection of interacting components.  The resulting systems are static, 
+meaning that all the components and their connections (and thus all the kernel 
+managed resources) are defined at design time and instantiated at system initialisation time.  
+It is not possible to change the system (e.g., to create or destroy components or to change 
+the connections between components) at runtime.  This CAmkES package includes various example 
+systems that can be studied, and individually built and run.
+
+For general instructions on how to use this repository, see [sel4.systems](http://sel4.systems/Download/building)
+
+Prerequisites, in addition to a standard build system for your target, are:
+* The Haskell compiler, ghc
+* Haskell libraries missingH, split and data-ordlist
+* Python
+* Python libraries python-tempita, pyelftools, jinja2 and ply
+* which, realpath and the libxml2 utilities.

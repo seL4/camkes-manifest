@@ -35,7 +35,7 @@
     <project name="capDL-tool.git" path="tools/capDL"/>
     <project name="python-capdl-tool.git" path="tools/python-capdl"/>
 
-    <project name="musllibc.git" path="libs/libmuslc"/>
+    <project name="musllibc.git" path="libs/libmuslc" revision="sel4"/>
     <project name="libsel4muslcsys.git" path="libs/libsel4muslcsys" revision="master"/>
     <project name="libsel4muslcsys.git" path="libs/libsel4muslccamkes" revision="camkes"/>
     <project name="libsel4platsupport.git" path="libs/libsel4platsupport"/>

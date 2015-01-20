@@ -34,6 +34,7 @@
     <project name="camkes-tool.git" path="tools/camkes"/>
     <project name="capDL-tool.git" path="tools/capDL"/>
     <project name="python-capdl-tool.git" path="tools/python-capdl"/>
+    <project name="pruner.git" path="tools/pruner"/>
 
     <project name="musllibc.git" path="libs/libmuslc" revision="sel4"/>
     <project name="libsel4muslcsys.git" path="libs/libsel4muslcsys" revision="master"/>

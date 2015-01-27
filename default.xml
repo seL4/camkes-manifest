@@ -57,7 +57,7 @@
     <project name="libsel4simple-default.git" path="libs/libsel4simple-default"/>
     <project name="libsel4bench.git" path="libs/libsel4bench"/>
 
-    <project name="camkes.git" path="projects/camkes">
+    <project name="camkes.git" path="projects/camkes" remote="ssherratt">
         <!-- symlinks to make the project structure fit the build system -->
         <linkfile src="Makefile" dest="Makefile"/>
         <linkfile src="Kbuild" dest="Kbuild"/>

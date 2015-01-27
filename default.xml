@@ -11,6 +11,16 @@
   -->
 
 <manifest>
+    
+    <remote name="ssherratt"
+        fetch="."
+    />
+    <remote name="seL4"
+        fetch="../seL4"
+    />
+
+
+
     <remote name="seL4"
         fetch="."
     />

@@ -19,12 +19,6 @@
         fetch="../seL4"
     />
 
-
-
-    <remote name="seL4"
-        fetch="."
-    />
-
     <!-- default revision for each project, and name of the remote -->
     <default revision="master"
         remote="seL4"

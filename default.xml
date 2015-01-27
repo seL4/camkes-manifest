@@ -74,6 +74,7 @@
         <linkfile src="apps/filter" dest="apps/filter"/>
         <linkfile src="apps/keyboard" dest="apps/keyboard"/>
         <linkfile src="apps/lockserver" dest="apps/lockserver"/>
+        <linkfile src="apps/multiassembly" dest="apps/multiassembly"/>
         <linkfile src="apps/multiclient" dest="apps/multiclient"/>
         <linkfile src="apps/multiplier" dest="apps/multiplier"/>
         <linkfile src="apps/mutex" dest="apps/mutex"/>

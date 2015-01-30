@@ -68,6 +68,7 @@
         <linkfile src="apps/epit" dest="apps/epit"/>
         <linkfile src="apps/exchangestring" dest="apps/exchangestring"/>
         <linkfile src="apps/filter" dest="apps/filter"/>
+        <linkfile src="apps/hierarchical-components" dest="apps/hierarchical-components"/>
         <linkfile src="apps/keyboard" dest="apps/keyboard"/>
         <linkfile src="apps/lockserver" dest="apps/lockserver"/>
         <linkfile src="apps/multiassembly" dest="apps/multiassembly"/>

@@ -82,6 +82,7 @@
         <linkfile src="apps/uart" dest="apps/uart"/>
     </project>
 
+    <project name="global-components.git" path="components"/>
 
 </manifest>
 

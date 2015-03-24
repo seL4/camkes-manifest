@@ -32,7 +32,7 @@
     <project name="common-tool.git" path="tools/common"/>
     <project name="kbuild-tool.git" path="tools/kbuild"/>
     <project name="camkes-tool.git" path="tools/camkes">
-        <linkfile src="Makefile" dest="Makefile"/>
+        <linkfile src="toplevel.mk" dest="Makefile"/>
         <linkfile src="Kbuild" dest="Kbuild"/>
     </project>
     <project name="capDL-tool.git" path="tools/capDL"/>

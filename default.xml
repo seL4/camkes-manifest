@@ -15,6 +15,10 @@
         fetch="."
     />
 
+    <remote name="seL4-projects"
+        fetch="../seL4-projects"
+    />
+
     <!-- default revision for each project, and name of the remote -->
     <default revision="master"
         remote="seL4"
@@ -56,7 +60,7 @@
     <project name="libsel4simple-default.git" path="libs/libsel4simple-default"/>
     <project name="libsel4bench.git" path="libs/libsel4bench"/>
 
-    <project name="global-components.git" path="components"/>
+    <project remote="seL4-projects" name="global-components.git" path="components"/>
 
     <project name="camkes.git" path="projects/camkes">
         <!-- symlinks to make the project structure fit the build system -->

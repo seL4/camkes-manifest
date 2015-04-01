@@ -85,6 +85,7 @@
         <linkfile src="apps/mutex" dest="apps/mutex"/>
         <linkfile src="apps/rotate" dest="apps/rotate"/>
         <linkfile src="apps/socket" dest="apps/socket"/>
+        <linkfile src="apps/swapcounter" dest="apps/swapcounter"/>
         <linkfile src="apps/terminal" dest="apps/terminal"/>
         <linkfile src="apps/uart" dest="apps/uart"/>
     </project>

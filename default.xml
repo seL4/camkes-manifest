@@ -8,11 +8,11 @@
   <project name="camkes-apps-dataport--devel.git" path="apps/dataport" revision="7300e7165cff68142eb8d35813d6076d289f0a87" upstream="master"/>
   <project name="camkes-apps-event--devel.git" path="apps/event" revision="19d9f648c8f9f28fa9e3cfac9bc014c3f482ff4b" upstream="master"/>
   <project name="camkes-apps-simple--devel.git" path="apps/simple" revision="b1382587216ff7fc6a3c0a664d5546c3ec9b594f" upstream="master"/>
-  <project name="camkes-tool.git" path="tools/camkes" revision="f94c847a28614e155665474eface4c81adff5439" upstream="master">
+  <project name="camkes-tool.git" path="tools/camkes" revision="aa2785b7e91193241310b421f8ed5a439d567456" upstream="master">
     <linkfile dest="Makefile" src="toplevel.mk"/>
     <linkfile dest="Kbuild" src="Kbuild"/>
   </project>
-  <project name="camkes.git" path="projects/camkes" revision="950e44ba10d49b609e68a6bf14d24b6c83d324e8" upstream="master">
+  <project name="camkes.git" path="projects/camkes" revision="8a236ec83213f86ff47522f1c90ecdc526520932" upstream="master">
     <linkfile dest="Kconfig" src="Kconfig"/>
     <linkfile dest="configs" src="configs"/>
     <linkfile dest="README.md" src="../../tools/camkes/docs/index.md"/>

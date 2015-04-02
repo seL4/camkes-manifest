@@ -63,4 +63,7 @@
   <project name="pruner.git" path="tools/pruner" revision="c1f6664f7f0bc04ac60b5e8b41200b1a09da7eda" upstream="master"/>
   <project name="python-capdl-tool.git" path="tools/python-capdl" revision="a413ac5801bc349192598f2e64f594058f4f1955" upstream="master"/>
   <project name="seL4.git" path="kernel" revision="a5f61c7166c0f44cdc062b8599009a90f29e124d" upstream="master"/>
+  <project name="isabelle" revision="a6d328868b8547a36c943996f80b1667b42ac428" upstream="master"/>
+  <project name="l4v" revision="be313240f48c29b291150bf430deb7597cf5f55a" upstream="master"/>
+  <project name="seL4" revision="a5f61c7166c0f44cdc062b8599009a90f29e124d" upstream="master"/>
 </manifest>

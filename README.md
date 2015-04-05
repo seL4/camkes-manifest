@@ -237,9 +237,8 @@ make arm_swapcounter_defconfig
 make silentoldconfig
 
 # Configure path to LLVM
-sed -i \
-  's/^CONFIG_CAMKES_LLVM_PATH.*$/CONFIG_CAMKES_LLVM_PATH="~\/llvm-install"/g' \
-  .config
+sed -i 's/^CONFIG_CAMKES_LLVM_PATH.*$//g' .config
+echo "CONFIG_CAMKES_LLVM_PATH=\"${HOME}/llvm-install\"" >>.config
 
 # Build example
 make

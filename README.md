@@ -55,7 +55,7 @@ control systems and Google Repo.
 sudo apt-get install git subversion
 
 # Configure git
-git config --global user.email '<you@example.com>'
+git config --global user.email 'you@example.com'
 git config --global user.name 'CAmkES User'
 
 wget https://storage.googleapis.com/git-repo-downloads/repo -O ~/repo

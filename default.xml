@@ -30,7 +30,9 @@
     <project name="camkes-apps-dataport--devel.git" path="apps/dataport"/>
     <project name="capdl-loader-app.git" path="apps/capdl-loader-experimental"/>
 
-    <project name="seL4.git" path="kernel"/>
+    <project name="seL4.git" path="kernel">
+        <linkfile src="libsel4" dest="libs/libsel4"/>
+    </project>
 
     <project name="elfloader-tool.git" path="tools/elfloader"/>
     <project name="common-tool.git" path="tools/common"/>
@@ -38,6 +40,8 @@
     <project name="camkes-tool.git" path="tools/camkes">
         <linkfile src="toplevel.mk" dest="Makefile"/>
         <linkfile src="Kbuild" dest="Kbuild"/>
+        <linkfile src="libsel4camkes" dest="libs/libsel4camkes"/>
+        <linkfile src="docs/index.md" dest="README.md"/>
     </project>
     <project name="capDL-tool.git" path="tools/capDL"/>
     <project name="python-capdl-tool.git" path="tools/python-capdl"/>
@@ -66,10 +70,7 @@
         <!-- symlinks to make the project structure fit the build system -->
         <linkfile src="Kconfig" dest="Kconfig"/>
         <linkfile src="configs" dest="configs"/>
-        <linkfile src="../../tools/camkes/docs/index.md" dest="README.md"/>
         <linkfile src="tests" dest="tests"/>
-        <linkfile src="../../kernel/libsel4" dest="libs/libsel4"/>
-        <linkfile src="../../tools/camkes/libsel4camkes" dest="libs/libsel4camkes"/>
         <linkfile src="compile_all.sh" dest="compile_all.sh"/>
         <linkfile src="apps/adder" dest="apps/adder"/>
         <linkfile src="apps/epit" dest="apps/epit"/>

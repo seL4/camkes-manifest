@@ -34,35 +34,45 @@
         <linkfile src="libsel4" dest="libs/libsel4"/>
     </project>
 
-    <project name="elfloader-tool.git" path="tools/elfloader"/>
-    <project name="common-tool.git" path="tools/common"/>
-    <project name="kbuild-tool.git" path="tools/kbuild"/>
+    <project name="seL4_tools.git" path="projects/seL4_tools">
+        <linkfile src="common-tool" dest="tools/common"/>
+        <linkfile src="elfloader-tool" dest="tools/elfloader"/>
+        <linkfile src="kbuild-tool" dest="tools/kbuild"/>
+    </project>
+
     <project name="camkes-tool.git" path="tools/camkes">
         <linkfile src="toplevel.mk" dest="Makefile"/>
         <linkfile src="Kbuild" dest="Kbuild"/>
         <linkfile src="libsel4camkes" dest="libs/libsel4camkes"/>
         <linkfile src="docs/index.md" dest="README.md"/>
     </project>
+
     <project name="capDL-tool.git" path="tools/capDL"/>
     <project name="python-capdl-tool.git" path="tools/python-capdl"/>
     <project name="pruner.git" path="tools/pruner"/>
 
+    <project name="seL4_libs.git" path="projects/seL4_libs">
+        <linkfile src="libsel4muslcsys" dest="libs/libsel4muslcsys"/>
+        <linkfile src="libsel4platsupport" dest="libs/libsel4platsupport"/>
+        <linkfile src="libsel4utils" dest="libs/libsel4utils"/>
+        <linkfile src="libsel4sync" dest="libs/libsel4sync"/>
+        <linkfile src="libsel4vspace" dest="libs/libsel4vspace"/>
+        <linkfile src="libsel4vka" dest="libs/libsel4vka"/>
+        <linkfile src="libsel4debug" dest="libs/libsel4debug"/>
+        <linkfile src="libsel4simple" dest="libs/libsel4simple"/>
+        <linkfile src="libsel4simple-default" dest="libs/libsel4simple-default"/>
+        <linkfile src="libsel4bench" dest="libs/libsel4bench"/>
+    </project>
+
+    <project name="util_libs.git" path="projects/util_libs">
+        <linkfile src="libplatsupport" dest="libs/libplatsupport"/>
+        <linkfile src="libcpio" dest="libs/libcpio"/>
+        <linkfile src="libelf" dest="libs/libelf"/>
+        <linkfile src="libutils" dest="libs/libutils"/>
+    </project>
+
     <project name="musllibc.git" path="libs/libmuslc" revision="sel4"/>
-    <project name="libsel4muslcsys.git" path="libs/libsel4muslcsys" revision="master"/>
     <project name="libsel4muslcsys.git" path="libs/libsel4muslccamkes" revision="camkes"/>
-    <project name="libsel4platsupport.git" path="libs/libsel4platsupport"/>
-    <project name="libplatsupport.git" path="libs/libplatsupport"/>
-    <project name="libcpio.git" path="libs/libcpio"/>
-    <project name="libelf.git" path="libs/libelf"/>
-    <project name="libsel4utils.git" path="libs/libsel4utils"/>
-    <project name="libsel4sync.git" path="libs/libsel4sync"/>
-    <project name="libsel4vspace.git" path="libs/libsel4vspace"/>
-    <project name="libsel4vka.git" path="libs/libsel4vka"/>
-    <project name="libsel4debug.git" path="libs/libsel4debug"/>
-    <project name="libutils.git" path="libs/libutils"/>
-    <project name="libsel4simple.git" path="libs/libsel4simple"/>
-    <project name="libsel4simple-default.git" path="libs/libsel4simple-default"/>
-    <project name="libsel4bench.git" path="libs/libsel4bench"/>
 
     <project remote="seL4-projects" name="global-components.git" path="components"/>
 

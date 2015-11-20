@@ -28,7 +28,6 @@
     <project name="camkes-apps-simple--devel.git" path="apps/simple" revision="master"/>
     <project name="camkes-apps-event--devel.git" path="apps/event" revision="master"/>
     <project name="camkes-apps-dataport--devel.git" path="apps/dataport"/>
-    <project name="capdl-loader-app.git" path="apps/capdl-loader-experimental"/>
 
     <project name="seL4.git" path="kernel">
         <linkfile src="libsel4" dest="libs/libsel4"/>
@@ -48,8 +47,12 @@
         <linkfile src="docs/index.md" dest="README.md"/>
     </project>
 
-    <project name="capDL-tool.git" path="tools/capDL"/>
-    <project name="python-capdl-tool.git" path="tools/python-capdl"/>
+    <project name="capdl.git" path="projects/capdl">
+        <linkfile src="capdl-loader-app" dest="apps/capdl-loader-experimental"/>
+        <linkfile src="capDL-tool" dest="tools/capDL"/>
+        <linkfile src="python-capdl-tool" dest="tools/python-capdl"/>
+    </project>
+
     <project name="pruner.git" path="tools/pruner"/>
 
     <project name="seL4_libs.git" path="projects/seL4_libs">

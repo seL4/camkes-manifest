@@ -25,10 +25,6 @@
     />
 
     <!-- list of 'projects' (i.e repositories), path is relative to the path in remote above -->
-    <project name="camkes-apps-simple--devel.git" path="apps/simple" revision="master"/>
-    <project name="camkes-apps-event--devel.git" path="apps/event" revision="master"/>
-    <project name="camkes-apps-dataport--devel.git" path="apps/dataport"/>
-
     <project name="seL4.git" path="kernel">
         <linkfile src="libsel4" dest="libs/libsel4"/>
     </project>

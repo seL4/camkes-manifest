@@ -82,7 +82,12 @@
         <linkfile src="tests" dest="tests"/>
         <linkfile src="compile_all.sh" dest="compile_all.sh"/>
         <linkfile src="apps/adder" dest="apps/adder"/>
+        <linkfile src="apps/aeroplage" dest="apps/aeroplage"/>
+        <linkfile src="apps/dataport" dest="apps/dataport"/>
+        <linkfile src="apps/dhcp" dest="apps/dhcp"/>
+        <linkfile src="apps/dma-example" dest="apps/dma-example"/>
         <linkfile src="apps/epit" dest="apps/epit"/>
+        <linkfile src="apps/event" dest="apps/event"/>
         <linkfile src="apps/exchangestring" dest="apps/exchangestring"/>
         <linkfile src="apps/filter" dest="apps/filter"/>
         <linkfile src="apps/global-imports" dest="apps/global-imports"/>
@@ -95,9 +100,32 @@
         <linkfile src="apps/multiplier" dest="apps/multiplier"/>
         <linkfile src="apps/mutex" dest="apps/mutex"/>
         <linkfile src="apps/rotate" dest="apps/rotate"/>
+        <linkfile src="apps/simple" dest="apps/simple"/>
+        <linkfile src="apps/simplesingleaddressspace" dest="apps/simplesingleaddressspace"/>
         <linkfile src="apps/socket" dest="apps/socket"/>
         <linkfile src="apps/swapcounter" dest="apps/swapcounter"/>
         <linkfile src="apps/terminal" dest="apps/terminal"/>
+        <linkfile src="apps/testbufvariant" dest="apps/testbufvariant"/>
+        <linkfile src="apps/testcamkes438" dest="apps/testcamkes438"/>
+        <linkfile src="apps/testcontrolname" dest="apps/testcontrolname"/>
+        <linkfile src="apps/testdataportbifurcate" dest="apps/testdataportbifurcate"/>
+        <linkfile src="apps/testdataportmux" dest="apps/testdataportmux"/>
+        <linkfile src="apps/testdataportmuxflat" dest="apps/testdataportmuxflat"/>
+        <linkfile src="apps/testdataportptrwrap" dest="apps/testdataportptrwrap"/>
+        <linkfile src="apps/testdataportrpc" dest="apps/testdataportrpc"/>
+        <linkfile src="apps/testfaulthandlers" dest="apps/testfaulthandlers"/>
+        <linkfile src="apps/testgrouping" dest="apps/testgrouping"/>
+        <linkfile src="apps/testgroupingcontrol" dest="apps/testgroupingcontrol"/>
+        <linkfile src="apps/testhardwareinterrupt" dest="apps/testhardwareinterrupt"/>
+        <linkfile src="apps/testltouser" dest="apps/testltouser"/>
+        <linkfile src="apps/testnto1mmio" dest="apps/testnto1mmio"/>
+        <linkfile src="apps/testnto1overload" dest="apps/testnto1overload"/>
+        <linkfile src="apps/testrefin" dest="apps/testrefin"/>
+        <linkfile src="apps/testreplycapprotection" dest="apps/testreplycapprotection"/>
+        <linkfile src="apps/testsel4async" dest="apps/testsel4async"/>
+        <linkfile src="apps/testsingleaddressspaceheap" dest="apps/testsingleaddressspaceheap"/>
+        <linkfile src="apps/teststringarrays" dest="apps/teststringarrays"/>
+        <linkfile src="apps/testunderscorename" dest="apps/testunderscorename"/>
         <linkfile src="apps/uart" dest="apps/uart"/>
     </project>
 

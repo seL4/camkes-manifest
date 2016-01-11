@@ -81,6 +81,9 @@
         <linkfile src="configs" dest="configs"/>
         <linkfile src="tests" dest="tests"/>
         <linkfile src="compile_all.sh" dest="compile_all.sh"/>
+        <linkfile src="libs/libringbuffer" dest="libs/libringbuffer"/>
+        <linkfile src="libs/libsel4bga" dest="libs/libsel4bga"/>
+        <linkfile src="libs/libsel4keyboard" dest="libs/libsel4keyboard"/>
         <linkfile src="apps/adder" dest="apps/adder"/>
         <linkfile src="apps/aeroplage" dest="apps/aeroplage"/>
         <linkfile src="apps/dataport" dest="apps/dataport"/>

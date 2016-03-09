@@ -103,6 +103,7 @@
         <linkfile src="apps/swapcounter" dest="apps/swapcounter"/>
         <linkfile src="apps/terminal" dest="apps/terminal"/>
         <linkfile src="apps/uart" dest="apps/uart"/>
+        <linkfile src="apps/cached-hardware-dataport" dest="apps/cached-hardware-dataport"/>
     </project>
 
 

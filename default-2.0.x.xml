@@ -37,7 +37,7 @@
         <linkfile src="docs/index.md" dest="README.md"/>
     </project>
 
-    <project name="capdl.git" path="projects/capdl" revision="45988f6893da81fb120d10c133279f1ad09a89ca">
+    <project name="capdl.git" path="projects/capdl" revision="2.0.x-compatible">
         <linkfile src="capdl-loader-app" dest="apps/capdl-loader-experimental"/>
         <linkfile src="capDL-tool" dest="tools/capDL"/>
         <linkfile src="python-capdl-tool" dest="tools/python-capdl"/>

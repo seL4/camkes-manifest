@@ -9,7 +9,7 @@
   --><manifest>
     <remote name="seL4" fetch="."/>
 
-    <remote name="seL4-projects" fetch="../seL4-projects"/>
+    <remote name="SEL4PROJ" fetch="../SEL4PROJ"/>
 
     <!-- default revision for each project, and name of the remote -->
     <default revision="master" remote="seL4"/>
@@ -67,7 +67,7 @@
 
     <project name="musllibc.git" path="libs/libmuslc" revision="3.0.x-compatible"/>
 
-    <project remote="seL4-projects" name="global-components.git" path="components" revision="camkes-2.1.x-compatible"/>
+    <project remote="SEL4PROJ" name="global-components.git" path="components" revision="camkes-2.1.x-compatible"/>
 
     <project name="camkes.git" path="projects/camkes" revision="camkes-2.1.x-compatible">
         <!-- symlinks to make the project structure fit the build system -->

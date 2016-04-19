@@ -15,8 +15,8 @@
         fetch="."
     />
 
-    <remote name="seL4-projects"
-        fetch="../seL4-projects"
+    <remote name="SEL4PROJ"
+        fetch="../SEL4PROJ"
     />
 
     <!-- default revision for each project, and name of the remote -->
@@ -73,7 +73,7 @@
 
     <project name="musllibc.git" path="libs/libmuslc" revision="sel4"/>
 
-    <project remote="seL4-projects" name="global-components.git" path="components"/>
+    <project remote="SEL4PROJ" name="global-components.git" path="components"/>
 
     <project name="camkes.git" path="projects/camkes" revision="next">
         <!-- symlinks to make the project structure fit the build system -->

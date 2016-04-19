@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="seL4"/>
-  <remote fetch="../seL4-projects" name="seL4-projects"/>
+  <remote fetch="../SEL4PROJ" name="SEL4PROJ"/>
   
   <default remote="seL4" revision="master"/>
   
@@ -42,7 +42,7 @@
   <project name="capdl-loader-app.git" path="apps/capdl-loader-experimental" revision="a491056cbf5d58e1766c65208547e2c2ffed099d" upstream="master"/>
   <project name="common-tool.git" path="tools/common" revision="1f9167c826c04e93613b3c3a8a99444b13a08533" upstream="master"/>
   <project name="elfloader-tool.git" path="tools/elfloader" revision="bb1ff4c48c577af0ceacf5eb4e66ecfcd280c02f" upstream="master"/>
-  <project name="global-components.git" path="components" remote="seL4-projects" revision="63ae295be2014a4f18aea3e53b62b95f050ee16b" upstream="master"/>
+  <project name="global-components.git" path="components" remote="SEL4PROJ" revision="63ae295be2014a4f18aea3e53b62b95f050ee16b" upstream="master"/>
   <project name="kbuild-tool.git" path="tools/kbuild" revision="820f7efb4fbceeb1d0223f48f34dacfe8378cfdb" upstream="master"/>
   <project name="libcpio.git" path="libs/libcpio" revision="fb50b5f4e0eedf1da877989a7a22b38ee3e77f4d" upstream="master"/>
   <project name="libelf.git" path="libs/libelf" revision="5bbbc98166395b896cef2be7a49ba01a751e7c22" upstream="master"/>

@@ -130,6 +130,7 @@
         <linkfile src="apps/teststringarrays" dest="apps/teststringarrays"/>
         <linkfile src="apps/testunderscorename" dest="apps/testunderscorename"/>
         <linkfile src="apps/uart" dest="apps/uart"/>
+        <linkfile src="apps/pit" dest="apps/pit"/>
     </project>
 
 

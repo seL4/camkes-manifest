@@ -131,6 +131,7 @@
         <linkfile src="apps/testunderscorename" dest="apps/testunderscorename"/>
         <linkfile src="apps/uart" dest="apps/uart"/>
         <linkfile src="apps/pit" dest="apps/pit"/>
+        <linkfile src="apps/testsyscalls" dest="apps/testsyscalls"/>
     </project>
 
 

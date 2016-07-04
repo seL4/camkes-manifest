@@ -125,7 +125,7 @@
         <linkfile src="apps/testnto1overload" dest="apps/testnto1overload"/>
         <linkfile src="apps/testrefin" dest="apps/testrefin"/>
         <linkfile src="apps/testreplycapprotection" dest="apps/testreplycapprotection"/>
-        <linkfile src="apps/testsel4async" dest="apps/testsel4async"/>
+        <linkfile src="apps/testsel4notification" dest="apps/testsel4notification"/>
         <linkfile src="apps/testsingleaddressspaceheap" dest="apps/testsingleaddressspaceheap"/>
         <linkfile src="apps/teststringarrays" dest="apps/teststringarrays"/>
         <linkfile src="apps/testunderscorename" dest="apps/testunderscorename"/>

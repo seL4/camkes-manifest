@@ -86,6 +86,7 @@
         <linkfile src="libs/libsel4keyboard" dest="libs/libsel4keyboard"/>
         <linkfile src="apps/adder" dest="apps/adder"/>
         <linkfile src="apps/aeroplage" dest="apps/aeroplage"/>
+        <linkfile src="apps/binary-semaphore" dest="apps/binary-semaphore"/>
         <linkfile src="apps/dataport" dest="apps/dataport"/>
         <linkfile src="apps/dhcp" dest="apps/dhcp"/>
         <linkfile src="apps/dma-example" dest="apps/dma-example"/>

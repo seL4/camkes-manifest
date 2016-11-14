@@ -103,6 +103,7 @@
         <linkfile src="apps/multiclient" dest="apps/multiclient"/>
         <linkfile src="apps/multiplier" dest="apps/multiplier"/>
         <linkfile src="apps/mutex" dest="apps/mutex"/>
+        <linkfile src="apps/reversestring" dest="apps/reversestring"/>
         <linkfile src="apps/rotate" dest="apps/rotate"/>
         <linkfile src="apps/simple" dest="apps/simple"/>
         <linkfile src="apps/simplesingleaddressspace" dest="apps/simplesingleaddressspace"/>

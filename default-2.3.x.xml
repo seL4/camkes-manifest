@@ -19,17 +19,17 @@
     <project name="camkes-apps-event--devel.git" path="apps/event" revision="camkes-2.3.x-compatible"/>
     <project name="camkes-apps-dataport--devel.git" path="apps/dataport" revision="camkes-2.3.x-compatible"/>
 
-    <project name="seL4.git" path="kernel" revision="refs/tags/4.0.0">
+    <project name="seL4.git" path="kernel" revision="refs/tags/5.2.0">
         <linkfile src="libsel4" dest="libs/libsel4"/>
     </project>
 
-    <project name="seL4_tools.git" path="projects/seL4_tools" revision="4.0.x-compatible">
+    <project name="seL4_tools.git" path="projects/seL4_tools" revision="5.2.x-compatible">
         <linkfile src="common-tool" dest="tools/common"/>
         <linkfile src="elfloader-tool" dest="tools/elfloader"/>
         <linkfile src="kbuild-tool" dest="tools/kbuild"/>
     </project>
 
-    <project name="camkes-tool.git" path="tools/camkes" revision="refs/tags/camkes-2.3.0">
+    <project name="camkes-tool.git" path="tools/camkes" revision="refs/tags/camkes-2.3.1">
         <linkfile src="toplevel.mk" dest="Makefile"/>
         <linkfile src="Kbuild" dest="Kbuild"/>
         <linkfile src="libsel4camkes" dest="libs/libsel4camkes"/>
@@ -37,7 +37,7 @@
         <linkfile src="docs/index.md" dest="README.md"/>
     </project>
 
-    <project name="capdl.git" path="projects/capdl" revision="4.0.x-compatible">
+    <project name="capdl.git" path="projects/capdl" revision="5.2.x-compatible">
         <linkfile src="capdl-loader-app" dest="apps/capdl-loader-experimental"/>
         <linkfile src="capDL-tool" dest="tools/capDL"/>
         <linkfile src="python-capdl-tool" dest="tools/python-capdl"/>
@@ -45,7 +45,7 @@
 
     <project name="pruner.git" path="tools/pruner"/>
 
-    <project name="seL4_libs.git" path="projects/seL4_libs" revision="4.0.x-compatible">
+    <project name="seL4_libs.git" path="projects/seL4_libs" revision="5.2.x-compatible">
         <linkfile src="libsel4muslcsys" dest="libs/libsel4muslcsys"/>
         <linkfile src="libsel4platsupport" dest="libs/libsel4platsupport"/>
         <linkfile src="libsel4utils" dest="libs/libsel4utils"/>
@@ -58,14 +58,14 @@
         <linkfile src="libsel4bench" dest="libs/libsel4bench"/>
     </project>
 
-    <project name="util_libs.git" path="projects/util_libs" revision="4.0.x-compatible">
+    <project name="util_libs.git" path="projects/util_libs" revision="5.2.x-compatible">
         <linkfile src="libplatsupport" dest="libs/libplatsupport"/>
         <linkfile src="libcpio" dest="libs/libcpio"/>
         <linkfile src="libelf" dest="libs/libelf"/>
         <linkfile src="libutils" dest="libs/libutils"/>
     </project>
 
-    <project name="musllibc.git" path="libs/libmuslc" revision="4.0.x-compatible"/>
+    <project name="musllibc.git" path="libs/libmuslc" revision="5.2.x-compatible"/>
 
     <project remote="SEL4PROJ" name="global-components.git" path="components" revision="camkes-2.3.x-compatible"/>
 

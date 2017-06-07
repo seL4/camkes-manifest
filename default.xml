@@ -25,10 +25,6 @@
     />
 
     <!-- list of 'projects' (i.e repositories), path is relative to the path in remote above -->
-    <project name="camkes-apps-simple--devel.git" path="apps/simple" revision="master"/>
-    <project name="camkes-apps-event--devel.git" path="apps/event" revision="master"/>
-    <project name="camkes-apps-dataport--devel.git" path="apps/dataport"/>
-
     <project name="seL4.git" path="kernel">
         <linkfile src="libsel4" dest="libs/libsel4"/>
     </project>
@@ -39,7 +35,7 @@
         <linkfile src="kbuild-tool" dest="tools/kbuild"/>
     </project>
 
-    <project name="camkes-tool.git" path="tools/camkes">
+    <project name="camkes-tool.git" path="tools/camkes" revision="next">
         <linkfile src="toplevel.mk" dest="Makefile"/>
         <linkfile src="Kbuild" dest="Kbuild"/>
         <linkfile src="libsel4camkes" dest="libs/libsel4camkes"/>
@@ -79,14 +75,23 @@
 
     <project remote="SEL4PROJ" name="global-components.git" path="components"/>
 
-    <project name="camkes.git" path="projects/camkes">
+    <project name="camkes.git" path="projects/camkes" revision="next">
         <!-- symlinks to make the project structure fit the build system -->
         <linkfile src="Kconfig" dest="Kconfig"/>
         <linkfile src="configs" dest="configs"/>
         <linkfile src="tests" dest="tests"/>
         <linkfile src="compile_all.sh" dest="compile_all.sh"/>
+        <linkfile src="libs/libringbuffer" dest="libs/libringbuffer"/>
+        <linkfile src="libs/libsel4bga" dest="libs/libsel4bga"/>
+        <linkfile src="libs/libsel4keyboard" dest="libs/libsel4keyboard"/>
         <linkfile src="apps/adder" dest="apps/adder"/>
+        <linkfile src="apps/aeroplage" dest="apps/aeroplage"/>
+        <linkfile src="apps/binary-semaphore" dest="apps/binary-semaphore"/>
+        <linkfile src="apps/dataport" dest="apps/dataport"/>
+        <linkfile src="apps/dhcp" dest="apps/dhcp"/>
+        <linkfile src="apps/dma-example" dest="apps/dma-example"/>
         <linkfile src="apps/epit" dest="apps/epit"/>
+        <linkfile src="apps/event" dest="apps/event"/>
         <linkfile src="apps/exchangestring" dest="apps/exchangestring"/>
         <linkfile src="apps/filter" dest="apps/filter"/>
         <linkfile src="apps/global-imports" dest="apps/global-imports"/>
@@ -98,12 +103,39 @@
         <linkfile src="apps/multiclient" dest="apps/multiclient"/>
         <linkfile src="apps/multiplier" dest="apps/multiplier"/>
         <linkfile src="apps/mutex" dest="apps/mutex"/>
+        <linkfile src="apps/reversestring" dest="apps/reversestring"/>
         <linkfile src="apps/rotate" dest="apps/rotate"/>
+        <linkfile src="apps/simple" dest="apps/simple"/>
+        <linkfile src="apps/simplesingleaddressspace" dest="apps/simplesingleaddressspace"/>
         <linkfile src="apps/socket" dest="apps/socket"/>
         <linkfile src="apps/swapcounter" dest="apps/swapcounter"/>
         <linkfile src="apps/terminal" dest="apps/terminal"/>
+        <linkfile src="apps/testbufvariant" dest="apps/testbufvariant"/>
+        <linkfile src="apps/testcamkes438" dest="apps/testcamkes438"/>
+        <linkfile src="apps/testcontrolname" dest="apps/testcontrolname"/>
+        <linkfile src="apps/testdataportbifurcate" dest="apps/testdataportbifurcate"/>
+        <linkfile src="apps/testdataportmux" dest="apps/testdataportmux"/>
+        <linkfile src="apps/testdataportmuxflat" dest="apps/testdataportmuxflat"/>
+        <linkfile src="apps/testdataportptrwrap" dest="apps/testdataportptrwrap"/>
+        <linkfile src="apps/testdataportrpc" dest="apps/testdataportrpc"/>
+        <linkfile src="apps/testfaulthandlers" dest="apps/testfaulthandlers"/>
+        <linkfile src="apps/testgrouping" dest="apps/testgrouping"/>
+        <linkfile src="apps/testgroupingcontrol" dest="apps/testgroupingcontrol"/>
+        <linkfile src="apps/testhardwareinterrupt" dest="apps/testhardwareinterrupt"/>
+        <linkfile src="apps/testltouser" dest="apps/testltouser"/>
+        <linkfile src="apps/testnto1mmio" dest="apps/testnto1mmio"/>
+        <linkfile src="apps/testnto1overload" dest="apps/testnto1overload"/>
+        <linkfile src="apps/testrefin" dest="apps/testrefin"/>
+        <linkfile src="apps/testreplycapprotection" dest="apps/testreplycapprotection"/>
+        <linkfile src="apps/testsel4notification" dest="apps/testsel4notification"/>
+        <linkfile src="apps/testsingleaddressspaceheap" dest="apps/testsingleaddressspaceheap"/>
+        <linkfile src="apps/teststringarrays" dest="apps/teststringarrays"/>
+        <linkfile src="apps/testunderscorename" dest="apps/testunderscorename"/>
         <linkfile src="apps/uart" dest="apps/uart"/>
-        <linkfile src="apps/cached-hardware-dataport" dest="apps/cached-hardware-dataport"/>
+        <linkfile src="apps/pit" dest="apps/pit"/>
+        <linkfile src="apps/testsyscalls" dest="apps/testsyscalls"/>
+        <linkfile src="apps/alignment" dest="apps/alignment"/>
+        <linkfile src="apps/structs" dest="apps/structs"/>
     </project>
 
 

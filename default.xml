@@ -35,7 +35,7 @@
         <linkfile src="kbuild-tool" dest="tools/kbuild"/>
     </project>
 
-    <project name="camkes-tool.git" path="tools/camkes" revision="next">
+    <project name="camkes-tool.git" path="tools/camkes" revision="master">
         <linkfile src="toplevel.mk" dest="Makefile"/>
         <linkfile src="Kbuild" dest="Kbuild"/>
         <linkfile src="libsel4camkes" dest="libs/libsel4camkes"/>
@@ -75,7 +75,7 @@
 
     <project remote="SEL4PROJ" name="global-components.git" path="components"/>
 
-    <project name="camkes.git" path="projects/camkes" revision="next">
+    <project name="camkes.git" path="projects/camkes" revision="master">
         <!-- symlinks to make the project structure fit the build system -->
         <linkfile src="Kconfig" dest="Kconfig"/>
         <linkfile src="configs" dest="configs"/>

@@ -136,6 +136,7 @@
         <linkfile src="apps/testsyscalls" dest="apps/testsyscalls"/>
         <linkfile src="apps/alignment" dest="apps/alignment"/>
         <linkfile src="apps/structs" dest="apps/structs"/>
+        <linkfile src="apps/attributes" dest="apps/attributes"/>
     </project>
 
 

@@ -62,6 +62,7 @@
         <linkfile src="libsel4simple" dest="libs/libsel4simple"/>
         <linkfile src="libsel4simple-default" dest="libs/libsel4simple-default"/>
         <linkfile src="libsel4bench" dest="libs/libsel4bench"/>
+        <linkfile src="libsel4allocman" dest="libs/libsel4allocman"/>
     </project>
 
     <project name="util_libs.git" path="projects/util_libs">
@@ -74,6 +75,10 @@
     <project name="musllibc.git" path="libs/libmuslc" revision="sel4"/>
 
     <project remote="SEL4PROJ" name="global-components.git" path="components"/>
+
+    <project remote="SEL4PROJ" name="rumprun.git" path="libs/rumprun"/>
+
+    <project remote="SEL4PROJ" name="global-components.git" path="projects/global-components"/>
 
     <project name="camkes.git" path="projects/camkes">
         <!-- symlinks to make the project structure fit the build system -->
@@ -137,6 +142,9 @@
         <linkfile src="apps/alignment" dest="apps/alignment"/>
         <linkfile src="apps/structs" dest="apps/structs"/>
         <linkfile src="apps/attributes" dest="apps/attributes"/>
+        <linkfile src="apps/rumprun_hello" dest="apps/rumprun_hello"/>
+        <linkfile src="apps/rumprun_pthreads" dest="apps/rumprun_pthreads"/>
+        <linkfile src="apps/rumprun_ethernet" dest="apps/rumprun_ethernet"/>
     </project>
 
 

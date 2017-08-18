@@ -146,7 +146,7 @@
         <linkfile src="apps/rumprun_pthreads" dest="apps/rumprun_pthreads"/>
         <linkfile src="apps/rumprun_ethernet" dest="apps/rumprun_ethernet"/>
         <linkfile src="apps/rumprun_rust" dest="apps/rumprun_rust"/>
-        <linkfile src="apps/vga_test" dest="apps/vga_test"/>
+        <linkfile src="apps/vgatest" dest="apps/vgatest"/>
     </project>
 
 

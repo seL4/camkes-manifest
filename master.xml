@@ -93,6 +93,7 @@
         <linkfile src="apps/aeroplage" dest="apps/aeroplage"/>
         <linkfile src="apps/binary-semaphore" dest="apps/binary-semaphore"/>
         <linkfile src="apps/dataport" dest="apps/dataport"/>
+        <linkfile src="apps/debug-simple" dest="apps/debug-simple"/>
         <linkfile src="apps/dhcp" dest="apps/dhcp"/>
         <linkfile src="apps/dma-example" dest="apps/dma-example"/>
         <linkfile src="apps/epit" dest="apps/epit"/>

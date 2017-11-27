@@ -124,6 +124,7 @@
         <linkfile src="apps/testdataportmuxflat" dest="apps/testdataportmuxflat"/>
         <linkfile src="apps/testdataportptrwrap" dest="apps/testdataportptrwrap"/>
         <linkfile src="apps/testdataportrpc" dest="apps/testdataportrpc"/>
+        <linkfile src="apps/testhwdataportlrgpages" dest="apps/testhwdataportlrgpages"/>
         <linkfile src="apps/testfaulthandlers" dest="apps/testfaulthandlers"/>
         <linkfile src="apps/testgrouping" dest="apps/testgrouping"/>
         <linkfile src="apps/testgroupingcontrol" dest="apps/testgroupingcontrol"/>

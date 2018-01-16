@@ -101,10 +101,10 @@
   <project name="musllibc.git" path="libs/libmuslc" revision="d5d5d04e4f99f9900269350e5bb0f9f9b0a27ca9" upstream="sel4"/>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
   <project name="rumprun.git" path="libs/rumprun" remote="SEL4PROJ" revision="8ca7e701fd736aa8e5b00d65ac825900d9ad1557" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="e0d76080d34605cedea4f6156b8a3215d630754b" upstream="master">
+  <project name="seL4.git" path="kernel" revision="4857dcb0000723f5c7627c0bd0df3da3990c5947" upstream="master">
     <linkfile dest="libs/libsel4" src="libsel4"/>
   </project>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="ee63bf60153f960c09ceb633e16ea328d42284e8" upstream="master">
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="8338a1bf71a7a87c2a2cdfdffa7bf4c3d6440c03" upstream="master">
     <linkfile dest="libs/libsel4muslcsys" src="libsel4muslcsys"/>
     <linkfile dest="libs/libsel4platsupport" src="libsel4platsupport"/>
     <linkfile dest="libs/libsel4utils" src="libsel4utils"/>

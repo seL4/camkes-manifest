@@ -101,7 +101,7 @@
   <project name="musllibc.git" path="libs/libmuslc" revision="d5d5d04e4f99f9900269350e5bb0f9f9b0a27ca9" upstream="sel4"/>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
   <project name="rumprun.git" path="libs/rumprun" remote="SEL4PROJ" revision="8ca7e701fd736aa8e5b00d65ac825900d9ad1557" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="011d4528ba57316c275d0c09f42b1f53ec892d02" upstream="master">
+  <project name="seL4.git" path="kernel" revision="e2c7814017c42c84654696f7d243c56bcc0ec634" upstream="master">
     <linkfile dest="libs/libsel4" src="libsel4"/>
   </project>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="724576ac6c5b690735b67544e1cc4e5acf2adb8a" upstream="master">
@@ -124,7 +124,7 @@
     <linkfile dest="tools/elfloader" src="elfloader-tool"/>
     <linkfile dest="tools/kbuild" src="kbuild-tool"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="7397328206807da096970a18c450a81ec44e28a6" upstream="master">
+  <project name="util_libs.git" path="projects/util_libs" revision="971441acaf1477ee524c456fd9e3eb4b34e60a9f" upstream="master">
     <linkfile dest="libs/libplatsupport" src="libplatsupport"/>
     <linkfile dest="libs/libcpio" src="libcpio"/>
     <linkfile dest="libs/libelf" src="libelf"/>

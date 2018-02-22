@@ -119,7 +119,7 @@
     <linkfile dest="libs/libsel4test" src="libsel4test"/>
     <linkfile dest="libs/libsel4serialserver" src="libsel4serialserver"/>
   </project>
-  <project name="seL4_tools.git" path="projects/seL4_tools" revision="a704cc8befd6511d088c6c960729ad7135695b45" upstream="master">
+  <project name="seL4_tools.git" path="projects/seL4_tools" revision="03a26f9031af7243e41ba82a93e5e451e239be1a" upstream="master">
     <linkfile dest="tools/common" src="common-tool"/>
     <linkfile dest="tools/elfloader" src="elfloader-tool"/>
     <linkfile dest="tools/kbuild" src="kbuild-tool"/>

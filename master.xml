@@ -129,7 +129,6 @@
         <linkfile src="apps/testgrouping" dest="apps/testgrouping"/>
         <linkfile src="apps/testgroupingcontrol" dest="apps/testgroupingcontrol"/>
         <linkfile src="apps/testhardwareinterrupt" dest="apps/testhardwareinterrupt"/>
-        <linkfile src="apps/testltouser" dest="apps/testltouser"/>
         <linkfile src="apps/testnto1mmio" dest="apps/testnto1mmio"/>
         <linkfile src="apps/testnto1overload" dest="apps/testnto1overload"/>
         <linkfile src="apps/testrefin" dest="apps/testrefin"/>

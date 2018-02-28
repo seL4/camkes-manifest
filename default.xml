@@ -23,7 +23,7 @@
     <linkfile dest="libs/libsel4muslccamkes" src="libsel4muslccamkes"/>
     <linkfile dest="README.md" src="docs/index.md"/>
   </project>
-  <project name="camkes.git" path="projects/camkes" revision="6f6ea8d2551352d043138915017843cb12ce81c9" upstream="master">
+  <project name="camkes.git" path="projects/camkes" revision="3c086e593a51e2e068b9983e3fe80b84391b887a" upstream="master">
     <linkfile dest="Kconfig" src="Kconfig"/>
     <linkfile dest="configs" src="configs"/>
     <linkfile dest="tests" src="tests"/>
@@ -100,7 +100,7 @@
   <project name="musllibc.git" path="libs/libmuslc" revision="d5d5d04e4f99f9900269350e5bb0f9f9b0a27ca9" upstream="sel4"/>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
   <project name="rumprun.git" path="libs/rumprun" remote="SEL4PROJ" revision="fc53174d76b03fb627b7b96240c85bb776105c90" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="d3902fa6df500a800eb3f69295256a9e62aa1822" upstream="master">
+  <project name="seL4.git" path="kernel" revision="7ce75bb2ae10e929fe50f9e0b263505d06f81566" upstream="master">
     <linkfile dest="libs/libsel4" src="libsel4"/>
   </project>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="b9927ab00025b587deca0e52ce103c01e5ed81f9" upstream="master">

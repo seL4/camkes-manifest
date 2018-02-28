@@ -33,6 +33,7 @@
         <linkfile src="common-tool" dest="tools/common"/>
         <linkfile src="elfloader-tool" dest="tools/elfloader"/>
         <linkfile src="kbuild-tool" dest="tools/kbuild"/>
+        <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
     </project>
 
     <project name="camkes-tool.git" path="tools/camkes">
@@ -41,6 +42,7 @@
         <linkfile src="libsel4camkes" dest="libs/libsel4camkes"/>
         <linkfile src="libsel4muslccamkes" dest="libs/libsel4muslccamkes"/>
         <linkfile src="docs/index.md" dest="README.md"/>
+        <linkfile src="camkes-top-level.cmake" dest="CMakeLists.txt"/>
     </project>
 
     <project name="capdl.git" path="projects/capdl">

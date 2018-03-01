@@ -16,7 +16,7 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="tools/camkes" revision="1d15bb325db41c2f235cf671a5bf305c195b8d8a" upstream="master">
+  <project name="camkes-tool.git" path="tools/camkes" revision="1356e49474f5c7489734e99288a3c036cf3db6e9" upstream="master">
     <linkfile dest="Makefile" src="toplevel.mk"/>
     <linkfile dest="Kbuild" src="Kbuild"/>
     <linkfile dest="libs/libsel4camkes" src="libsel4camkes"/>
@@ -97,9 +97,13 @@
     <linkfile dest="tools/python-capdl" src="python-capdl-tool"/>
   </project>
   <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="5a770e1b58a2590c548d76adea8445f13d4adf74" upstream="master"/>
-  <project name="musllibc.git" path="libs/libmuslc" revision="d5d5d04e4f99f9900269350e5bb0f9f9b0a27ca9" upstream="sel4"/>
+  <project name="musllibc.git" path="projects/musllibc" revision="d5d5d04e4f99f9900269350e5bb0f9f9b0a27ca9" upstream="sel4">
+    <linkfile dest="libs/libmuslc" src="."/>
+  </project>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
-  <project name="rumprun.git" path="libs/rumprun" remote="SEL4PROJ" revision="fc53174d76b03fb627b7b96240c85bb776105c90" upstream="master"/>
+  <project name="rumprun.git" path="projects/rumprun" remote="SEL4PROJ" revision="fc53174d76b03fb627b7b96240c85bb776105c90" upstream="master">
+    <linkfile dest="libs/rumprun" src="."/>
+  </project>
   <project name="seL4.git" path="kernel" revision="7ce75bb2ae10e929fe50f9e0b263505d06f81566" upstream="master">
     <linkfile dest="libs/libsel4" src="libsel4"/>
   </project>

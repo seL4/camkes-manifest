@@ -16,14 +16,15 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="tools/camkes" revision="b1964dbfb08fb3bc28883c766c2a4efb58e54646" upstream="master">
+  <project name="camkes-tool.git" path="tools/camkes" revision="7c8d812e3ed781b7ce955207af69c83c0346eeba" upstream="master">
     <linkfile dest="Makefile" src="toplevel.mk"/>
     <linkfile dest="Kbuild" src="Kbuild"/>
     <linkfile dest="libs/libsel4camkes" src="libsel4camkes"/>
     <linkfile dest="libs/libsel4muslccamkes" src="libsel4muslccamkes"/>
     <linkfile dest="README.md" src="docs/index.md"/>
+    <linkfile dest="CMakeLists.txt" src="camkes-top-level.cmake"/>
   </project>
-  <project name="camkes.git" path="projects/camkes" revision="3c086e593a51e2e068b9983e3fe80b84391b887a" upstream="master">
+  <project name="camkes.git" path="projects/camkes" revision="2d2be2b96a2cd9ff26b8087d5942052254c9ea43" upstream="master">
     <linkfile dest="Kconfig" src="Kconfig"/>
     <linkfile dest="configs" src="configs"/>
     <linkfile dest="tests" src="tests"/>
@@ -91,7 +92,7 @@
     <linkfile dest="apps/rumprun_rust" src="apps/rumprun_rust"/>
     <linkfile dest="apps/vgatest" src="apps/vgatest"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="5c1d9ba86a1a68419d74ff23ba63305ae018fd96" upstream="master">
+  <project name="capdl.git" path="projects/capdl" revision="9608a16b87fe9310c4dd58c1e8d7d8d40d6857e5" upstream="master">
     <linkfile dest="apps/capdl-loader-experimental" src="capdl-loader-app"/>
     <linkfile dest="tools/capDL" src="capDL-tool"/>
     <linkfile dest="tools/python-capdl" src="python-capdl-tool"/>
@@ -126,6 +127,7 @@
     <linkfile dest="tools/common" src="common-tool"/>
     <linkfile dest="tools/elfloader" src="elfloader-tool"/>
     <linkfile dest="tools/kbuild" src="kbuild-tool"/>
+    <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
   <project name="util_libs.git" path="projects/util_libs" revision="88119c8c2a52082d5c809e828fda45162245e7fb" upstream="master">
     <linkfile dest="libs/libplatsupport" src="libplatsupport"/>

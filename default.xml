@@ -105,10 +105,10 @@
   <project name="rumprun.git" path="projects/rumprun" remote="SEL4PROJ" revision="fc53174d76b03fb627b7b96240c85bb776105c90" upstream="master">
     <linkfile dest="libs/rumprun" src="."/>
   </project>
-  <project name="seL4.git" path="kernel" revision="60aac65c997f61d3a83c11939775d83829a9953c" upstream="master">
+  <project name="seL4.git" path="kernel" revision="59d9bd78b4697e5ca8324ffddf55e28abad213de" upstream="master">
     <linkfile dest="libs/libsel4" src="libsel4"/>
   </project>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="6e844e14e98a6eb86df89019753d98c2ebf6604e" upstream="master">
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="ebee53eb5d305bea1bdbd4d7afabca9646ce43c6" upstream="master">
     <linkfile dest="libs/libsel4muslcsys" src="libsel4muslcsys"/>
     <linkfile dest="libs/libsel4platsupport" src="libsel4platsupport"/>
     <linkfile dest="libs/libsel4utils" src="libsel4utils"/>
@@ -129,7 +129,7 @@
     <linkfile dest="tools/kbuild" src="kbuild-tool"/>
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="1921e44f4e6cfe8a70cb9abbeb4c5f19387c4d3c" upstream="master">
+  <project name="util_libs.git" path="projects/util_libs" revision="8577225f6c3465a44ab973c146da9ae4f46119ca" upstream="master">
     <linkfile dest="libs/libplatsupport" src="libplatsupport"/>
     <linkfile dest="libs/libcpio" src="libcpio"/>
     <linkfile dest="libs/libelf" src="libelf"/>

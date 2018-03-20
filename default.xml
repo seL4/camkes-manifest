@@ -97,7 +97,7 @@
     <linkfile dest="tools/capDL" src="capDL-tool"/>
     <linkfile dest="tools/python-capdl" src="python-capdl-tool"/>
   </project>
-  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="28b760382419e5085cf0cc73a71a6e08ba85df46" upstream="master"/>
+  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="8e2ef7eac3e83585888013ab57c44a1b1620a641" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="d5d5d04e4f99f9900269350e5bb0f9f9b0a27ca9" upstream="sel4">
     <linkfile dest="libs/libmuslc" src="."/>
   </project>

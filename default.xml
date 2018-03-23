@@ -105,7 +105,7 @@
   <project name="rumprun.git" path="projects/rumprun" remote="SEL4PROJ" revision="fc53174d76b03fb627b7b96240c85bb776105c90" upstream="master">
     <linkfile dest="libs/rumprun" src="."/>
   </project>
-  <project name="seL4.git" path="kernel" revision="87d4f7bf319acee53b9f633bfbff1882ac84acdb" upstream="master">
+  <project name="seL4.git" path="kernel" revision="91e44d38358a7a02b6bb5730567a06431795d609" upstream="master">
     <linkfile dest="libs/libsel4" src="libsel4"/>
   </project>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="6ee8ecb02b7071ee0eb505277e77bf30d1b5dc1d" upstream="master">
@@ -123,7 +123,7 @@
     <linkfile dest="libs/libsel4test" src="libsel4test"/>
     <linkfile dest="libs/libsel4serialserver" src="libsel4serialserver"/>
   </project>
-  <project name="seL4_tools.git" path="projects/seL4_tools" revision="42fa1bc39afbe3026d52f67077fe71dc4293c745" upstream="master">
+  <project name="seL4_tools.git" path="projects/seL4_tools" revision="96b2836551820fdfd71221100be3af36eb19c418" upstream="master">
     <linkfile dest="tools/common" src="common-tool"/>
     <linkfile dest="tools/elfloader" src="elfloader-tool"/>
     <linkfile dest="tools/kbuild" src="kbuild-tool"/>

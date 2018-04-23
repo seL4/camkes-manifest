@@ -108,7 +108,7 @@
   <project name="seL4.git" path="kernel" revision="fa6e8a8238ee8acf4a4e4e96aece351c58c07193" upstream="master">
     <linkfile dest="libs/libsel4" src="libsel4"/>
   </project>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="00a733482527449ffb51f1134638edd9b0b18eeb" upstream="master">
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="784574bad4bce22aff4ebd7d6cc3672f320d2b7d" upstream="master">
     <linkfile dest="libs/libsel4muslcsys" src="libsel4muslcsys"/>
     <linkfile dest="libs/libsel4platsupport" src="libsel4platsupport"/>
     <linkfile dest="libs/libsel4utils" src="libsel4utils"/>

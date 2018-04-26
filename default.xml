@@ -16,7 +16,7 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="tools/camkes" revision="581add105a330116c2d8676b133908a9c13cec57" upstream="master">
+  <project name="camkes-tool.git" path="tools/camkes" revision="e1337625df20a41a454606714952148475b50212" upstream="master">
     <linkfile dest="Makefile" src="toplevel.mk"/>
     <linkfile dest="Kbuild" src="Kbuild"/>
     <linkfile dest="libs/libsel4camkes" src="libsel4camkes"/>
@@ -92,7 +92,7 @@
     <linkfile dest="apps/rumprun_rust" src="apps/rumprun_rust"/>
     <linkfile dest="apps/vgatest" src="apps/vgatest"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="9608a16b87fe9310c4dd58c1e8d7d8d40d6857e5" upstream="master">
+  <project name="capdl.git" path="projects/capdl" revision="e1ad32899b9d309a9146ec097cc4c5506317ebaa" upstream="master">
     <linkfile dest="apps/capdl-loader-experimental" src="capdl-loader-app"/>
     <linkfile dest="tools/capDL" src="capDL-tool"/>
     <linkfile dest="tools/python-capdl" src="python-capdl-tool"/>
@@ -102,13 +102,13 @@
     <linkfile dest="libs/libmuslc" src="."/>
   </project>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
-  <project name="rumprun.git" path="projects/rumprun" remote="SEL4PROJ" revision="fc53174d76b03fb627b7b96240c85bb776105c90" upstream="master">
+  <project name="rumprun.git" path="projects/rumprun" remote="SEL4PROJ" revision="8311b27ca996071a9eecdd5cb69b8dadc099f4a1" upstream="master">
     <linkfile dest="libs/rumprun" src="."/>
   </project>
-  <project name="seL4.git" path="kernel" revision="a0ce040af88a3547021e96bccd5e8ca30e387a6e" upstream="master">
+  <project name="seL4.git" path="kernel" revision="d4fdc3cd5ea64aa201952de14b7c18df359948d0" upstream="master">
     <linkfile dest="libs/libsel4" src="libsel4"/>
   </project>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="784574bad4bce22aff4ebd7d6cc3672f320d2b7d" upstream="master">
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="1697cb16ecbc7820cbda78d7c7c1896e884195a1" upstream="master">
     <linkfile dest="libs/libsel4muslcsys" src="libsel4muslcsys"/>
     <linkfile dest="libs/libsel4platsupport" src="libsel4platsupport"/>
     <linkfile dest="libs/libsel4utils" src="libsel4utils"/>

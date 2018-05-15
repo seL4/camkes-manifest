@@ -16,7 +16,7 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="tools/camkes" revision="8754e550e989ee2c6f1de1c8661e9b5a967649cf" upstream="master">
+  <project name="camkes-tool.git" path="tools/camkes" revision="e2fa02428eaf1a9566dc1a290d446da68757ced2" upstream="master">
     <linkfile dest="Makefile" src="toplevel.mk"/>
     <linkfile dest="Kbuild" src="Kbuild"/>
     <linkfile dest="libs/libsel4camkes" src="libsel4camkes"/>
@@ -92,7 +92,7 @@
     <linkfile dest="apps/rumprun_rust" src="apps/rumprun_rust"/>
     <linkfile dest="apps/vgatest" src="apps/vgatest"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="c8effb736dec48c2584e8e53cbf880d474e3e80b" upstream="master">
+  <project name="capdl.git" path="projects/capdl" revision="5737a1c543787e85ae9d0530d1132e7af44ee323" upstream="master">
     <linkfile dest="apps/capdl-loader-experimental" src="capdl-loader-app"/>
     <linkfile dest="tools/capDL" src="capDL-tool"/>
     <linkfile dest="tools/python-capdl" src="python-capdl-tool"/>
@@ -105,7 +105,7 @@
   <project name="rumprun.git" path="projects/rumprun" remote="SEL4PROJ" revision="5ffcb07f42a4139a6dc5038fc620b27d7a07d713" upstream="master">
     <linkfile dest="libs/rumprun" src="."/>
   </project>
-  <project name="seL4.git" path="kernel" revision="3f15e6cab6c858703f7dd1f85e6f90d0708bb3d9" upstream="master">
+  <project name="seL4.git" path="kernel" revision="cf6977688ce723522955e4e8ffc9de71179a1e53" upstream="master">
     <linkfile dest="libs/libsel4" src="libsel4"/>
   </project>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="1697cb16ecbc7820cbda78d7c7c1896e884195a1" upstream="master">
@@ -123,7 +123,7 @@
     <linkfile dest="libs/libsel4test" src="libsel4test"/>
     <linkfile dest="libs/libsel4serialserver" src="libsel4serialserver"/>
   </project>
-  <project name="seL4_tools.git" path="projects/seL4_tools" revision="58a6f0e20d7e44d6702c05b5ea38569e4d091fb7" upstream="master">
+  <project name="seL4_tools.git" path="projects/seL4_tools" revision="eb154beebc15f21d9db86366b85f0a41ab9341c6" upstream="master">
     <linkfile dest="tools/common" src="common-tool"/>
     <linkfile dest="tools/elfloader" src="elfloader-tool"/>
     <linkfile dest="tools/kbuild" src="kbuild-tool"/>

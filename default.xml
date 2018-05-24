@@ -105,7 +105,7 @@
   <project name="rumprun.git" path="projects/rumprun" remote="SEL4PROJ" revision="5ffcb07f42a4139a6dc5038fc620b27d7a07d713" upstream="master">
     <linkfile dest="libs/rumprun" src="."/>
   </project>
-  <project name="seL4.git" path="kernel" revision="f5725b0e4999963ad33218d16503096e0570637c" upstream="master">
+  <project name="seL4.git" path="kernel" revision="5535ed00743659c322c1515d22b1ec2daefe8f5d" upstream="master">
     <linkfile dest="libs/libsel4" src="libsel4"/>
   </project>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="1697cb16ecbc7820cbda78d7c7c1896e884195a1" upstream="master">

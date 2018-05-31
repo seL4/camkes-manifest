@@ -102,7 +102,7 @@
     <linkfile dest="libs/libmuslc" src="."/>
   </project>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
-  <project name="rumprun.git" path="projects/rumprun" remote="SEL4PROJ" revision="5ffcb07f42a4139a6dc5038fc620b27d7a07d713" upstream="master">
+  <project name="rumprun.git" path="projects/rumprun" remote="SEL4PROJ" revision="6eb095ecb6043eb138ec398e74a461d26bf0ab70" upstream="master">
     <linkfile dest="libs/rumprun" src="."/>
   </project>
   <project name="seL4.git" path="kernel" revision="c3d0542337e898678a12c09d5cb8f11f723e1d10" upstream="master">
@@ -123,7 +123,7 @@
     <linkfile dest="libs/libsel4test" src="libsel4test"/>
     <linkfile dest="libs/libsel4serialserver" src="libsel4serialserver"/>
   </project>
-  <project name="seL4_tools.git" path="projects/seL4_tools" revision="9cd9d57ec8783db3d3bcea1821d7e7e1fe84d34e" upstream="master">
+  <project name="seL4_tools.git" path="projects/seL4_tools" revision="b0594338219bb2e3dffac1eac3c7ab7d65b9f074" upstream="master">
     <linkfile dest="tools/common" src="common-tool"/>
     <linkfile dest="tools/elfloader" src="elfloader-tool"/>
     <linkfile dest="tools/kbuild" src="kbuild-tool"/>

@@ -92,7 +92,7 @@
     <linkfile dest="apps/rumprun_rust" src="apps/rumprun_rust"/>
     <linkfile dest="apps/vgatest" src="apps/vgatest"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="23a7eb0642acfaa85cda7ebcec326cdbec11c403" upstream="master">
+  <project name="capdl.git" path="projects/capdl" revision="b1cf4f2841ec49fdc0c8cce0a48411cbe591fac0" upstream="master">
     <linkfile dest="apps/capdl-loader-experimental" src="capdl-loader-app"/>
     <linkfile dest="tools/capDL" src="capDL-tool"/>
     <linkfile dest="tools/python-capdl" src="python-capdl-tool"/>

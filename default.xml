@@ -102,13 +102,13 @@
     <linkfile dest="libs/libmuslc" src="."/>
   </project>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
-  <project name="rumprun.git" path="projects/rumprun" remote="SEL4PROJ" revision="6eb095ecb6043eb138ec398e74a461d26bf0ab70" upstream="master">
+  <project name="rumprun.git" path="projects/rumprun" remote="SEL4PROJ" revision="1bde4f311bce1a59dfbc2a6f6b2b4cae3f113729" upstream="master">
     <linkfile dest="libs/rumprun" src="."/>
   </project>
-  <project name="seL4.git" path="kernel" revision="c3d0542337e898678a12c09d5cb8f11f723e1d10" upstream="master">
+  <project name="seL4.git" path="kernel" revision="5f1d63becf4a2478e98fd7b9da1fcea51d414734" upstream="master">
     <linkfile dest="libs/libsel4" src="libsel4"/>
   </project>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="1697cb16ecbc7820cbda78d7c7c1896e884195a1" upstream="master">
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="a695506cf826fd17034088aff3e1a303e7439bab" upstream="master">
     <linkfile dest="libs/libsel4muslcsys" src="libsel4muslcsys"/>
     <linkfile dest="libs/libsel4platsupport" src="libsel4platsupport"/>
     <linkfile dest="libs/libsel4utils" src="libsel4utils"/>
@@ -123,7 +123,7 @@
     <linkfile dest="libs/libsel4test" src="libsel4test"/>
     <linkfile dest="libs/libsel4serialserver" src="libsel4serialserver"/>
   </project>
-  <project name="seL4_tools.git" path="projects/seL4_tools" revision="791ef12ff77298093c3ea9196542f839375593e0" upstream="master">
+  <project name="seL4_tools.git" path="projects/seL4_tools" revision="9fd7042edd1cd6f5574ebb5f49e15474f6ad1b71" upstream="master">
     <linkfile dest="tools/common" src="common-tool"/>
     <linkfile dest="tools/elfloader" src="elfloader-tool"/>
     <linkfile dest="tools/kbuild" src="kbuild-tool"/>

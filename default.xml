@@ -98,14 +98,14 @@
     <linkfile dest="tools/python-capdl" src="python-capdl-tool"/>
   </project>
   <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="8e2ef7eac3e83585888013ab57c44a1b1620a641" upstream="master"/>
-  <project name="musllibc.git" path="projects/musllibc" revision="8c30737c8f719c3f634e251f0825f7aab6449abd" upstream="sel4">
+  <project name="musllibc.git" path="projects/musllibc" revision="b41b6f8ff99a4328a681023b64234938459854fc" upstream="sel4">
     <linkfile dest="libs/libmuslc" src="."/>
   </project>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
   <project name="rumprun.git" path="projects/rumprun" remote="SEL4PROJ" revision="1bde4f311bce1a59dfbc2a6f6b2b4cae3f113729" upstream="master">
     <linkfile dest="libs/rumprun" src="."/>
   </project>
-  <project name="seL4.git" path="kernel" revision="a160e23db254f55cfca44d87a76761b2c3e84141" upstream="master">
+  <project name="seL4.git" path="kernel" revision="6d3b1f0f36f0721e6bd315d2f8472dccb9e5a000" upstream="master">
     <linkfile dest="libs/libsel4" src="libsel4"/>
   </project>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="d6e8a67e89e1a762d6c2d8a18ef40a9c1403df2a" upstream="master">

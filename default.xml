@@ -16,7 +16,7 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="tools/camkes" revision="ea67b771821a86b776dabba89b76ecceb2178e39" upstream="master">
+  <project name="camkes-tool.git" path="tools/camkes" revision="a4d09bf3d33239f6fd59442e919991a949ba6555" upstream="master">
     <linkfile dest="Makefile" src="toplevel.mk"/>
     <linkfile dest="Kbuild" src="Kbuild"/>
     <linkfile dest="libs/libsel4camkes" src="libsel4camkes"/>
@@ -123,7 +123,7 @@
     <linkfile dest="libs/libsel4test" src="libsel4test"/>
     <linkfile dest="libs/libsel4serialserver" src="libsel4serialserver"/>
   </project>
-  <project name="seL4_tools.git" path="projects/seL4_tools" revision="9f2926b5b1ebcb595d1c7fed6f59e00eb0f16913" upstream="master">
+  <project name="seL4_tools.git" path="projects/seL4_tools" revision="0f27de4a4ca5d501a78d90f5e7bf71598db5e58d" upstream="master">
     <linkfile dest="tools/common" src="common-tool"/>
     <linkfile dest="tools/elfloader" src="elfloader-tool"/>
     <linkfile dest="tools/kbuild" src="kbuild-tool"/>

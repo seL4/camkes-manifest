@@ -129,7 +129,7 @@
     <linkfile dest="tools/kbuild" src="kbuild-tool"/>
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="3b688699a7c9a0757eff9f7d837ec89f07b32b4d" upstream="master">
+  <project name="util_libs.git" path="projects/util_libs" revision="3aa30a04b564601a1b457e509d2ca026bc1e05fb" upstream="master">
     <linkfile dest="libs/libplatsupport" src="libplatsupport"/>
     <linkfile dest="libs/libcpio" src="libcpio"/>
     <linkfile dest="libs/libelf" src="libelf"/>

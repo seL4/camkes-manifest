@@ -16,7 +16,7 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="tools/camkes" revision="e43ddfeb043f17dccb133da62fea3bc314cbdaf0" upstream="master">
+  <project name="camkes-tool.git" path="tools/camkes" revision="d33fb9bb784bcfaf7073721e82ea7933845e22f4" upstream="master">
     <linkfile dest="Makefile" src="toplevel.mk"/>
     <linkfile dest="Kbuild" src="Kbuild"/>
     <linkfile dest="libs/libsel4camkes" src="libsel4camkes"/>
@@ -97,12 +97,12 @@
     <linkfile dest="tools/capDL" src="capDL-tool"/>
     <linkfile dest="tools/python-capdl" src="python-capdl-tool"/>
   </project>
-  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="8e2ef7eac3e83585888013ab57c44a1b1620a641" upstream="master"/>
+  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="0cd8f71432619068cc43898c6ad92134bc342ca9" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="0528e281f152f14c31902b283162b29836c88977" upstream="sel4">
     <linkfile dest="libs/libmuslc" src="."/>
   </project>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
-  <project name="rumprun.git" path="projects/rumprun" remote="SEL4PROJ" revision="7af5e34eb3935fbbcc46c44feddc9bd77a43b437" upstream="master">
+  <project name="rumprun.git" path="projects/rumprun" remote="SEL4PROJ" revision="1cf37dea970b2ab6df2f74043e3f497a14b48908" upstream="master">
     <linkfile dest="libs/rumprun" src="."/>
   </project>
   <project name="seL4.git" path="kernel" revision="723aa0ead332660cc7f692f051a8fd9ca4ffc95c" upstream="master">
@@ -129,7 +129,7 @@
     <linkfile dest="tools/kbuild" src="kbuild-tool"/>
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="ec4feb2264ea6082df3dd736119b86610d471d61" upstream="master">
+  <project name="util_libs.git" path="projects/util_libs" revision="da4dac1b667da09e0d1c22586d6b9f2ec8dd2065" upstream="master">
     <linkfile dest="libs/libplatsupport" src="libplatsupport"/>
     <linkfile dest="libs/libcpio" src="libcpio"/>
     <linkfile dest="libs/libelf" src="libelf"/>

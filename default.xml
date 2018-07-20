@@ -16,7 +16,7 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="tools/camkes" revision="f13473460109a5010a720f4d6cdfb408ad567643" upstream="master">
+  <project name="camkes-tool.git" path="tools/camkes" revision="24e60e1548a14a2b57eec81b58de59bd9c202378" upstream="master">
     <linkfile dest="Makefile" src="toplevel.mk"/>
     <linkfile dest="Kbuild" src="Kbuild"/>
     <linkfile dest="libs/libsel4camkes" src="libsel4camkes"/>

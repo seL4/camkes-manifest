@@ -24,7 +24,7 @@
     <linkfile dest="README.md" src="docs/index.md"/>
     <linkfile dest="tools/camkes" src="."/>
   </project>
-  <project name="camkes.git" path="projects/camkes" revision="55561679ae02834f94f7307a9c8ce8e1886069eb" upstream="master">
+  <project name="camkes.git" path="projects/camkes" revision="3a1a4cd070090e5a510cf6a57191cc443ff884e5" upstream="master">
     <linkfile dest="Kconfig" src="Kconfig"/>
     <linkfile dest="configs" src="configs"/>
     <linkfile dest="tests" src="tests"/>
@@ -123,7 +123,7 @@
     <linkfile dest="libs/libsel4test" src="libsel4test"/>
     <linkfile dest="libs/libsel4serialserver" src="libsel4serialserver"/>
   </project>
-  <project name="seL4_tools.git" path="tools/seL4" revision="f3c281df981bb08f3a59d3f61d44546df4df935d" upstream="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="0b9d383d0a993291a365971ac6b2a79eb89e1844" upstream="master">
     <linkfile dest="tools/common" src="common-tool"/>
     <linkfile dest="tools/elfloader" src="elfloader-tool"/>
     <linkfile dest="tools/kbuild" src="kbuild-tool"/>

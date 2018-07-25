@@ -16,15 +16,15 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="tools/camkes" revision="94369c411660a97651c6532d706d0ab21997925e" upstream="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="7b7b78ae451d68e4c020adfc39735c5db90fbef4" upstream="master">
     <linkfile dest="Makefile" src="toplevel.mk"/>
     <linkfile dest="Kbuild" src="Kbuild"/>
     <linkfile dest="libs/libsel4camkes" src="libsel4camkes"/>
     <linkfile dest="libs/libsel4muslccamkes" src="libsel4muslccamkes"/>
     <linkfile dest="README.md" src="docs/index.md"/>
-    <linkfile dest="CMakeLists.txt" src="camkes-top-level.cmake"/>
+    <linkfile dest="tools/camkes" src="."/>
   </project>
-  <project name="camkes.git" path="projects/camkes" revision="77f8e086142dfed1452ead5f8483083fc4200b4a" upstream="master">
+  <project name="camkes.git" path="projects/camkes" revision="55561679ae02834f94f7307a9c8ce8e1886069eb" upstream="master">
     <linkfile dest="Kconfig" src="Kconfig"/>
     <linkfile dest="configs" src="configs"/>
     <linkfile dest="tests" src="tests"/>
@@ -92,12 +92,12 @@
     <linkfile dest="apps/rumprun_rust" src="apps/rumprun_rust"/>
     <linkfile dest="apps/vgatest" src="apps/vgatest"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="b1cf4f2841ec49fdc0c8cce0a48411cbe591fac0" upstream="master">
+  <project name="capdl.git" path="projects/capdl" revision="0bc45889886cd7bd65813b483f7f2f7eb9f1f975" upstream="master">
     <linkfile dest="apps/capdl-loader-experimental" src="capdl-loader-app"/>
     <linkfile dest="tools/capDL" src="capDL-tool"/>
     <linkfile dest="tools/python-capdl" src="python-capdl-tool"/>
   </project>
-  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="0cd8f71432619068cc43898c6ad92134bc342ca9" upstream="master"/>
+  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="e611951b655ac8e31ced9206bcc2e83a28e34c92" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="0528e281f152f14c31902b283162b29836c88977" upstream="sel4">
     <linkfile dest="libs/libmuslc" src="."/>
   </project>
@@ -123,11 +123,12 @@
     <linkfile dest="libs/libsel4test" src="libsel4test"/>
     <linkfile dest="libs/libsel4serialserver" src="libsel4serialserver"/>
   </project>
-  <project name="seL4_tools.git" path="projects/seL4_tools" revision="f3c281df981bb08f3a59d3f61d44546df4df935d" upstream="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="f3c281df981bb08f3a59d3f61d44546df4df935d" upstream="master">
     <linkfile dest="tools/common" src="common-tool"/>
     <linkfile dest="tools/elfloader" src="elfloader-tool"/>
     <linkfile dest="tools/kbuild" src="kbuild-tool"/>
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
+    <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
   </project>
   <project name="util_libs.git" path="projects/util_libs" revision="da4dac1b667da09e0d1c22586d6b9f2ec8dd2065" upstream="master">
     <linkfile dest="libs/libplatsupport" src="libplatsupport"/>

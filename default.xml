@@ -98,7 +98,7 @@
     <linkfile dest="tools/python-capdl" src="python-capdl-tool"/>
   </project>
   <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="e611951b655ac8e31ced9206bcc2e83a28e34c92" upstream="master"/>
-  <project name="musllibc.git" path="projects/musllibc" revision="0528e281f152f14c31902b283162b29836c88977" upstream="sel4">
+  <project name="musllibc.git" path="projects/musllibc" revision="0a9f5c4c8afbadc04aedc91546b1f31b1f9ac90d" upstream="sel4">
     <linkfile dest="libs/libmuslc" src="."/>
   </project>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>

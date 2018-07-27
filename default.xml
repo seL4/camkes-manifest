@@ -16,7 +16,7 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="7b7b78ae451d68e4c020adfc39735c5db90fbef4" upstream="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="cede2f1660c4c8cafd3975dbe2fad081cc20c584" upstream="master">
     <linkfile dest="Makefile" src="toplevel.mk"/>
     <linkfile dest="Kbuild" src="Kbuild"/>
     <linkfile dest="libs/libsel4camkes" src="libsel4camkes"/>
@@ -102,7 +102,7 @@
     <linkfile dest="libs/libmuslc" src="."/>
   </project>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
-  <project name="rumprun.git" path="projects/rumprun" remote="SEL4PROJ" revision="d1a0dda84d52893d7deac5c08d633c0722cadca0" upstream="master">
+  <project name="rumprun.git" path="projects/rumprun" remote="SEL4PROJ" revision="f48048e2e524be9fa154571b0a17c6a0e0366f9b" upstream="master">
     <linkfile dest="libs/rumprun" src="."/>
   </project>
   <project name="seL4.git" path="kernel" revision="639b7fbd37cc9b1dce31e1b7aabe604cf3664b5c" upstream="master">

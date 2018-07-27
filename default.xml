@@ -24,7 +24,7 @@
     <linkfile dest="README.md" src="docs/index.md"/>
     <linkfile dest="tools/camkes" src="."/>
   </project>
-  <project name="camkes.git" path="projects/camkes" revision="3a1a4cd070090e5a510cf6a57191cc443ff884e5" upstream="master">
+  <project name="camkes.git" path="projects/camkes" revision="dcad5dd276f09945748d99e09e1ea8123e388825" upstream="master">
     <linkfile dest="Kconfig" src="Kconfig"/>
     <linkfile dest="configs" src="configs"/>
     <linkfile dest="tests" src="tests"/>
@@ -102,7 +102,7 @@
     <linkfile dest="libs/libmuslc" src="."/>
   </project>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
-  <project name="rumprun.git" path="projects/rumprun" remote="SEL4PROJ" revision="1cf37dea970b2ab6df2f74043e3f497a14b48908" upstream="master">
+  <project name="rumprun.git" path="projects/rumprun" remote="SEL4PROJ" revision="d1a0dda84d52893d7deac5c08d633c0722cadca0" upstream="master">
     <linkfile dest="libs/rumprun" src="."/>
   </project>
   <project name="seL4.git" path="kernel" revision="639b7fbd37cc9b1dce31e1b7aabe604cf3664b5c" upstream="master">

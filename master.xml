@@ -35,6 +35,7 @@
         <linkfile src="common-tool" dest="tools/common"/>
         <linkfile src="elfloader-tool" dest="tools/elfloader"/>
         <linkfile src="kbuild-tool" dest="tools/kbuild"/>
+        <linkfile src="cmake-tool/setup_rust_env.sh" dest="setup_rust_env.sh"/>
         <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
         <linkfile src="cmake-tool/default-CMakeLists.txt" dest="CMakeLists.txt"/>
     </project>

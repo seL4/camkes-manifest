@@ -14,7 +14,7 @@
 
 <manifest>
     <remote name="seL4"
-        fetch="."
+        fetch="../seL4"
     />
 
     <remote name="SEL4PROJ"

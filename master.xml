@@ -32,4 +32,5 @@
     <project remote="SEL4PROJ" name="rumprun.git" path="projects/rumprun"/>
     <project remote="SEL4PROJ" name="global-components.git" path="projects/global-components"/>
     <project name="camkes.git" path="projects/camkes"/>
+    <project remote="SEL4PROJ" name="seL4_projects_libs.git" path="projects/seL4_projects_libs"/>
 </manifest>

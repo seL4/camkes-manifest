@@ -12,128 +12,26 @@
 -->
 <manifest>
   <remote fetch="../SEL4PROJ" name="SEL4PROJ"/>
-  <remote fetch="." name="seL4"/>
+  <remote fetch="../seL4" name="seL4"/>
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="8f4cb2af410d66fc51401b1f823bcceb3741fc00" upstream="master">
-    <linkfile dest="Makefile" src="toplevel.mk"/>
-    <linkfile dest="Kbuild" src="Kbuild"/>
-    <linkfile dest="libs/libsel4camkes" src="libsel4camkes"/>
-    <linkfile dest="libs/libsel4muslccamkes" src="libsel4muslccamkes"/>
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="32fc15e5d5a931fdcf7482c3874432238b9ea435" upstream="master">
     <linkfile dest="README.md" src="docs/index.md"/>
-    <linkfile dest="tools/camkes" src="."/>
   </project>
-  <project name="camkes.git" path="projects/camkes" revision="720b743c13f6d8bb9866860ae8fe8ff5b7c9287c" upstream="master">
-    <linkfile dest="Kconfig" src="Kconfig"/>
-    <linkfile dest="configs" src="configs"/>
-    <linkfile dest="tests" src="tests"/>
-    <linkfile dest="compile_all.sh" src="compile_all.sh"/>
-    <linkfile dest="libs/libringbuffer" src="libs/libringbuffer"/>
-    <linkfile dest="libs/libsel4bga" src="libs/libsel4bga"/>
-    <linkfile dest="libs/libsel4keyboard" src="libs/libsel4keyboard"/>
-    <linkfile dest="apps/adder" src="apps/adder"/>
-    <linkfile dest="apps/aeroplage" src="apps/aeroplage"/>
-    <linkfile dest="apps/binary-semaphore" src="apps/binary-semaphore"/>
-    <linkfile dest="apps/dataport" src="apps/dataport"/>
-    <linkfile dest="apps/debug-simple" src="apps/debug-simple"/>
-    <linkfile dest="apps/dhcp" src="apps/dhcp"/>
-    <linkfile dest="apps/dma-example" src="apps/dma-example"/>
-    <linkfile dest="apps/epit" src="apps/epit"/>
-    <linkfile dest="apps/event" src="apps/event"/>
-    <linkfile dest="apps/exchangestring" src="apps/exchangestring"/>
-    <linkfile dest="apps/filter" src="apps/filter"/>
-    <linkfile dest="apps/global-imports" src="apps/global-imports"/>
-    <linkfile dest="apps/hierarchical-attributes" src="apps/hierarchical-attributes"/>
-    <linkfile dest="apps/hierarchical-components" src="apps/hierarchical-components"/>
-    <linkfile dest="apps/keyboard" src="apps/keyboard"/>
-    <linkfile dest="apps/lockserver" src="apps/lockserver"/>
-    <linkfile dest="apps/multiassembly" src="apps/multiassembly"/>
-    <linkfile dest="apps/multiclient" src="apps/multiclient"/>
-    <linkfile dest="apps/multiplier" src="apps/multiplier"/>
-    <linkfile dest="apps/mutex" src="apps/mutex"/>
-    <linkfile dest="apps/reversestring" src="apps/reversestring"/>
-    <linkfile dest="apps/rotate" src="apps/rotate"/>
-    <linkfile dest="apps/simple" src="apps/simple"/>
-    <linkfile dest="apps/simplesingleaddressspace" src="apps/simplesingleaddressspace"/>
-    <linkfile dest="apps/socket" src="apps/socket"/>
-    <linkfile dest="apps/swapcounter" src="apps/swapcounter"/>
-    <linkfile dest="apps/terminal" src="apps/terminal"/>
-    <linkfile dest="apps/testbufvariant" src="apps/testbufvariant"/>
-    <linkfile dest="apps/testcamkes438" src="apps/testcamkes438"/>
-    <linkfile dest="apps/testcontrolname" src="apps/testcontrolname"/>
-    <linkfile dest="apps/testdataportbifurcate" src="apps/testdataportbifurcate"/>
-    <linkfile dest="apps/testdataportmux" src="apps/testdataportmux"/>
-    <linkfile dest="apps/testdataportmuxflat" src="apps/testdataportmuxflat"/>
-    <linkfile dest="apps/testdataportptrwrap" src="apps/testdataportptrwrap"/>
-    <linkfile dest="apps/testdataportrpc" src="apps/testdataportrpc"/>
-    <linkfile dest="apps/testhwdataportlrgpages" src="apps/testhwdataportlrgpages"/>
-    <linkfile dest="apps/testfaulthandlers" src="apps/testfaulthandlers"/>
-    <linkfile dest="apps/testgrouping" src="apps/testgrouping"/>
-    <linkfile dest="apps/testgroupingcontrol" src="apps/testgroupingcontrol"/>
-    <linkfile dest="apps/testhardwareinterrupt" src="apps/testhardwareinterrupt"/>
-    <linkfile dest="apps/testnto1mmio" src="apps/testnto1mmio"/>
-    <linkfile dest="apps/testnto1overload" src="apps/testnto1overload"/>
-    <linkfile dest="apps/testrefin" src="apps/testrefin"/>
-    <linkfile dest="apps/testreplycapprotection" src="apps/testreplycapprotection"/>
-    <linkfile dest="apps/testsel4notification" src="apps/testsel4notification"/>
-    <linkfile dest="apps/testsingleaddressspaceheap" src="apps/testsingleaddressspaceheap"/>
-    <linkfile dest="apps/teststringarrays" src="apps/teststringarrays"/>
-    <linkfile dest="apps/testunderscorename" src="apps/testunderscorename"/>
-    <linkfile dest="apps/uart" src="apps/uart"/>
-    <linkfile dest="apps/pit" src="apps/pit"/>
-    <linkfile dest="apps/testsyscalls" src="apps/testsyscalls"/>
-    <linkfile dest="apps/alignment" src="apps/alignment"/>
-    <linkfile dest="apps/structs" src="apps/structs"/>
-    <linkfile dest="apps/attributes" src="apps/attributes"/>
-    <linkfile dest="apps/rumprun_hello" src="apps/rumprun_hello"/>
-    <linkfile dest="apps/rumprun_pthreads" src="apps/rumprun_pthreads"/>
-    <linkfile dest="apps/rumprun_ethernet" src="apps/rumprun_ethernet"/>
-    <linkfile dest="apps/rumprun_rust" src="apps/rumprun_rust"/>
-    <linkfile dest="apps/vgatest" src="apps/vgatest"/>
-  </project>
-  <project name="capdl.git" path="projects/capdl" revision="0bc45889886cd7bd65813b483f7f2f7eb9f1f975" upstream="master">
-    <linkfile dest="apps/capdl-loader-experimental" src="capdl-loader-app"/>
-    <linkfile dest="tools/capDL" src="capDL-tool"/>
-    <linkfile dest="tools/python-capdl" src="python-capdl-tool"/>
-  </project>
-  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="e611951b655ac8e31ced9206bcc2e83a28e34c92" upstream="master"/>
-  <project name="musllibc.git" path="projects/musllibc" revision="e6cd7b1622fdec33dcb341ccbb3a78596559c6d5" upstream="sel4">
-    <linkfile dest="libs/libmuslc" src="."/>
-  </project>
+  <project name="camkes.git" path="projects/camkes" revision="5d58d5c843caf846f06217e2ac73d390e27b44dd" upstream="master"/>
+  <project name="capdl.git" path="projects/capdl" revision="610211fee3044746d412303e3e5a58fe128c2e01" upstream="master"/>
+  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="7c10a8036d03c615984a471a104a295970603f0e" upstream="master"/>
+  <project name="musllibc.git" path="projects/musllibc" revision="e6cd7b1622fdec33dcb341ccbb3a78596559c6d5" upstream="sel4"/>
+  <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="4be456238d3019387316d0f1d0f77d4e23d4d8ed" upstream="master"/>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
-  <project name="rumprun.git" path="projects/rumprun" remote="SEL4PROJ" revision="ef10573e21700ccc1ce55c977e1de9482137369b" upstream="master">
-    <linkfile dest="libs/rumprun" src="."/>
-  </project>
-  <project name="seL4.git" path="kernel" revision="9d218f8ca2bda2011c423fbce7243a0d0259756d" upstream="master">
-    <linkfile dest="libs/libsel4" src="libsel4"/>
-  </project>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="7528b23f85dffafcb26a966ad7fa99e0efc13427" upstream="master">
-    <linkfile dest="libs/libsel4muslcsys" src="libsel4muslcsys"/>
-    <linkfile dest="libs/libsel4platsupport" src="libsel4platsupport"/>
-    <linkfile dest="libs/libsel4utils" src="libsel4utils"/>
-    <linkfile dest="libs/libsel4sync" src="libsel4sync"/>
-    <linkfile dest="libs/libsel4vspace" src="libsel4vspace"/>
-    <linkfile dest="libs/libsel4vka" src="libsel4vka"/>
-    <linkfile dest="libs/libsel4debug" src="libsel4debug"/>
-    <linkfile dest="libs/libsel4simple" src="libsel4simple"/>
-    <linkfile dest="libs/libsel4simple-default" src="libsel4simple-default"/>
-    <linkfile dest="libs/libsel4bench" src="libsel4bench"/>
-    <linkfile dest="libs/libsel4allocman" src="libsel4allocman"/>
-    <linkfile dest="libs/libsel4test" src="libsel4test"/>
-    <linkfile dest="libs/libsel4serialserver" src="libsel4serialserver"/>
-  </project>
-  <project name="seL4_tools.git" path="tools/seL4" revision="e5306979679fab74faca9f4e2ee02e478f7c9bff" upstream="master">
-    <linkfile dest="tools/common" src="common-tool"/>
-    <linkfile dest="tools/elfloader" src="elfloader-tool"/>
-    <linkfile dest="tools/kbuild" src="kbuild-tool"/>
+  <project name="rumprun.git" path="projects/rumprun" remote="SEL4PROJ" revision="14bcfe6d7106e149139c757c1f5d1616c0a8cc31" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="fa4568ed2da4fe789e5b7f9821c56a5fafe83818" upstream="master"/>
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="6289da1a763b45128bcb5296982c608da6432201" upstream="master"/>
+  <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="f594a119acb996c5fa07ecbf1678460b40395127" upstream="master"/>
+  <project name="seL4_tools.git" path="tools/seL4" revision="769afb2b57331117f6ca674d71c112e0bc380c0f" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="da4dac1b667da09e0d1c22586d6b9f2ec8dd2065" upstream="master">
-    <linkfile dest="libs/libplatsupport" src="libplatsupport"/>
-    <linkfile dest="libs/libcpio" src="libcpio"/>
-    <linkfile dest="libs/libelf" src="libelf"/>
-    <linkfile dest="libs/libutils" src="libutils"/>
-  </project>
+  <project name="util_libs.git" path="projects/util_libs" revision="5ba7c9daf4a14f9cb39f8827190af50f64c2b85e" upstream="master"/>
 </manifest>

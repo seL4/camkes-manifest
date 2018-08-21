@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+     Copyright 2018, Data61
+     Commonwealth Scientific and Industrial Research Organisation (CSIRO)
+     ABN 41 687 119 230.
+
+     This software may be distributed and modified according to the terms of
+     the BSD 2-Clause license. Note that NO WARRANTY is provided.
+     See "LICENSE_BSD2.txt" for details.
+
+     @TAG(DATA61_BSD)
+-->
+
+<!--
+  This augments default.xml with the L4.verified repositories.
+
+  Note that we don't put the l4v repos directly in projects/, instead
+  we wrap them in projects/l4v/. The l4v build system expects a symlink
+  to the kernel at the top level, but we can't add that symlink
+  directly in projects/. Doing that would confuse the CMake build
+  system, as it would blindly include the kernel configuration via the
+  symlink and then fail.
+-->
+<manifest>
+  <include name="default.xml"/>
+
+  <!-- The default repo heads should normally work -->
+  <project name="l4v.git" path="projects/l4v/l4v" revision="master"/>
+  <project name="isabelle.git" path="projects/l4v/isabelle" revision="ts-2018"/>
+
+  <!--
+    Annoyingly, repo doesn't support adding elements to an existing
+    project. (One might try to put them in an extend-project element,
+    but that has no effect.) So, we redefine the seL4 project to add
+    the symlink element that we want.
+  -->
+  <remove-project name="seL4.git"/>
+
+  <!-- seL4/master should also work, fingers crossed -->
+  <project name="seL4.git" path="kernel">
+    <linkfile src="." dest="projects/l4v/seL4"/>
+  </project>
+</manifest>

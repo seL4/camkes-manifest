@@ -20,7 +20,7 @@
     <linkfile dest="README.md" src="docs/index.md"/>
   </project>
   <project name="camkes.git" path="projects/camkes" revision="eb0dd89de4be34d72c9110fb561dae4db5a71fd9" upstream="master"/>
-  <project name="capdl.git" path="projects/capdl" revision="e841c98c146085e8bf273a8b2bb2b2458bee13fc" upstream="master"/>
+  <project name="capdl.git" path="projects/capdl" revision="421eed1c0f7110d8d31be36cc360923a5d201be9" upstream="master"/>
   <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="7c10a8036d03c615984a471a104a295970603f0e" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="f1f448f817971b08224778fefca749722f416dc8" upstream="sel4"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="4be456238d3019387316d0f1d0f77d4e23d4d8ed" upstream="master"/>

@@ -26,7 +26,7 @@
   <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="4be456238d3019387316d0f1d0f77d4e23d4d8ed" upstream="master"/>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
   <project name="rumprun.git" path="projects/rumprun" remote="SEL4PROJ" revision="14bcfe6d7106e149139c757c1f5d1616c0a8cc31" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="5ee9dec227988fb43aac704718d93d8109105ef2" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="4e910ebfbba232a0338d948509f59e1cb9cd1371" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="8d002567af0ca425b6ce785b51e73e7d97d65df3" upstream="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="f594a119acb996c5fa07ecbf1678460b40395127" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="21ef38254f50a63b5278f62f97ed75f0f8857fa8" upstream="master">

@@ -26,12 +26,12 @@
   <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="4be456238d3019387316d0f1d0f77d4e23d4d8ed" upstream="master"/>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
   <project name="rumprun.git" path="projects/rumprun" remote="SEL4PROJ" revision="14bcfe6d7106e149139c757c1f5d1616c0a8cc31" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="4e910ebfbba232a0338d948509f59e1cb9cd1371" upstream="master"/>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="8d002567af0ca425b6ce785b51e73e7d97d65df3" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="924d1c26390bb4af294308c03353379b295b3646" upstream="master"/>
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="6832405c4eb7bd650964fba5f3990c41886bd357" upstream="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="f594a119acb996c5fa07ecbf1678460b40395127" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="9476bb8ace1e294a457665bb7ed4aab79402ea10" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="5ba7c9daf4a14f9cb39f8827190af50f64c2b85e" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="e4bf6f30ebc6448744c48e5a1c92a17de33c4371" upstream="master"/>
 </manifest>

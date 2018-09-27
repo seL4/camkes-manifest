@@ -33,5 +33,5 @@
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="e4bf6f30ebc6448744c48e5a1c92a17de33c4371" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="7672c5e39fda857137e109212dfaacf2583939d8" upstream="master"/>
 </manifest>

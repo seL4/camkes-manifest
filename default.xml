@@ -16,11 +16,11 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="28fac4aebc529b968c27478668f57d081ae46fb9" upstream="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="1f44d4ac040c723f451fcfc34d96680b4ddf7aef" upstream="master">
     <linkfile dest="README.md" src="docs/index.md"/>
   </project>
   <project name="camkes.git" path="projects/camkes" revision="f28a1d6bef008afb5c47f2338f54a17ef79efde6" upstream="master"/>
-  <project name="capdl.git" path="projects/capdl" revision="52323b6dd924305f893da3121474d4d44ead97a4" upstream="master"/>
+  <project name="capdl.git" path="projects/capdl" revision="d6bd7422433e4a9dbc9a2d1cdbc2325d9dfede08" upstream="master"/>
   <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="00d9ad9299159eb7647039d4867ed15820063946" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="9e288a83f17de80e54af87852674d70f59d6beee" upstream="sel4"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="4be456238d3019387316d0f1d0f77d4e23d4d8ed" upstream="master"/>

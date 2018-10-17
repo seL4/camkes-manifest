@@ -16,7 +16,7 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="c9c5ef0145d0e4b31851c7b098fe353785c4418e" upstream="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="d4e4f8244eb46256f6a7937bb2154133749619cc" upstream="master">
     <linkfile dest="README.md" src="docs/index.md"/>
   </project>
   <project name="camkes.git" path="projects/camkes" revision="8890815e62a4b141e046438e43ac52dcd139a6ca" upstream="master"/>
@@ -33,5 +33,5 @@
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="9178008a081dff09ac2aa1eafbdb51d14d731407" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="61493794b5dd0c271445bc335e6e6b4abe056b75" upstream="master"/>
 </manifest>

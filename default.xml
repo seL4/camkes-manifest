@@ -16,7 +16,7 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="d4e4f8244eb46256f6a7937bb2154133749619cc" upstream="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="1b4619b7840b4b8414445daa2ebf3e8a47f5c4cc" upstream="master">
     <linkfile dest="README.md" src="docs/index.md"/>
   </project>
   <project name="camkes.git" path="projects/camkes" revision="c18b65946d7e5f7e35dd9d7e9108b15d204b9d27" upstream="master"/>
@@ -29,7 +29,7 @@
   <project name="seL4.git" path="kernel" revision="1283345bfd75dbe230bfe692e6e77ee5523cb7ca" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="01becc5dbd056bd86e94b268935e854498848e9c" upstream="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="f594a119acb996c5fa07ecbf1678460b40395127" upstream="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="1a5847e8d286b4bda1b3567fc32cadd3a035d6fb" upstream="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="e5ad27015cfe30c68fbac35323e3c0547fe77395" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
   </project>

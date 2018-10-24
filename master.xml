@@ -34,4 +34,5 @@
     <project name="camkes.git" path="projects/camkes"/>
     <project remote="SEL4PROJ" name="seL4_projects_libs.git" path="projects/seL4_projects_libs"/>
     <project remote="SEL4PROJ" name="projects_libs.git" path="projects/projects_libs"/>
+    <project remote="SEL4PROJ" name="cakeml_libs.git" path="projects/cakeml_libs"/>
 </manifest>

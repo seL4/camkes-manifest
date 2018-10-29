@@ -20,7 +20,7 @@
   <project name="camkes-tool.git" path="projects/camkes-tool" revision="de6f080c2fd197aedab0586b0509cb86950477b1" upstream="master">
     <linkfile dest="README.md" src="docs/index.md"/>
   </project>
-  <project name="camkes.git" path="projects/camkes" revision="5d2e132713d5f3d54d4c6b85857201f2bebc8a0b" upstream="master"/>
+  <project name="camkes.git" path="projects/camkes" revision="65aac730d3501805b021f2ef52dbef4cf39fa9c9" upstream="master"/>
   <project name="capdl.git" path="projects/capdl" revision="d4e4feb78a41132f568085ebe7e6401b18cc18ef" upstream="master"/>
   <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="d3050e92dd27a22eea6357c7b1c9048e84b2d0e2" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="9e288a83f17de80e54af87852674d70f59d6beee" upstream="sel4"/>

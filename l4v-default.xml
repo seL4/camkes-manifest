@@ -24,9 +24,8 @@
 <manifest>
   <include name="default.xml"/>
 
-  <!-- The default repo heads should normally work -->
-  <project name="l4v.git" path="projects/l4v/l4v" revision="master"/>
-  <project name="isabelle.git" path="projects/l4v/isabelle" revision="ts-2018"/>
+  <project name="isabelle.git" path="projects/l4v/isabelle" revision="Isabelle2018"/>
+  <project name="l4v.git" path="projects/l4v/l4v" revision="0ab8491add092443eec11ac804e2a2155908565b"/>
 
   <!--
     Annoyingly, repo doesn't support adding elements to an existing

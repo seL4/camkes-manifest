@@ -17,7 +17,7 @@
   <default remote="seL4" revision="master"/>
   
   <project name="cakeml_libs.git" path="projects/cakeml_libs" remote="SEL4PROJ" revision="075a5fe2c959080b966a2104f8833d27e59b59b9" upstream="master"/>
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="683d73c8d388ffe545fa4e2081e21c9b74544e71" upstream="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="61f8d635ba0b12a1c24269aed65ac05e9d1c7691" upstream="master">
     <linkfile dest="README.md" src="docs/index.md"/>
   </project>
   <project name="camkes.git" path="projects/camkes" revision="24d589d22c510e1d4599552ad7a83e94986e7551" upstream="master"/>
@@ -27,7 +27,7 @@
   <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="4be456238d3019387316d0f1d0f77d4e23d4d8ed" upstream="master"/>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
   <project name="rumprun.git" path="projects/rumprun" remote="SEL4PROJ" revision="f9edf5e150c636a61d70f772d44316149aed2444" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="7d16e3dcaea1089181a4314396d747126a110166" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="a3c341adc4ee61cdfe68d64245c71ca9b171dd15" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="ea427b1bcc4238cc0111161888ff87a8772bbd7b" upstream="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="f594a119acb996c5fa07ecbf1678460b40395127" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="16b7fdf7f8528829c4c204f7b07a6d8205485fc1" upstream="master">

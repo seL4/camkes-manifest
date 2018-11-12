@@ -17,12 +17,12 @@
   <default remote="seL4" revision="master"/>
   
   <project name="cakeml_libs.git" path="projects/cakeml_libs" remote="SEL4PROJ" revision="075a5fe2c959080b966a2104f8833d27e59b59b9" upstream="master"/>
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="3699809efcc6162b1b8a9f955550471bc15e0697" upstream="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="c7959e4a79a5b8c1fa7e1a99244e52a4f44d4e54" upstream="master">
     <linkfile dest="README.md" src="docs/index.md"/>
   </project>
-  <project name="camkes.git" path="projects/camkes" revision="24d589d22c510e1d4599552ad7a83e94986e7551" upstream="master"/>
+  <project name="camkes.git" path="projects/camkes" revision="52992fb6548e6d4b66a30a428f4b6a6c4dfdd179" upstream="master"/>
   <project name="capdl.git" path="projects/capdl" revision="423c9d5e970f3e78166fb723561d613182e7333a" upstream="master"/>
-  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="d3050e92dd27a22eea6357c7b1c9048e84b2d0e2" upstream="master"/>
+  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="a60146e54f368d047277dcc75f3c56ebbca8e34b" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="9e288a83f17de80e54af87852674d70f59d6beee" upstream="sel4"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="4be456238d3019387316d0f1d0f77d4e23d4d8ed" upstream="master"/>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
@@ -34,5 +34,5 @@
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="2c4524ce84652960cda127a8b0ae6690022988ee" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="ccb57c2d4c62d1723d75ee73517c29c56fdc9fc7" upstream="master"/>
 </manifest>

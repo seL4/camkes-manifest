@@ -20,7 +20,7 @@ It is not possible to change the system (e.g., to create or destroy components o
 the connections between components) at runtime.  This CAmkES package includes various example 
 systems that can be studied, and individually built and run.
 
-For general instructions on how to use this repository, see [sel4.systems](http://sel4.systems/Download/building).
+For general instructions on how to use this repository, see [sel4.systems](https://docs.sel4.systems/RepoCheatsheet).
 
 For general information about CAmkES see [the CAmkES pages on seL4.systems](http://sel4.systems/CAmkES).
 

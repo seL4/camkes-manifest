@@ -20,9 +20,9 @@
   <project name="camkes-tool.git" path="projects/camkes-tool" revision="a909c0f7846e4a2fb19b8dfb2221afd7d7dda91b" upstream="master">
     <linkfile dest="README.md" src="docs/index.md"/>
   </project>
-  <project name="camkes.git" path="projects/camkes" revision="920e115b0e0126f713b5ad5c8bf5ef341a5bdc42" upstream="master"/>
+  <project name="camkes.git" path="projects/camkes" revision="fef70e154daa91e46475e64ab9e3b9d8897f4c85" upstream="master"/>
   <project name="capdl.git" path="projects/capdl" revision="423c9d5e970f3e78166fb723561d613182e7333a" upstream="master"/>
-  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="ab7cd7a681df17e060e5a277d8d237111229c2a5" upstream="master"/>
+  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="cb676080326b74b2e088faba1c0798e6804993ca" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="9e288a83f17de80e54af87852674d70f59d6beee" upstream="sel4"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="2c81a04b7bd3b71a9e89a01205dfc3c394b883e2" upstream="master"/>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
@@ -34,5 +34,5 @@
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="a0359d732935f89c31066ebca210ea9864d53ca3" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="a99e2aa528ba541ea95ecc2410df7a8875c776ec" upstream="master"/>
 </manifest>

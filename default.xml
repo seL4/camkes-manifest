@@ -21,7 +21,7 @@
     <linkfile dest="README.md" src="docs/index.md"/>
   </project>
   <project name="camkes.git" path="projects/camkes" revision="1dcd382c831c99973bb1c6aef2bb4c7ed1f92972" upstream="master"/>
-  <project name="capdl.git" path="projects/capdl" revision="9a3d2cba197a1436fc504d1eda20a2fe5b4d6306" upstream="master"/>
+  <project name="capdl.git" path="projects/capdl" revision="450eb90c6bab65e2db3542df4be7c3aabeadc41d" upstream="master"/>
   <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="9040de2baa36937830950dedde34a8b0fa13942f" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="9e288a83f17de80e54af87852674d70f59d6beee" upstream="sel4"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="2c81a04b7bd3b71a9e89a01205dfc3c394b883e2" upstream="master"/>

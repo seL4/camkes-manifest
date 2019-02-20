@@ -17,17 +17,17 @@
   <default remote="seL4" revision="master"/>
   
   <project name="cakeml_libs.git" path="projects/cakeml_libs" remote="SEL4PROJ" revision="075a5fe2c959080b966a2104f8833d27e59b59b9" upstream="master"/>
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="91bc995a2baecd78fc849e7a8b791787f67a78e1" upstream="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="d12e24cf31d2a1587a5130c30ea28dc915c50b68" upstream="master">
     <linkfile dest="README.md" src="docs/index.md"/>
   </project>
   <project name="camkes.git" path="projects/camkes" revision="1dcd382c831c99973bb1c6aef2bb4c7ed1f92972" upstream="master"/>
-  <project name="capdl.git" path="projects/capdl" revision="68977f04a4b1c7a6a4a3de58b9b9561e11ab2255" upstream="master"/>
+  <project name="capdl.git" path="projects/capdl" revision="dc5535f769935bf751ea5249bd66e87f4bcb07fd" upstream="master"/>
   <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="49863ed88615f2b65aef24f1fb9b9ead3c95a72f" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="9e288a83f17de80e54af87852674d70f59d6beee" upstream="sel4"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="2c81a04b7bd3b71a9e89a01205dfc3c394b883e2" upstream="master"/>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
   <project name="rumprun.git" path="projects/rumprun" remote="SEL4PROJ" revision="27f908e4845a9422f65a8f43acfb534c1c7d91ed" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="9b6464621fd627e2800e11682aa7d1909190b6fe" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="a3253623940491275ae8d22e6ddcd7462d25c0e7" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="8b8f9f87a2f3af1197b60c99651c00fdb7467353" upstream="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="f9327377f9e2defcefae31c69b542af6e9081be0" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="66c294e458da037b44adee73004e177b7e6ae6e6" upstream="master">

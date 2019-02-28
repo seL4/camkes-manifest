@@ -21,18 +21,18 @@
     <linkfile dest="README.md" src="docs/index.md"/>
   </project>
   <project name="camkes.git" path="projects/camkes" revision="615f6cf9868cb8d6c56426839d195fed133896b5" upstream="master"/>
-  <project name="capdl.git" path="projects/capdl" revision="568e445560a438476ff2f3850a459da97cb27204" upstream="master"/>
-  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="a64dd318a55be93d8613715d4fc3747d3943a22d" upstream="master"/>
+  <project name="capdl.git" path="projects/capdl" revision="995598031e01bfa53fe11c7cbee328a3298c819a" upstream="master"/>
+  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="e427f9271efe71bd662c77ccce97be60f4cf6b6f" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="9e288a83f17de80e54af87852674d70f59d6beee" upstream="sel4"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="2c81a04b7bd3b71a9e89a01205dfc3c394b883e2" upstream="master"/>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
-  <project name="rumprun.git" path="projects/rumprun" remote="SEL4PROJ" revision="27f908e4845a9422f65a8f43acfb534c1c7d91ed" upstream="master"/>
+  <project name="rumprun.git" path="projects/rumprun" remote="SEL4PROJ" revision="6bfbd191d59fe8e0ffc30fd55eb59c43f502bd4a" upstream="master"/>
   <project name="seL4.git" path="kernel" revision="bc5c7883ed5a971c0b7d13c58e111c937eb701fb" upstream="master"/>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="925da3b55499f3ce34b8c99382143cf537e743c5" upstream="master"/>
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="ce2bfdd3fb2ad949f21ea5e24efa3fa1a5fe801c" upstream="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="df74d8274961e912a580c94403fe48cc6951d701" upstream="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="90c4b458d911ea6ba839e200f6dd2870013d20e3" upstream="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="5ad25f75a6fc7a23724c23c4c1d76c85de7679f8" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="897e086f275b5eeb59da5b57525d8008fd205f18" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="d8968e40bb01f34ce09d17650122de50dc40edbd" upstream="master"/>
 </manifest>

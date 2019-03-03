@@ -28,7 +28,7 @@
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
   <project name="rumprun.git" path="projects/rumprun" remote="SEL4PROJ" revision="6bfbd191d59fe8e0ffc30fd55eb59c43f502bd4a" upstream="master"/>
   <project name="seL4.git" path="kernel" revision="bc5c7883ed5a971c0b7d13c58e111c937eb701fb" upstream="master"/>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="ce2bfdd3fb2ad949f21ea5e24efa3fa1a5fe801c" upstream="master"/>
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="dbd4f65b8e6d87dcaaf6768bdb5cbee978ae26e8" upstream="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="df74d8274961e912a580c94403fe48cc6951d701" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="5ad25f75a6fc7a23724c23c4c1d76c85de7679f8" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>

@@ -26,8 +26,8 @@
   <project name="musllibc.git" path="projects/musllibc" revision="9e288a83f17de80e54af87852674d70f59d6beee" upstream="sel4"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="2c81a04b7bd3b71a9e89a01205dfc3c394b883e2" upstream="master"/>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
-  <project name="rumprun.git" path="projects/rumprun" remote="SEL4PROJ" revision="6bfbd191d59fe8e0ffc30fd55eb59c43f502bd4a" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="c5643419d14041ff76c2d521f2459639e56ab9a7" upstream="master"/>
+  <project name="rumprun.git" path="projects/rumprun" remote="SEL4PROJ" revision="187e74a92ea9f502c5134fff44855c3cbcdb16c5" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="445e09150c42fd2ed089c68026899350b3dee65e" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="1f6de1ca0b14c709151d1f1f7b55489dc48b18bf" upstream="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="df74d8274961e912a580c94403fe48cc6951d701" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="48686d13130836b15743544d49b555dd0fd06b29" upstream="master">

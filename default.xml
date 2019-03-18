@@ -30,9 +30,9 @@
   <project name="seL4.git" path="kernel" revision="fa017b6d453a58e3f110e2bdd5e7b6de85d88d4a" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="1f6de1ca0b14c709151d1f1f7b55489dc48b18bf" upstream="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="ee28ea71f99fdd86d66dc7cb79acd8c48acff237" upstream="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="21437c689e0a0fb9318e0df3e81ba8b691c92c2f" upstream="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="fd410243486aabbe54f87da87eaabd3b4120337d" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="c6e8b8b938230ef1692c26f171807c7e7c619d1e" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="0c900ae725cf381abdd471b278be481fd5100afe" upstream="master"/>
 </manifest>

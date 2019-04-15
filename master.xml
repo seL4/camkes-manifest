@@ -35,4 +35,5 @@
     <project remote="SEL4PROJ" name="seL4_projects_libs.git" path="projects/seL4_projects_libs"/>
     <project remote="SEL4PROJ" name="projects_libs.git" path="projects/projects_libs"/>
     <project remote="SEL4PROJ" name="cakeml_libs.git" path="projects/cakeml_libs"/>
+    <project remote="SEL4PROJ" name="riscv-pk" path="tools/riscv-pk" revision="fix-32bit"/>
 </manifest>

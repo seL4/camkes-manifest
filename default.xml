@@ -17,10 +17,10 @@
   <default remote="seL4" revision="master"/>
   
   <project name="cakeml_libs.git" path="projects/cakeml_libs" remote="SEL4PROJ" revision="075a5fe2c959080b966a2104f8833d27e59b59b9" upstream="master"/>
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="232d7dfbcfc76e3fafc916aa5531772ea132560c" upstream="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="b17f4e04bf08eb08cfd901b827e4dd4919d60a08" upstream="master">
     <linkfile dest="README.md" src="docs/index.md"/>
   </project>
-  <project name="camkes.git" path="projects/camkes" revision="40612c4e2959028faa850dc65e91b05397f3f423" upstream="master"/>
+  <project name="camkes.git" path="projects/camkes" revision="30284b623cfb2e0602cec782585be954ea01e84b" upstream="master"/>
   <project name="capdl.git" path="projects/capdl" revision="4050127a59a5cb4bbabaff544f79babdd84c2002" upstream="master"/>
   <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="21b43475110c0309cd820a83517a0c8e1a6cc930" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="def9ee4b77825db615a7332ceea00284866f1124" upstream="sel4"/>

@@ -13,6 +13,7 @@
 <manifest>
     <remote name="seL4" fetch="../seL4"/>
     <remote name="SEL4PROJ" fetch="../SEL4PROJ"/>
+    <remote fetch="https://github.com/tass-belgium" name="picotcp"/>
     <!-- default revision for each project, and name of the remote -->
     <default revision="master" remote="seL4"/>
     <!-- list of 'projects' (i.e repositories), path is relative to the path in remote above -->
@@ -29,6 +30,7 @@
     <project name="seL4_libs.git" path="projects/seL4_libs"/>
     <project name="util_libs.git" path="projects/util_libs"/>
     <project name="musllibc.git" path="projects/musllibc" revision="sel4"/>
+    <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="refs/tags/v1.7.0"/>
     <project remote="SEL4PROJ" name="rumprun.git" path="projects/rumprun"/>
     <project remote="SEL4PROJ" name="global-components.git" path="projects/global-components"/>
     <project name="camkes.git" path="projects/camkes"/>

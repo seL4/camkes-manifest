@@ -12,6 +12,7 @@
 -->
 <manifest>
   <remote fetch="../SEL4PROJ" name="SEL4PROJ"/>
+  <remote fetch="https://github.com/tass-belgium" name="picotcp"/>
   <remote fetch="../seL4" name="seL4"/>
   
   <default remote="seL4" revision="master"/>
@@ -24,6 +25,7 @@
   <project name="capdl.git" path="projects/capdl" revision="c134a19679f95055b5b312a1c8c20fb80b9d799f" upstream="master"/>
   <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="21b43475110c0309cd820a83517a0c8e1a6cc930" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="def9ee4b77825db615a7332ceea00284866f1124" upstream="sel4"/>
+  <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="2c81a04b7bd3b71a9e89a01205dfc3c394b883e2" upstream="master"/>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
   <project name="riscv-pk" path="tools/riscv-pk" remote="SEL4PROJ" revision="5e7d5c596d7ee6860d52eefe768223eff72e5fd1" upstream="fix-32bit"/>
@@ -31,7 +33,7 @@
   <project name="seL4.git" path="kernel" revision="c75a270f5602d6015745dd6c87f2d7d84ce1380c" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="6b2bbe624dca4947793287927da0dea294d18970" upstream="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="20789fc5e1f7c3e14acc1a3735dce6ce7dc4e301" upstream="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="c920b77e9321de2133aa694a0b58d4acfd88cce9" upstream="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="37675093efb7349cb5e03ffad09761251ec6f500" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
   </project>

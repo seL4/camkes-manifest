@@ -21,6 +21,7 @@
     <project name="seL4_tools.git" path="tools/seL4">
         <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
         <linkfile src="cmake-tool/default-CMakeLists.txt" dest="CMakeLists.txt"/>
+        <linkfile src="cmake-tool/griddle" dest="griddle"/>
     </project>
     <project name="camkes-tool.git" path="projects/camkes-tool">
         <linkfile src="docs/index.md" dest="README.md"/>
@@ -33,7 +34,9 @@
     <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="refs/tags/v1.7.0"/>
     <project remote="SEL4PROJ" name="rumprun.git" path="projects/rumprun"/>
     <project remote="SEL4PROJ" name="global-components.git" path="projects/global-components"/>
-    <project name="camkes.git" path="projects/camkes"/>
+    <project name="camkes.git" path="projects/camkes">
+        <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
+    </project>
     <project remote="SEL4PROJ" name="seL4_projects_libs.git" path="projects/seL4_projects_libs"/>
     <project remote="SEL4PROJ" name="projects_libs.git" path="projects/projects_libs"/>
     <project remote="SEL4PROJ" name="cakeml_libs.git" path="projects/cakeml_libs"/>

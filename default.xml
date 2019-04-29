@@ -23,7 +23,7 @@
   </project>
   <project name="camkes.git" path="projects/camkes" revision="e2595da277aeb07f028097258ab4b3837e8c3026" upstream="master"/>
   <project name="capdl.git" path="projects/capdl" revision="c134a19679f95055b5b312a1c8c20fb80b9d799f" upstream="master"/>
-  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="21b43475110c0309cd820a83517a0c8e1a6cc930" upstream="master"/>
+  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="b8057e3a307923ff1d84bef3ffc7f435fa8f88af" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="def9ee4b77825db615a7332ceea00284866f1124" upstream="sel4"/>
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="2c81a04b7bd3b71a9e89a01205dfc3c394b883e2" upstream="master"/>

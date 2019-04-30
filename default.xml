@@ -21,7 +21,9 @@
   <project name="camkes-tool.git" path="projects/camkes-tool" revision="b17f4e04bf08eb08cfd901b827e4dd4919d60a08" upstream="master">
     <linkfile dest="README.md" src="docs/index.md"/>
   </project>
-  <project name="camkes.git" path="projects/camkes" revision="e2595da277aeb07f028097258ab4b3837e8c3026" upstream="master"/>
+  <project name="camkes.git" path="projects/camkes" revision="e2595da277aeb07f028097258ab4b3837e8c3026" upstream="master">
+    <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
+  </project>
   <project name="capdl.git" path="projects/capdl" revision="c134a19679f95055b5b312a1c8c20fb80b9d799f" upstream="master"/>
   <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="b8057e3a307923ff1d84bef3ffc7f435fa8f88af" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="def9ee4b77825db615a7332ceea00284866f1124" upstream="sel4"/>
@@ -33,9 +35,10 @@
   <project name="seL4.git" path="kernel" revision="a8e0dcffed6f4e3888987a5bb05f2f50a20b94ec" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="92e04bdbfa55901d7c6d129d2c0f68a5fa185bd3" upstream="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="20789fc5e1f7c3e14acc1a3735dce6ce7dc4e301" upstream="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="37675093efb7349cb5e03ffad09761251ec6f500" upstream="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="ee029da2fa7e64ec72368b59f99634560ec4c9d9" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
+    <linkfile dest="griddle" src="cmake-tool/griddle"/>
   </project>
   <project name="util_libs.git" path="projects/util_libs" revision="84de17f0e095b40b1e913bde252a85bef26141fd" upstream="master"/>
 </manifest>

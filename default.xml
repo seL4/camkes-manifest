@@ -25,7 +25,7 @@
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
   <project name="capdl.git" path="projects/capdl" revision="c134a19679f95055b5b312a1c8c20fb80b9d799f" upstream="master"/>
-  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="b8057e3a307923ff1d84bef3ffc7f435fa8f88af" upstream="master"/>
+  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="db5d8cc52573c56dc78c1fd5f705e1409abd47d9" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="def9ee4b77825db615a7332ceea00284866f1124" upstream="sel4"/>
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="2c81a04b7bd3b71a9e89a01205dfc3c394b883e2" upstream="master"/>
@@ -34,7 +34,7 @@
   <project name="rumprun.git" path="projects/rumprun" remote="SEL4PROJ" revision="742007f09a1021ff1c834a39fa21944a27bdb488" upstream="master"/>
   <project name="seL4.git" path="kernel" revision="1194fff06e5654e7eab4acf4a5e26e6d76b81891" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="423d4e039757733008e9281b01d22d7bfb0cd2f8" upstream="master"/>
-  <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="20789fc5e1f7c3e14acc1a3735dce6ce7dc4e301" upstream="master"/>
+  <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="3ce3b2494d38731381fd62419ee7d85461fe3096" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="ee029da2fa7e64ec72368b59f99634560ec4c9d9" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>

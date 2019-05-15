@@ -30,12 +30,12 @@
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="2c81a04b7bd3b71a9e89a01205dfc3c394b883e2" upstream="master"/>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
-  <project name="riscv-pk" path="tools/riscv-pk" remote="SEL4PROJ" revision="5e7d5c596d7ee6860d52eefe768223eff72e5fd1" upstream="fix-32bit"/>
+  <project name="riscv-pk" path="tools/riscv-pk" remote="SEL4PROJ" revision="f4c34d86d35bbab8e1ff72f7aec691e01a3def88" upstream="fix-32bit"/>
   <project name="rumprun.git" path="projects/rumprun" remote="SEL4PROJ" revision="742007f09a1021ff1c834a39fa21944a27bdb488" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="4a62e72f9f5ea47565029bb48120ee9e0291b255" upstream="master"/>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="c2dcae0347f1dfecceb5d08a62faa2f09eae81a4" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="d0d97779cbf0bbf54bab26b2274ae435908d5ab6" upstream="master"/>
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="a61cb531afb21654c50d389da1a852e3edbfd966" upstream="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="aeec198124b12b878a06f430b5e191463e070044" upstream="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="d2cbb1b736752940271ec1cb595394f6fdbb3e4a" upstream="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="5e722677038580372d28824108f607605ddf6112" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
     <linkfile dest="griddle" src="cmake-tool/griddle"/>

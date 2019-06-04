@@ -24,7 +24,7 @@
   <project name="camkes.git" path="projects/camkes" revision="a7debf34cb9ed5c9d903b550e139be962594159c" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="d96a530f46c9835d4ed4e69e74b605ef1da1694b" upstream="master"/>
+  <project name="capdl.git" path="projects/capdl" revision="32a4dff5b8dc92ce104246b92e91911aabec8afb" upstream="master"/>
   <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="1dc07a04a8f4facf90842351b0f476ae84da342e" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="f58bc71f4ae291cf58cc058aa816dd65be9dca7f" upstream="sel4"/>
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>

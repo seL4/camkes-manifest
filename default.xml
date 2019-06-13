@@ -18,7 +18,7 @@
   <default remote="seL4" revision="master"/>
   
   <project name="cakeml_libs.git" path="projects/cakeml_libs" remote="SEL4PROJ" revision="075a5fe2c959080b966a2104f8833d27e59b59b9" upstream="master"/>
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="3835a567415ce2336900ea73f73cbeefde7cf8de" upstream="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="f9286bae0946f99e8e1c3e03bdded2a895fcb334" upstream="master">
     <linkfile dest="README.md" src="docs/index.md"/>
   </project>
   <project name="camkes.git" path="projects/camkes" revision="a7debf34cb9ed5c9d903b550e139be962594159c" upstream="master">
@@ -32,13 +32,13 @@
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
   <project name="riscv-pk" path="tools/riscv-pk" remote="SEL4PROJ" revision="f4c34d86d35bbab8e1ff72f7aec691e01a3def88" upstream="fix-32bit"/>
   <project name="rumprun.git" path="projects/rumprun" remote="SEL4PROJ" revision="742007f09a1021ff1c834a39fa21944a27bdb488" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="210c5c21575cc47f2fe88615dfafffd085eca96f" upstream="master"/>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="eb28bbb45d62c4268cf3e40a05b718180938051f" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="7c1a705336ef13dfafa12307827ab512dd3dce38" upstream="master"/>
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="6a762cf9e7c0aa31a3dce1e3482ff79390a87863" upstream="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="aeec198124b12b878a06f430b5e191463e070044" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="a8dd3b8cd840585f9ca52a7307bad00a2cc267dd" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="95221b7f6bc122ca3bb42d224fe7aab1f1a712b3" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="67decb0048c3eaad15a4d5663fc9ba6d4dad897d" upstream="master"/>
 </manifest>

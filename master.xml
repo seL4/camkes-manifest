@@ -30,6 +30,7 @@
     <project name="pruner.git" path="tools/pruner"/>
     <project name="seL4_libs.git" path="projects/seL4_libs"/>
     <project name="util_libs.git" path="projects/util_libs"/>
+    <project remote="SEL4PROJ" name="sel4runtime" path="projects/sel4runtime"/>
     <project name="musllibc.git" path="projects/musllibc" revision="sel4"/>
     <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="refs/tags/v1.7.0"/>
     <project remote="SEL4PROJ" name="rumprun.git" path="tools/rumprun"/>

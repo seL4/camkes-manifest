@@ -35,7 +35,7 @@
   <project name="seL4.git" path="kernel" revision="ce6d05e9a6db418b38cb8d0047d952e181573122" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="ca1caa35cf0c499107950fb5349ea24765913ebc" upstream="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="aeec198124b12b878a06f430b5e191463e070044" upstream="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="670ac70851d58cdae0391e155317c17eb9487236" upstream="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="e3fca94413771c9e7763151d705e9aad6cf2b47a" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
     <linkfile dest="griddle" src="cmake-tool/griddle"/>

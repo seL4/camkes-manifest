@@ -21,7 +21,7 @@
   <project name="camkes-tool.git" path="projects/camkes-tool" revision="874a4dabddad218a11dd8b1f3e92bbb78ad92a73" upstream="master">
     <linkfile dest="README.md" src="docs/index.md"/>
   </project>
-  <project name="camkes.git" path="projects/camkes" revision="a7debf34cb9ed5c9d903b550e139be962594159c" upstream="master">
+  <project name="camkes.git" path="projects/camkes" revision="9783724c72292e277a851a11b90c2342fdeb71d9" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
   <project name="capdl.git" path="projects/capdl" revision="3adb46cbf58b3b1852e936af74982c34fa7d2a9f" upstream="master"/>
@@ -31,11 +31,11 @@
   <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="2c81a04b7bd3b71a9e89a01205dfc3c394b883e2" upstream="master"/>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
   <project name="riscv-pk" path="tools/riscv-pk" remote="SEL4PROJ" revision="f4c34d86d35bbab8e1ff72f7aec691e01a3def88" upstream="fix-32bit"/>
-  <project name="rumprun.git" path="projects/rumprun" remote="SEL4PROJ" revision="bb7f59c707b81bbb8d1419449b2f546cf2f53124" upstream="master"/>
+  <project name="rumprun.git" path="tools/rumprun" remote="SEL4PROJ" revision="bb7f59c707b81bbb8d1419449b2f546cf2f53124" upstream="master"/>
   <project name="seL4.git" path="kernel" revision="7c8938bdbee2fe9f152f527d6b93b7eb1489f777" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="4fcd22fbb0e6d42ecc25652096984375f0a5b37a" upstream="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="aeec198124b12b878a06f430b5e191463e070044" upstream="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="0a16266f87f1f2e6fb7b51b7676206c195e10770" upstream="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="29af8acc9d249e6d8697d0c2d0894dab0145e16b" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
     <linkfile dest="griddle" src="cmake-tool/griddle"/>

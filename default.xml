@@ -33,10 +33,10 @@
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
   <project name="riscv-pk" path="tools/riscv-pk" remote="SEL4PROJ" revision="f4c34d86d35bbab8e1ff72f7aec691e01a3def88" upstream="fix-32bit"/>
   <project name="rumprun.git" path="tools/rumprun" remote="SEL4PROJ" revision="f4e704523950f311899b200af7551d6e8851f112" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="7ee63f9eb7fc249f09af4417415e60de6835df2d" upstream="master"/>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="daf85a968259880b32d16cd70b1e1ab21c871db0" upstream="master"/>
-  <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="4c18acec49a4e9b87d50ae5123fe91343ebb8a7b" upstream="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="5a8ea8bcd7e7fd306b3d40614a26df1daca6dd37" upstream="master">
+  <project name="seL4.git" path="kernel" revision="5455856dc6c749d14af1430d86293273725504ca" upstream="master"/>
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="c16334d764ff6600977398b9e6adacefc3fa6007" upstream="master"/>
+  <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="c4f81c0690752d7ddf9d09c0375bd4a362547794" upstream="master"/>
+  <project name="seL4_tools.git" path="tools/seL4" revision="aad16098f30746cbf885a510265d811275e4b8de" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
     <linkfile dest="griddle" src="cmake-tool/griddle"/>

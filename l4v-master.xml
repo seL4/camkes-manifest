@@ -12,7 +12,8 @@
 -->
 
 <!--
-  This augments default.xml with the L4.verified repositories.
+  This augments master.xml with the L4.verified repositories, in order
+  to run the CAmkES-CapDL refinement proofs.
 
   Note that we don't put the l4v repos directly in projects/, instead
   we wrap them in projects/l4v/. The l4v build system expects a symlink
@@ -22,10 +23,10 @@
   symlink and then fail.
 -->
 <manifest>
-  <include name="default.xml"/>
+  <include name="master.xml"/>
 
-  <project name="isabelle.git" path="projects/l4v/isabelle" revision="Isabelle2018"/>
-  <project name="l4v.git" path="projects/l4v/l4v" revision="0ab8491add092443eec11ac804e2a2155908565b"/>
+  <project name="isabelle.git" path="projects/l4v/isabelle" revision="Isabelle2019"/>
+  <project name="l4v.git" path="projects/l4v/l4v"/>
 
   <!--
     Annoyingly, repo doesn't support adding elements to an existing
@@ -35,7 +36,6 @@
   -->
   <remove-project name="seL4.git"/>
 
-  <!-- seL4/master should also work, fingers crossed -->
   <project name="seL4.git" path="kernel">
     <linkfile src="." dest="projects/l4v/seL4"/>
   </project>

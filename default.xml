@@ -18,14 +18,14 @@
   <default remote="seL4" revision="master"/>
   
   <project name="cakeml_libs.git" path="projects/cakeml_libs" remote="SEL4PROJ" revision="075a5fe2c959080b966a2104f8833d27e59b59b9" upstream="master"/>
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="0b5c20db08a48dad1b573a855deb123ae4dbe6b2" upstream="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="59f13ab28f580145c3867674fdfbb8047f2f546a" upstream="master">
     <linkfile dest="README.md" src="docs/index.md"/>
   </project>
   <project name="camkes.git" path="projects/camkes" revision="ec2a8240e0ea4e2110115bbad61083e6b1166336" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
     <linkfile dest="settings.cmake" src="settings.cmake"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="fa63beffb8f73a165a186dcfb375d57a6e3d673a" upstream="master"/>
+  <project name="capdl.git" path="projects/capdl" revision="f26859c69986109baba772d570620653bb7b5cb1" upstream="master"/>
   <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="b68b7c0ddcc19597eceaa9736885d0eb010c9c83" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="1aaf321083bd4b9c14413a1a82dbd496f5108a1b" upstream="sel4"/>
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>

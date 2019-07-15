@@ -32,3 +32,17 @@ Prerequisites, in addition to a standard build system for your target, are:
 * Python
 * Python libraries python-tempita, pyelftools, jinja2 and ply
 * which, realpath and the libxml2 utilities.
+
+## Dependencies for verification
+
+The toolchain can generate formal specifications and proofs about how
+a CAmkES spec is mapped to seL4 objects (via capDL). To run these
+proofs, checkout the `l4v-master` manifest, e.g. with:
+
+    repo init -m l4v-master.xml
+    repo sync
+
+You will also need to install additional dependencies; see the
+[L4.verified setup instructions](https://github.com/seL4/l4v/blob/master/README.md).
+
+Note that the proof toolchain does not support all CAmkES features.

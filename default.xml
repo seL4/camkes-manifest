@@ -25,7 +25,7 @@
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
     <linkfile dest="settings.cmake" src="settings.cmake"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="61553e3f0c4872804c254c2367dd9657d59b960c" upstream="master"/>
+  <project name="capdl.git" path="projects/capdl" revision="55eed260bd9f1154e5309693bd7d4234599a0ca7" upstream="master"/>
   <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="b68b7c0ddcc19597eceaa9736885d0eb010c9c83" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="1aaf321083bd4b9c14413a1a82dbd496f5108a1b" upstream="sel4"/>
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
@@ -34,8 +34,8 @@
   <project name="riscv-pk" path="tools/riscv-pk" remote="SEL4PROJ" revision="f4c34d86d35bbab8e1ff72f7aec691e01a3def88" upstream="fix-32bit"/>
   <project name="rumprun.git" path="tools/rumprun" remote="SEL4PROJ" revision="9c28e7efff0ea0a182bdddc07d58140f04090e69" upstream="master"/>
   <project name="seL4.git" path="kernel" revision="3c896239172a9619e9d082db57c4723e6dff7d9f" upstream="master"/>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="9b13f634835a337fc15929c654dc5622ad7b9405" upstream="master"/>
-  <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="d9a93f62f7eea1c7b9c7f470bfdaf066cf362e38" upstream="master"/>
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="93ff2a9f597279a57c6b8e4f2eec9edb9475bb86" upstream="master"/>
+  <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="46fa9362ed5a80157ebfa69325a8fe303e6b81d4" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="9f842de4bd3094475de4d57bdc7d8cc83577579c" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>

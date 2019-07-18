@@ -14,6 +14,7 @@
     <remote name="seL4" fetch="../seL4"/>
     <remote name="SEL4PROJ" fetch="../SEL4PROJ"/>
     <remote fetch="https://github.com/tass-belgium" name="picotcp"/>
+    <remote fetch="https://github.com/NICTA" name="nicta"/>
     <!-- default revision for each project, and name of the remote -->
     <default revision="master" remote="seL4"/>
     <!-- list of 'projects' (i.e repositories), path is relative to the path in remote above -->
@@ -43,4 +44,5 @@
     <project remote="SEL4PROJ" name="projects_libs.git" path="projects/projects_libs"/>
     <project remote="SEL4PROJ" name="cakeml_libs.git" path="projects/cakeml_libs"/>
     <project remote="SEL4PROJ" name="riscv-pk" path="tools/riscv-pk" revision="fix-32bit"/>
+    <project remote="nicta" name="cogent" path="tools/cogent" revision="master"/>
 </manifest>

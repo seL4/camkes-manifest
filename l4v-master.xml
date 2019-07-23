@@ -25,7 +25,7 @@
 <manifest>
   <include name="master.xml"/>
 
-  <project name="isabelle.git" path="projects/l4v/isabelle" revision="Isabelle2019"/>
+  <project name="isabelle.git" path="projects/l4v/isabelle" revision="refs/tags/Isabelle2019"/>
   <project name="l4v.git" path="projects/l4v/l4v"/>
 
   <!--

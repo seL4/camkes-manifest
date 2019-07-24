@@ -42,6 +42,10 @@ proofs, checkout the `l4v-master` manifest, e.g. with:
     repo init -m l4v-master.xml
     repo sync
 
+Then enable these extra `init-build` options:
+
+    ../init-build.sh [...] -DCAmkESCapDLStaticAlloc=1 -DCAmkESCapDLVerification=1
+
 You will also need to install additional dependencies; see the
 [L4.verified setup instructions](https://github.com/seL4/l4v/blob/master/README.md).
 

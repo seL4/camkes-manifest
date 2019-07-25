@@ -22,7 +22,7 @@
   <project name="camkes-tool.git" path="projects/camkes-tool" revision="d0f6fdd588af30451a088b8691febf9f5036efdf" upstream="master">
     <linkfile dest="README.md" src="docs/index.md"/>
   </project>
-  <project name="camkes.git" path="projects/camkes" revision="f04be3fe1d979838a684dbdf969a041520ae33e3" upstream="master">
+  <project name="camkes.git" path="projects/camkes" revision="f10b95b7d3101a0aff45de1c42144b848660e480" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
     <linkfile dest="settings.cmake" src="settings.cmake"/>
   </project>
@@ -35,10 +35,10 @@
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
   <project name="riscv-pk" path="tools/riscv-pk" remote="SEL4PROJ" revision="f4c34d86d35bbab8e1ff72f7aec691e01a3def88" upstream="fix-32bit"/>
   <project name="rumprun.git" path="tools/rumprun" remote="SEL4PROJ" revision="cdd9bb2d948d24a34fac714d5f33b1765a586d30" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="decd4f87bbc884d69239b5a9e800ea2e2937c28f" upstream="master"/>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="7476936470563282bbfc1cfa2ab766353ef42f44" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="4a37703c034e7e3b0ec9fff913d88fe19abbb89a" upstream="master"/>
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="11e4ef23082e9e7eafb086d462b7de5630a7e810" upstream="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="109e9947b4951ac1760d254f609aee419b67d5f7" upstream="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="c63792a661241b3f3c05adbbf90e58223afe547c" upstream="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="9ac24ff4cefcb8b30f60f7e77b38dafbb90b37a5" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
     <linkfile dest="griddle" src="cmake-tool/griddle"/>

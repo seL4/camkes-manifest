@@ -19,7 +19,7 @@
   <default remote="seL4" revision="master"/>
   
   <project name="cakeml_libs.git" path="projects/cakeml_libs" remote="SEL4PROJ" revision="075a5fe2c959080b966a2104f8833d27e59b59b9" upstream="master"/>
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="f7579966212d7b29644a294a784e4b45d8e454b6" upstream="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="ed8b9c66f6ddf1da17bd3f75a73b77198c088179" upstream="master">
     <linkfile dest="README.md" src="docs/index.md"/>
   </project>
   <project name="camkes.git" path="projects/camkes" revision="f10b95b7d3101a0aff45de1c42144b848660e480" upstream="master">
@@ -27,7 +27,7 @@
     <linkfile dest="settings.cmake" src="settings.cmake"/>
   </project>
   <project name="capdl.git" path="projects/capdl" revision="bc76d914a79c49fe320c103d162236099c238fb9" upstream="master"/>
-  <project name="cogent" path="tools/cogent" remote="nicta" revision="867e4167b6a9c3c75b05f47dfe2eac5266e5cd84" upstream="master"/>
+  <project name="cogent" path="tools/cogent" remote="nicta" revision="54fd610975f19a497046710c697a620c3720350b" upstream="master"/>
   <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="b68b7c0ddcc19597eceaa9736885d0eb010c9c83" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="1aaf321083bd4b9c14413a1a82dbd496f5108a1b" upstream="sel4"/>
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
@@ -35,7 +35,7 @@
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
   <project name="riscv-pk" path="tools/riscv-pk" remote="SEL4PROJ" revision="d3293c7c23e923338318f3860b2f20dd0b51a016" upstream="fix-32bit"/>
   <project name="rumprun.git" path="tools/rumprun" remote="SEL4PROJ" revision="cdd9bb2d948d24a34fac714d5f33b1765a586d30" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="3576377b08b5e6cf2f08be739b26f15f9ddf2bb4" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="c8b81c28ba988401053b0536a18dd8147f26d375" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="11e4ef23082e9e7eafb086d462b7de5630a7e810" upstream="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="4fe6bdfc8654358636a098b973d2fd03eca90001" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="13f0ced490dc9ae7566df72978063dbf7688516e" upstream="master">

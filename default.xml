@@ -36,7 +36,7 @@
   <project name="riscv-pk" path="tools/riscv-pk" remote="SEL4PROJ" revision="d3293c7c23e923338318f3860b2f20dd0b51a016" upstream="fix-32bit"/>
   <project name="rumprun.git" path="tools/rumprun" remote="SEL4PROJ" revision="cdd9bb2d948d24a34fac714d5f33b1765a586d30" upstream="master"/>
   <project name="seL4.git" path="kernel" revision="c8b81c28ba988401053b0536a18dd8147f26d375" upstream="master"/>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="11e4ef23082e9e7eafb086d462b7de5630a7e810" upstream="master"/>
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="08f7cbdbec18c89b30e23017e63e79c0655dc8ab" upstream="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="4fe6bdfc8654358636a098b973d2fd03eca90001" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="13f0ced490dc9ae7566df72978063dbf7688516e" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>

@@ -28,7 +28,7 @@
   </project>
   <project name="capdl.git" path="projects/capdl" revision="bc76d914a79c49fe320c103d162236099c238fb9" upstream="master"/>
   <project name="cogent" path="tools/cogent" remote="nicta" revision="54fd610975f19a497046710c697a620c3720350b" upstream="master"/>
-  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="9b743ecd1d0e2fbf551c4dda9bcb66bb53505b0d" upstream="master"/>
+  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="aed815756be925b1310fda579bc1220fcbd55b48" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="1aaf321083bd4b9c14413a1a82dbd496f5108a1b" upstream="sel4"/>
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="40fe7a980d1af5776db30e56268057adaaf2525a" upstream="master"/>

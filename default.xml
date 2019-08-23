@@ -26,7 +26,7 @@
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
     <linkfile dest="settings.cmake" src="settings.cmake"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="fe6b5daafbef90eabda39cc329d7a1d974cdde59" upstream="master"/>
+  <project name="capdl.git" path="projects/capdl" revision="cbe0e204193da6e55fd0653630b171fc07de81a9" upstream="master"/>
   <project name="cogent" path="tools/cogent" remote="nicta" revision="54fd610975f19a497046710c697a620c3720350b" upstream="master"/>
   <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="c9edbb11c51689076f0d8243e5418747725f62d1" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="1aaf321083bd4b9c14413a1a82dbd496f5108a1b" upstream="sel4"/>

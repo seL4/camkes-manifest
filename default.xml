@@ -18,15 +18,15 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="cakeml_libs.git" path="projects/cakeml_libs" remote="SEL4PROJ" revision="075a5fe2c959080b966a2104f8833d27e59b59b9" upstream="master"/>
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="ebd737aad8bb763c399225a0520be9226b524e64" upstream="master">
+  <project name="cakeml_libs.git" path="projects/cakeml_libs" remote="SEL4PROJ" revision="485afb6089030f1a5cbbc619851cde5c3dd43306" upstream="master"/>
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="39c15d3acdb0be86b82595a37fda1001c302c685" upstream="master">
     <linkfile dest="README.md" src="docs/index.md"/>
   </project>
-  <project name="camkes.git" path="projects/camkes" revision="77c3a66afd7f9d6d7f166770d78d6311ea794fe2" upstream="master">
+  <project name="camkes.git" path="projects/camkes" revision="155fa9ad2be4e72d6fcfd3d9b51f7a89c1fac427" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
     <linkfile dest="settings.cmake" src="settings.cmake"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="cbe0e204193da6e55fd0653630b171fc07de81a9" upstream="master"/>
+  <project name="capdl.git" path="projects/capdl" revision="22a9dc382347ad4a3a6aac6566a4aeb34a5d9626" upstream="master"/>
   <project name="cogent" path="tools/cogent" remote="nicta" revision="54fd610975f19a497046710c697a620c3720350b" upstream="master"/>
   <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="c9edbb11c51689076f0d8243e5418747725f62d1" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="1aaf321083bd4b9c14413a1a82dbd496f5108a1b" upstream="sel4"/>
@@ -35,14 +35,14 @@
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
   <project name="riscv-pk" path="tools/riscv-pk" remote="SEL4PROJ" revision="d3293c7c23e923338318f3860b2f20dd0b51a016" upstream="fix-32bit"/>
   <project name="rumprun.git" path="tools/rumprun" remote="SEL4PROJ" revision="e307da61f7d2204e14da8fbe19c630373265d123" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="3b12f529d71de7615eadf30245ec58234e4728ab" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="fc251b5067aa6737409d326b0e7c68e24f286ab7" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="d2af53182cfd9c62ce409dfbac75b00a25cc4e68" upstream="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="4fe6bdfc8654358636a098b973d2fd03eca90001" upstream="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="05dbe1f87987fcf53e6b43cf838c107ab423f510" upstream="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="644c8466ee78f7917e4108a2050d2d6c263718fe" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
   </project>
   <project name="sel4runtime" path="projects/sel4runtime" remote="SEL4PROJ" revision="2bd3ae65aa8a5a951bfd56d699837930a6c05c4d" upstream="master"/>
-  <project name="util_libs.git" path="projects/util_libs" revision="a0bf1d576ad18830df4266c4ee0b16d6c7a4c713" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="ffbc57f187a3dafeb840c899e87b0236ba5574ec" upstream="master"/>
 </manifest>

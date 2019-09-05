@@ -19,16 +19,16 @@
   <default remote="seL4" revision="master"/>
   
   <project name="cakeml_libs.git" path="projects/cakeml_libs" remote="SEL4PROJ" revision="485afb6089030f1a5cbbc619851cde5c3dd43306" upstream="master"/>
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="0a0b4bf8e6b30cc4d09067429c87ef9cef9b1757" upstream="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="1e16ef40993196ff05abf40dabaa363fbac3fb15" upstream="master">
     <linkfile dest="README.md" src="docs/index.md"/>
   </project>
-  <project name="camkes.git" path="projects/camkes" revision="155fa9ad2be4e72d6fcfd3d9b51f7a89c1fac427" upstream="master">
+  <project name="camkes.git" path="projects/camkes" revision="1e34539bb20fedd9ed3ff3448d79999e8045e271" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
     <linkfile dest="settings.cmake" src="settings.cmake"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="22a9dc382347ad4a3a6aac6566a4aeb34a5d9626" upstream="master"/>
+  <project name="capdl.git" path="projects/capdl" revision="8298bfaf0ea8d0304d0238bb7e5052c94ac58c74" upstream="master"/>
   <project name="cogent" path="tools/cogent" remote="nicta" revision="54fd610975f19a497046710c697a620c3720350b" upstream="master"/>
-  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="c9edbb11c51689076f0d8243e5418747725f62d1" upstream="master"/>
+  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="d54232f328c3438883ef3fb461e607afc60c3794" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="1aaf321083bd4b9c14413a1a82dbd496f5108a1b" upstream="sel4"/>
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="40fe7a980d1af5776db30e56268057adaaf2525a" upstream="master"/>

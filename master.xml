@@ -21,7 +21,6 @@
     <project name="seL4.git" path="kernel"/>
     <project name="seL4_tools.git" path="tools/seL4">
         <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
-        <linkfile src="cmake-tool/default-CMakeLists.txt" dest="CMakeLists.txt"/>
         <linkfile src="cmake-tool/griddle" dest="griddle"/>
     </project>
     <project name="camkes-tool.git" path="projects/camkes-tool">
@@ -38,7 +37,6 @@
     <project remote="SEL4PROJ" name="global-components.git" path="projects/global-components"/>
     <project name="camkes.git" path="projects/camkes">
         <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
-        <linkfile src="settings.cmake" dest="settings.cmake"/>
     </project>
     <project remote="SEL4PROJ" name="seL4_projects_libs.git" path="projects/seL4_projects_libs"/>
     <project remote="SEL4PROJ" name="projects_libs.git" path="projects/projects_libs"/>

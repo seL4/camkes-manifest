@@ -18,31 +18,29 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="cakeml_libs.git" path="projects/cakeml_libs" remote="SEL4PROJ" revision="485afb6089030f1a5cbbc619851cde5c3dd43306" upstream="master"/>
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="a2eab48e6088ce7531434add63d020997fa31491" upstream="master">
+  <project name="cakeml_libs.git" path="projects/cakeml_libs" remote="SEL4PROJ" revision="d67ca960f4b910e99bcd807f3d7e345fd07ac8b8" upstream="master"/>
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="e27d3c44a2f66bd19ec4f82ce0d26751c2d0dea3" upstream="master">
     <linkfile dest="README.md" src="docs/index.md"/>
   </project>
-  <project name="camkes.git" path="projects/camkes" revision="4e404be2054ac4e89e6b71bd35f9a1f0cc4161d3" upstream="master">
+  <project name="camkes.git" path="projects/camkes" revision="983b8ea59d5d0b14819c25e07341af6f636e4267" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
-    <linkfile dest="settings.cmake" src="settings.cmake"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="8298bfaf0ea8d0304d0238bb7e5052c94ac58c74" upstream="master"/>
+  <project name="capdl.git" path="projects/capdl" revision="303d23218d2380536fd5d4f29b415f6ac3fea7ef" upstream="master"/>
   <project name="cogent" path="tools/cogent" remote="nicta" revision="bb1df627553d1a5d12e60dc45324fa328e507575" upstream="master"/>
-  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="8f3d4dcc51d3897d22b874e0668dbc9ea467e2b2" upstream="master"/>
+  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="15932d752b151bd77328c7d24a0bb3a0473e1856" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="22f3812381a1a15d8c6ae381ed9e36db2fcd7a66" upstream="sel4"/>
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="8a7d481134b685a66c7a25058f6f1b331dd582f7" upstream="master"/>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
   <project name="riscv-pk" path="tools/riscv-pk" remote="SEL4PROJ" revision="d3293c7c23e923338318f3860b2f20dd0b51a016" upstream="fix-32bit"/>
   <project name="rumprun.git" path="tools/rumprun" remote="SEL4PROJ" revision="e307da61f7d2204e14da8fbe19c630373265d123" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="8234026c1fb827abee75731b2575ddb741687eff" upstream="master"/>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="a9034f03d36b5f698443862211c2f499aea30a61" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="8748d8ea5eb59a0695c806e441c8488b237757c5" upstream="master"/>
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="60f05c39496bd57bf301bab18983f2abc46aac7b" upstream="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="62afbd9251c73182c0ea4381b38848d363a86802" upstream="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="69fbffd7b5bec2e6f12ad9566051b747a964b655" upstream="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="86a49071f7ca78038f5b1b96248c362eb8edff3b" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
-    <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
   </project>
   <project name="sel4runtime" path="projects/sel4runtime" remote="SEL4PROJ" revision="4a086d3b2650b4804bf4ebed1e4df6e046181706" upstream="master"/>
-  <project name="util_libs.git" path="projects/util_libs" revision="6e9c6e0d92f163078aef1d28eaa53f5811b801e1" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="1c3ae456e30b8c45763a014db215a6395208cd3a" upstream="master"/>
 </manifest>

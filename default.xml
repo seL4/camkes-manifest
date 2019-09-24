@@ -26,15 +26,15 @@
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
   <project name="capdl.git" path="projects/capdl" revision="303d23218d2380536fd5d4f29b415f6ac3fea7ef" upstream="master"/>
-  <project name="cogent" path="tools/cogent" remote="nicta" revision="bb1df627553d1a5d12e60dc45324fa328e507575" upstream="master"/>
+  <project name="cogent" path="tools/cogent" remote="nicta" revision="0131d4b0203031aa56daf9e4807a5f13627069b3" upstream="master"/>
   <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="15932d752b151bd77328c7d24a0bb3a0473e1856" upstream="master"/>
-  <project name="musllibc.git" path="projects/musllibc" revision="22f3812381a1a15d8c6ae381ed9e36db2fcd7a66" upstream="sel4"/>
+  <project name="musllibc.git" path="projects/musllibc" revision="1c6350ea6149e8a6b7de8890c34ba3ed615afe60" upstream="sel4"/>
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="8a7d481134b685a66c7a25058f6f1b331dd582f7" upstream="master"/>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
   <project name="riscv-pk" path="tools/riscv-pk" remote="SEL4PROJ" revision="d3293c7c23e923338318f3860b2f20dd0b51a016" upstream="fix-32bit"/>
   <project name="rumprun.git" path="tools/rumprun" remote="SEL4PROJ" revision="e307da61f7d2204e14da8fbe19c630373265d123" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="8748d8ea5eb59a0695c806e441c8488b237757c5" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="c25e5445fbc0c7532f36ceb3241e81f025b42970" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="60f05c39496bd57bf301bab18983f2abc46aac7b" upstream="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="62afbd9251c73182c0ea4381b38848d363a86802" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="86a49071f7ca78038f5b1b96248c362eb8edff3b" upstream="master">

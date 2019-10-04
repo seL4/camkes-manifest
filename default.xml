@@ -19,13 +19,13 @@
   <default remote="seL4" revision="master"/>
   
   <project name="cakeml_libs.git" path="projects/cakeml_libs" remote="SEL4PROJ" revision="d67ca960f4b910e99bcd807f3d7e345fd07ac8b8" upstream="master"/>
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="36343c9bfb00c2d8a25143c6a9a2188eacb395cf" upstream="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="d7429b025bfe1b8c770f8d67e97a77ebd7833aa1" upstream="master">
     <linkfile dest="README.md" src="docs/index.md"/>
   </project>
   <project name="camkes.git" path="projects/camkes" revision="983b8ea59d5d0b14819c25e07341af6f636e4267" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="303d23218d2380536fd5d4f29b415f6ac3fea7ef" upstream="master"/>
+  <project name="capdl.git" path="projects/capdl" revision="6269b8e7548de7dfde8f7c6f6ad506e22a68d3cf" upstream="master"/>
   <project name="cogent" path="tools/cogent" remote="nicta" revision="ae7ee10869dea82e9c16a9ebc2b2e61f76601b10" upstream="master"/>
   <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="15932d752b151bd77328c7d24a0bb3a0473e1856" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="1c6350ea6149e8a6b7de8890c34ba3ed615afe60" upstream="sel4"/>

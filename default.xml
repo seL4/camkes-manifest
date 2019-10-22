@@ -26,7 +26,7 @@
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
   <project name="capdl.git" path="projects/capdl" revision="5eccaf9c2f447587b6a9d8bef3bc6afabc799a9f" upstream="master"/>
-  <project name="cogent" path="tools/cogent" remote="nicta" revision="6bf675724afbcd7802dc99920a6a11abb657eab5" upstream="master"/>
+  <project name="cogent" path="tools/cogent" remote="nicta" revision="afd611defc52bac8f23f4bb8ecac42bd940c071a" upstream="master"/>
   <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="dcccaa3ab6554e678a6acc273823b722948bc64b" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="1c6350ea6149e8a6b7de8890c34ba3ed615afe60" upstream="sel4"/>
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
@@ -34,7 +34,7 @@
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
   <project name="riscv-pk" path="tools/riscv-pk" remote="SEL4PROJ" revision="d3293c7c23e923338318f3860b2f20dd0b51a016" upstream="fix-32bit"/>
   <project name="rumprun.git" path="tools/rumprun" remote="SEL4PROJ" revision="e307da61f7d2204e14da8fbe19c630373265d123" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="4efbd4365e34cefba49d0c71d4d8a86ac45f2fca" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="cd956d57696adc420883b40e1636664a68325a25" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="59acc870d022eb1bde06518c1bb59a42b2361378" upstream="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="62afbd9251c73182c0ea4381b38848d363a86802" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="0c28d76be7020f371ebf38ae239544a317594a66" upstream="master">

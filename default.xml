@@ -19,10 +19,10 @@
   <default remote="seL4" revision="master"/>
   
   <project name="cakeml_libs.git" path="projects/cakeml_libs" remote="SEL4PROJ" revision="d67ca960f4b910e99bcd807f3d7e345fd07ac8b8" upstream="master"/>
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="3685f30108d15eb77a36a4040899f829791eff2b" upstream="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="aa3db80ffbcea8f4996d744e4d64aef75d9ef618" upstream="master">
     <linkfile dest="README.md" src="docs/index.md"/>
   </project>
-  <project name="camkes.git" path="projects/camkes" revision="0cdc48bce7e9ee0edb1823ee2279ae97661e5860" upstream="master">
+  <project name="camkes.git" path="projects/camkes" revision="6d65f8e79f4014b9af0af07c4c87c8ad96bdce6e" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
   <project name="capdl.git" path="projects/capdl" revision="ea7a50ed24f44c23ea9d366de882942b9e55760c" upstream="master"/>
@@ -37,10 +37,10 @@
   <project name="seL4.git" path="kernel" revision="6e3606d056a3e24dcfc48ae0f1b7644e9010f6d0" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="586ab96254fc5af6bb1a7bab0b0ad6cacf1dfe87" upstream="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="62afbd9251c73182c0ea4381b38848d363a86802" upstream="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="60b9b0d0929ce9f3c65fc65765d5e85e0d3422b8" upstream="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="d9cf233f55df1d5775638dc5452ba79a8e833ab1" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
   </project>
   <project name="sel4runtime" path="projects/sel4runtime" remote="SEL4PROJ" revision="7b71e82ca6802a712475d0e523e689f190303bd3" upstream="master"/>
-  <project name="util_libs.git" path="projects/util_libs" revision="4a9fdba0d1d3a17d2e45564563501eea6e38a1c0" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="16573383f161c50be7b05f2f76d87b1a6d202e46" upstream="master"/>
 </manifest>

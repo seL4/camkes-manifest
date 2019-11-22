@@ -19,15 +19,15 @@
   <default remote="seL4" revision="master"/>
   
   <project name="cakeml_libs.git" path="projects/cakeml_libs" remote="SEL4PROJ" revision="d67ca960f4b910e99bcd807f3d7e345fd07ac8b8" upstream="master"/>
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="48dd04aa93cf8f448ada2fc233ed97a5e4aba138" upstream="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="48957736f242148e801dc0e3ffef3e5d59cb8f95" upstream="master">
     <linkfile dest="README.md" src="docs/index.md"/>
   </project>
-  <project name="camkes.git" path="projects/camkes" revision="99a5509e32fe72cd33813fd4a8d116cdf8ab7f09" upstream="master">
+  <project name="camkes.git" path="projects/camkes" revision="e61846cc9b515cb28faff8d78e1f827451dca80f" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
   <project name="capdl.git" path="projects/capdl" revision="717b46848b5da36ded0f363b37e26a63c158aceb" upstream="master"/>
   <project name="cogent" path="tools/cogent" remote="nicta" revision="c58cbc0e2ab0620859e51cf32ba66467c78faabc" upstream="master"/>
-  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="16b929616af0f4d65bf6054d823aff8b88199db5" upstream="master"/>
+  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="98333ac233a452b049f667248344b1539093db47" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="1c6350ea6149e8a6b7de8890c34ba3ed615afe60" upstream="sel4"/>
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="60b20d1d346b1d33cce422ad41822bede72763a8" upstream="master"/>
@@ -42,5 +42,5 @@
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
   </project>
   <project name="sel4runtime" path="projects/sel4runtime" remote="SEL4PROJ" revision="7b71e82ca6802a712475d0e523e689f190303bd3" upstream="master"/>
-  <project name="util_libs.git" path="projects/util_libs" revision="4e14660568aa82b62402a4bdfea234f9dd0c3140" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="588faf18982228fd96ad534b678627363306b365" upstream="master"/>
 </manifest>

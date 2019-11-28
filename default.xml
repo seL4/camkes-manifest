@@ -26,7 +26,7 @@
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
   <project name="capdl.git" path="projects/capdl" revision="10b3242f5a7aad41d18a6961a93d648820c57695" upstream="master"/>
-  <project name="cogent" path="tools/cogent" remote="nicta" revision="c58cbc0e2ab0620859e51cf32ba66467c78faabc" upstream="master"/>
+  <project name="cogent" path="tools/cogent" remote="nicta" revision="b02b6e01f168d68f22ea5f906ff44993b538c5d9" upstream="master"/>
   <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="0a10f08b1395d945891259c4d280230caa80ddad" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="7c5ecb96f4e873f4f752bedc5de041fa4ee76f72" upstream="sel4"/>
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
@@ -37,7 +37,7 @@
   <project name="seL4.git" path="kernel" revision="7e0cec6f8fefed32ae6910afcf89afcc65fe36c7" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="996f4e635a782c614712ace61842bc3c0e40bf3d" upstream="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="809d51e6ea3e13729c6c3f774bc9d1267d2fba3b" upstream="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="f0ecd967babb8b66de04b53987e4c23cf34c7a9c" upstream="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="14918280911366d08454bd495916b686e94dbb3a" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
   </project>

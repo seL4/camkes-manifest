@@ -34,7 +34,7 @@
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
   <project name="riscv-pk" path="tools/riscv-pk" remote="SEL4PROJ" revision="d3293c7c23e923338318f3860b2f20dd0b51a016" upstream="fix-32bit"/>
   <project name="rumprun.git" path="tools/rumprun" remote="SEL4PROJ" revision="e307da61f7d2204e14da8fbe19c630373265d123" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="ea4c8cb163bd6b8379dfa039207dce6c27e95cf2" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="32e31e3a01bb0e3fbca1c5feff2553dc9889d75a" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="996f4e635a782c614712ace61842bc3c0e40bf3d" upstream="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="809d51e6ea3e13729c6c3f774bc9d1267d2fba3b" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="694947700ea4b2429be748d244d90675ac263594" upstream="master">

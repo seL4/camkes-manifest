@@ -26,7 +26,7 @@
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
   <project name="capdl.git" path="projects/capdl" revision="ff50aee8272fc9aaa43cd1cb9835c179a9c5fe70" upstream="master"/>
-  <project name="cogent" path="tools/cogent" remote="nicta" revision="6d076dd14d9ab7c39f5713695a089cca2ef90c56" upstream="master"/>
+  <project name="cogent" path="tools/cogent" remote="nicta" revision="4d75b4f44048fc58c3716917eaeed7f98c0c0f23" upstream="master"/>
   <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="5a9b3526dd25daafd226f4f2d733ed441c17bbc7" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="a0a3af0e3a54fb3985352b4a3160503ecc8c260c" upstream="sel4"/>
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
@@ -42,5 +42,5 @@
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
   </project>
   <project name="sel4runtime" path="projects/sel4runtime" remote="SEL4PROJ" revision="7b71e82ca6802a712475d0e523e689f190303bd3" upstream="master"/>
-  <project name="util_libs.git" path="projects/util_libs" revision="d9c13436f2573e66e69c701f4ab5313ef524147b" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="c496b5c003182df3cadf09ebc8f511271409dece" upstream="master"/>
 </manifest>

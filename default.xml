@@ -19,7 +19,7 @@
   <default remote="seL4" revision="master"/>
   
   <project name="cakeml_libs.git" path="projects/cakeml_libs" remote="SEL4PROJ" revision="d67ca960f4b910e99bcd807f3d7e345fd07ac8b8" upstream="master"/>
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="c596fc18621258f25713df1d9fbd4b9d839306a9" upstream="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="e60c95119b3fce70a504f5dde03160d857564da4" upstream="master">
     <linkfile dest="README.md" src="docs/index.md"/>
   </project>
   <project name="camkes.git" path="projects/camkes" revision="23c61475ce2c6e7c49ec6619deefaad070d8c5c4" upstream="master">

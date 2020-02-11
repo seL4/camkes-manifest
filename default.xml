@@ -25,7 +25,7 @@
   <project name="camkes.git" path="projects/camkes" revision="913474cd80a12556cbdd787d2b2840ba416e5141" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="dd4f121466ea57c5fbe54b170a54f1fa5621d77b" upstream="master"/>
+  <project name="capdl.git" path="projects/capdl" revision="a66a1b307bebe3399787287cc0b0d437926f89a0" upstream="master"/>
   <project name="cogent" path="tools/cogent" remote="nicta" revision="b4cff08b76e3b721d1c5750816cd9869bf9fdc80" upstream="master"/>
   <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="ec9218c4932551a01ed9a20a3a8ec6629dc72883" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="eb4dcc19b1e2d871e7c2419bdf21e08eccf23993" upstream="sel4"/>

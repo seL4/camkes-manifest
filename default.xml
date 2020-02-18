@@ -19,22 +19,22 @@
   <default remote="seL4" revision="master"/>
   
   <project name="cakeml_libs.git" path="projects/cakeml_libs" remote="SEL4PROJ" revision="d67ca960f4b910e99bcd807f3d7e345fd07ac8b8" upstream="master"/>
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="6361f7176fd41a14c8b9f7f28505df149ee4f230" upstream="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="3d56011b1e23fce4906f860759e033cf95d8c350" upstream="master">
     <linkfile dest="README.md" src="docs/index.md"/>
   </project>
   <project name="camkes.git" path="projects/camkes" revision="913474cd80a12556cbdd787d2b2840ba416e5141" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
   <project name="capdl.git" path="projects/capdl" revision="a66a1b307bebe3399787287cc0b0d437926f89a0" upstream="master"/>
-  <project name="cogent" path="tools/cogent" remote="nicta" revision="3825046ddb477a67f91a01f1bbca54f70ee07156" upstream="master"/>
-  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="d43b8c415dd2131cad43034d91b85e0c5ac60641" upstream="master"/>
+  <project name="cogent" path="tools/cogent" remote="nicta" revision="b9ad1282721dd73c3dc69df6d76e182a8ea91f40" upstream="master"/>
+  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="4c8bb99f99c6f60ad31794c51b1ada7c3a22e7f2" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="a3b8da29b70f1b794513a8cd6a007562865a1e53" upstream="sel4"/>
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="5fa79f91fab96b17a9b753cca568a3c5969e85a7" upstream="master"/>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
   <project name="riscv-pk" path="tools/riscv-pk" remote="SEL4PROJ" revision="d3293c7c23e923338318f3860b2f20dd0b51a016" upstream="fix-32bit"/>
   <project name="rumprun.git" path="tools/rumprun" remote="SEL4PROJ" revision="e307da61f7d2204e14da8fbe19c630373265d123" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="4a09c94b7759338e04fbcd7f1eaca9792d71ab64" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="56a19e05dc3ff5f37e1cb56692435df9d02512f3" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="72efa897a6c8abba8324d2cfedff5e64b5159dc8" upstream="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="ac60baf175960329314f4dcfde8dc70f020a8e11" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="c65e95da4ff07453ca35717a446621d642f76786" upstream="master">

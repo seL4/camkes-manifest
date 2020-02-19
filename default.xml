@@ -36,11 +36,11 @@
   <project name="rumprun.git" path="tools/rumprun" remote="SEL4PROJ" revision="e307da61f7d2204e14da8fbe19c630373265d123" upstream="master"/>
   <project name="seL4.git" path="kernel" revision="56a19e05dc3ff5f37e1cb56692435df9d02512f3" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="72efa897a6c8abba8324d2cfedff5e64b5159dc8" upstream="master"/>
-  <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="ac60baf175960329314f4dcfde8dc70f020a8e11" upstream="master"/>
+  <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="02302cd6cccf55f7151b464e0643a0a6c0e965a2" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="c65e95da4ff07453ca35717a446621d642f76786" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
   </project>
   <project name="sel4runtime" path="projects/sel4runtime" remote="SEL4PROJ" revision="8fddd5e8c1d76ee51b6c0d502e666ee431be32c6" upstream="master"/>
-  <project name="util_libs.git" path="projects/util_libs" revision="dc9336885221f71a5626caca7c6ef64d5fbf3480" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="e382ba4c90c9d04502dad679bf2f93d4f66a90ce" upstream="master"/>
 </manifest>

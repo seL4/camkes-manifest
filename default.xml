@@ -19,7 +19,7 @@
   <default remote="seL4" revision="master"/>
   
   <project name="cakeml_libs.git" path="projects/cakeml_libs" remote="SEL4PROJ" revision="d67ca960f4b910e99bcd807f3d7e345fd07ac8b8" upstream="master"/>
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="fa9aa84e1d14677c5ff769beca6888ccc98f6e7b" upstream="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="153c2c80577f0f9345876dbd109c66d0ea75121c" upstream="master">
     <linkfile dest="README.md" src="docs/index.md"/>
   </project>
   <project name="camkes.git" path="projects/camkes" revision="1938858456c09c325a006845c580bc5058f82240" upstream="master">
@@ -36,11 +36,11 @@
   <project name="rumprun.git" path="tools/rumprun" remote="SEL4PROJ" revision="e307da61f7d2204e14da8fbe19c630373265d123" upstream="master"/>
   <project name="seL4.git" path="kernel" revision="3f9a4cd80982e9a6a5d6cb87c49968138e39eda4" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="1f177036a60d8b473a9c3ffc3858a62e73c2e224" upstream="master"/>
-  <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="85822cfce9f883c756100189c6fe9b0b551a692a" upstream="master"/>
+  <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="d69f819e8aac4ebc5669027d1fefbe01ddfc3d27" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="a5de0e555b25655a798bdcdecee154202242da11" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
   </project>
   <project name="sel4runtime" path="projects/sel4runtime" remote="SEL4PROJ" revision="8fddd5e8c1d76ee51b6c0d502e666ee431be32c6" upstream="master"/>
-  <project name="util_libs.git" path="projects/util_libs" revision="f73984d7252e59c59e5fe8d3cc28164b597a3bb7" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="56bab2bfbd75d7d2e8eccba86deb30f1fca4eee0" upstream="master"/>
 </manifest>

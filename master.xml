@@ -18,28 +18,28 @@
     <!-- default revision for each project, and name of the remote -->
     <default revision="master" remote="seL4"/>
     <!-- list of 'projects' (i.e repositories), path is relative to the path in remote above -->
-    <project name="seL4.git" path="kernel"/>
+    <project name="seL4.git" path="kernel" revision="df-public"/>
     <project name="seL4_tools.git" path="tools/seL4">
         <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
         <linkfile src="cmake-tool/griddle" dest="griddle"/>
     </project>
-    <project name="camkes-tool.git" path="projects/camkes-tool">
+    <project name="camkes-tool.git" path="projects/camkes-tool" revision="df-public">
         <linkfile src="docs/index.md" dest="README.md"/>
     </project>
     <project name="capdl.git" path="projects/capdl"/>
     <project name="pruner.git" path="tools/pruner"/>
-    <project name="seL4_libs.git" path="projects/seL4_libs"/>
-    <project name="util_libs.git" path="projects/util_libs"/>
+    <project name="seL4_libs.git" path="projects/seL4_libs" revision="df-public"/>
+    <project name="util_libs.git" path="projects/util_libs" revision="df-public"/>
     <project remote="SEL4PROJ" name="sel4runtime" path="projects/sel4runtime"/>
-    <project name="musllibc.git" path="projects/musllibc" revision="sel4"/>
+    <project name="musllibc.git" path="projects/musllibc" revision="df-public"/>
     <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="refs/tags/v1.7.0"/>
     <project remote="SEL4PROJ" name="rumprun.git" path="tools/rumprun"/>
-    <project remote="SEL4PROJ" name="global-components.git" path="projects/global-components"/>
-    <project name="camkes.git" path="projects/camkes">
+    <project remote="SEL4PROJ" name="global-components.git" path="projects/global-components" revision="df-public"/>
+    <project name="camkes.git" path="projects/camkes" revision="df-public">
         <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
     </project>
     <project remote="SEL4PROJ" name="seL4_projects_libs.git" path="projects/seL4_projects_libs"/>
-    <project remote="SEL4PROJ" name="projects_libs.git" path="projects/projects_libs"/>
+    <project remote="SEL4PROJ" name="projects_libs.git" path="projects/projects_libs" revision="df-public"/>
     <project remote="SEL4PROJ" name="cakeml_libs.git" path="projects/cakeml_libs"/>
     <project remote="SEL4PROJ" name="riscv-pk" path="tools/riscv-pk" revision="fix-32bit"/>
     <project remote="nicta" name="cogent" path="tools/cogent" revision="master"/>

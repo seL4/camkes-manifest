@@ -1,15 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-     Copyright 2020, Data61
-     Commonwealth Scientific and Industrial Research Organisation (CSIRO)
-     ABN 41 687 119 230.
-
-     This software may be distributed and modified according to the terms of
-     the BSD 2-Clause license. Note that NO WARRANTY is provided.
-     See "LICENSE_BSD2.txt" for details.
-
-     @TAG(DATA61_BSD)
--->
 <manifest>
   <remote fetch="../SEL4PROJ" name="SEL4PROJ"/>
   <remote fetch="https://github.com/NICTA" name="nicta"/>
@@ -19,28 +8,28 @@
   <default remote="seL4" revision="master"/>
   
   <project dest-branch="master" name="cakeml_libs.git" path="projects/cakeml_libs" remote="SEL4PROJ" revision="d67ca960f4b910e99bcd807f3d7e345fd07ac8b8" upstream="master"/>
-  <project dest-branch="master" name="camkes-tool.git" path="projects/camkes-tool" revision="9e7a741d295de57c1e6557a9d7c5cec1eaa0523f" upstream="master">
+  <project dest-branch="df-public" name="camkes-tool.git" path="projects/camkes-tool" revision="ce33eddee06abbac2ecf18439700d949a6f29709" upstream="df-public">
     <linkfile dest="README.md" src="docs/index.md"/>
   </project>
-  <project dest-branch="master" name="camkes.git" path="projects/camkes" revision="f74272c098c18ad3d2e7139d8fdcfcdd33dff207" upstream="master">
+  <project dest-branch="df-public" name="camkes.git" path="projects/camkes" revision="a3474c9c0ee2c80590edd20ecadd8c4840795e8e" upstream="df-public">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
   <project dest-branch="master" name="capdl.git" path="projects/capdl" revision="13a1983e8a1b9c0307b5163288c2e1969d44a373" upstream="master"/>
   <project dest-branch="master" name="cogent" path="tools/cogent" remote="nicta" revision="ebead8fec60d226c155321d7c703c4caf2dc5186" upstream="master"/>
-  <project dest-branch="master" name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="3bf7643ffc2dcdefd341b1fb7a9a4caeb5bec1d0" upstream="master"/>
-  <project dest-branch="sel4" name="musllibc.git" path="projects/musllibc" revision="8a4bddbf499a1c9ff8a064d360dd715ef99ffcab" upstream="sel4"/>
+  <project dest-branch="df-public" name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="f54c4d3f97fba17ee2dec61f116a93ecf9dd1a11" upstream="df-public"/>
+  <project dest-branch="df-public" name="musllibc.git" path="projects/musllibc" revision="124b3b0b87795fd7e4971f106266dc0b505af552" upstream="df-public"/>
   <project dest-branch="refs/tags/v1.7.0" name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
-  <project dest-branch="master" name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="cfbfec4d8730607d28e9fc662744a4a61a3e35dd" upstream="master"/>
+  <project dest-branch="df-public" name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="ff1504af1454784f83274e569d301d57bac425a0" upstream="df-public"/>
   <project dest-branch="master" name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
   <project dest-branch="fix-32bit" name="riscv-pk" path="tools/riscv-pk" remote="SEL4PROJ" revision="d3293c7c23e923338318f3860b2f20dd0b51a016" upstream="fix-32bit"/>
   <project dest-branch="master" name="rumprun.git" path="tools/rumprun" remote="SEL4PROJ" revision="e307da61f7d2204e14da8fbe19c630373265d123" upstream="master"/>
-  <project dest-branch="master" name="seL4.git" path="kernel" revision="6fbee8ba05db5765997ae6fe39b476a4fdf79dc4" upstream="master"/>
-  <project dest-branch="master" name="seL4_libs.git" path="projects/seL4_libs" revision="a46a435a596ccb2cb0c559ed7976035b567a3ddb" upstream="master"/>
+  <project dest-branch="df-public" name="seL4.git" path="kernel" revision="35e91f397e45ccca70130ba35de06157c611c023" upstream="df-public"/>
+  <project dest-branch="df-public" name="seL4_libs.git" path="projects/seL4_libs" revision="64abfa0e817755071bc7549e3efcf9d1836f93f0" upstream="df-public"/>
   <project dest-branch="master" name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="8dc52bb3181b4e39431b9865a4284f3f9364ccdb" upstream="master"/>
   <project dest-branch="master" name="seL4_tools.git" path="tools/seL4" revision="1a7e4d5368b20a60eb855529eb44dd8d7457c2d7" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
   </project>
   <project dest-branch="master" name="sel4runtime" path="projects/sel4runtime" remote="SEL4PROJ" revision="8fddd5e8c1d76ee51b6c0d502e666ee431be32c6" upstream="master"/>
-  <project dest-branch="master" name="util_libs.git" path="projects/util_libs" revision="59ed7e98973da7ecc152ff6e223f06a5cfef6890" upstream="master"/>
+  <project dest-branch="df-public" name="util_libs.git" path="projects/util_libs" revision="84cf6b5f356622337fbf9432d568a8ef584df1ea" upstream="df-public"/>
 </manifest>

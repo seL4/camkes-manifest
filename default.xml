@@ -19,28 +19,28 @@
   <default remote="seL4" revision="master"/>
   
   <project dest-branch="master" name="cakeml_libs.git" path="projects/cakeml_libs" remote="SEL4PROJ" revision="d67ca960f4b910e99bcd807f3d7e345fd07ac8b8" upstream="master"/>
-  <project dest-branch="master" name="camkes-tool.git" path="projects/camkes-tool" revision="0cd1b87f2d4673de37713728a2a56dc4330b9f99" upstream="master">
+  <project dest-branch="master" name="camkes-tool.git" path="projects/camkes-tool" revision="74c0a07358b953ca19f5e7f22a4fa3a7baf21de1" upstream="master">
     <linkfile dest="README.md" src="docs/index.md"/>
   </project>
-  <project dest-branch="master" name="camkes.git" path="projects/camkes" revision="f74272c098c18ad3d2e7139d8fdcfcdd33dff207" upstream="master">
+  <project dest-branch="master" name="camkes.git" path="projects/camkes" revision="2de63ba15174b61efa7adb5be16031eb62821f26" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
-  <project dest-branch="master" name="capdl.git" path="projects/capdl" revision="cb30c4b7bf15b32d4fead591b92722d2e102c43b" upstream="master"/>
-  <project dest-branch="master" name="cogent" path="tools/cogent" remote="nicta" revision="94c05ed762ee3e6b8a843da02302ccd6f4c0fe61" upstream="master"/>
-  <project dest-branch="master" name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="3bf7643ffc2dcdefd341b1fb7a9a4caeb5bec1d0" upstream="master"/>
-  <project dest-branch="sel4" name="musllibc.git" path="projects/musllibc" revision="8a4bddbf499a1c9ff8a064d360dd715ef99ffcab" upstream="sel4"/>
+  <project dest-branch="master" name="capdl.git" path="projects/capdl" revision="d86ad2eee429459518b21d08e169c61e0e2aaf2b" upstream="master"/>
+  <project dest-branch="master" name="cogent" path="tools/cogent" remote="nicta" revision="0bde0321153fe0f6ac241f61e15dddc70ada0bb2" upstream="master"/>
+  <project dest-branch="master" name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="f0551e76f4651facb11a2b63cf2d3af621eabadd" upstream="master"/>
+  <project dest-branch="sel4" name="musllibc.git" path="projects/musllibc" revision="2af3006b0ccf36ba9ac5123f539d577fd97c5350" upstream="sel4"/>
   <project dest-branch="refs/tags/v1.7.0" name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
   <project dest-branch="master" name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="cfbfec4d8730607d28e9fc662744a4a61a3e35dd" upstream="master"/>
   <project dest-branch="master" name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
   <project dest-branch="fix-32bit" name="riscv-pk" path="tools/riscv-pk" remote="SEL4PROJ" revision="d3293c7c23e923338318f3860b2f20dd0b51a016" upstream="fix-32bit"/>
   <project dest-branch="master" name="rumprun.git" path="tools/rumprun" remote="SEL4PROJ" revision="e307da61f7d2204e14da8fbe19c630373265d123" upstream="master"/>
-  <project dest-branch="master" name="seL4.git" path="kernel" revision="fb71ef926ac0616aa57a9eed6989f45a7d4f735c" upstream="master"/>
+  <project dest-branch="master" name="seL4.git" path="kernel" revision="6bb71d686e7c65a0f27965d17473d0a06a0d61a6" upstream="master"/>
   <project dest-branch="master" name="seL4_libs.git" path="projects/seL4_libs" revision="a46a435a596ccb2cb0c559ed7976035b567a3ddb" upstream="master"/>
   <project dest-branch="master" name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="8dc52bb3181b4e39431b9865a4284f3f9364ccdb" upstream="master"/>
-  <project dest-branch="master" name="seL4_tools.git" path="tools/seL4" revision="3f04d3acd67a60ca51ff8cc7ed44fb4308966357" upstream="master">
+  <project dest-branch="master" name="seL4_tools.git" path="tools/seL4" revision="61bf7fa3e78d9b5c42c816b39eaf4e52dbbf6b93" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
   </project>
   <project dest-branch="master" name="sel4runtime" path="projects/sel4runtime" remote="SEL4PROJ" revision="8fddd5e8c1d76ee51b6c0d502e666ee431be32c6" upstream="master"/>
-  <project dest-branch="master" name="util_libs.git" path="projects/util_libs" revision="59ed7e98973da7ecc152ff6e223f06a5cfef6890" upstream="master"/>
+  <project dest-branch="master" name="util_libs.git" path="projects/util_libs" revision="c0c8ddcfac95a09b50e82cfa88367145d7aeaa5e" upstream="master"/>
 </manifest>

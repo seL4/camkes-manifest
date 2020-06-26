@@ -27,7 +27,7 @@
   </project>
   <project dest-branch="master" name="capdl.git" path="projects/capdl" revision="b9889293be3e962a960b92f4d646b1462441944e" upstream="master"/>
   <project dest-branch="master" name="cogent" path="tools/cogent" remote="nicta" revision="3b3ca7cc01cfaa95916348b1c79d9f07dc8849fb" upstream="master"/>
-  <project dest-branch="master" name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="f0551e76f4651facb11a2b63cf2d3af621eabadd" upstream="master"/>
+  <project dest-branch="master" name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="89fcd8ddee159d25fc87eb0718a06ec50d8c32d2" upstream="master"/>
   <project dest-branch="sel4" name="musllibc.git" path="projects/musllibc" revision="2af3006b0ccf36ba9ac5123f539d577fd97c5350" upstream="sel4"/>
   <project dest-branch="refs/tags/v1.7.0" name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
   <project dest-branch="master" name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="cfbfec4d8730607d28e9fc662744a4a61a3e35dd" upstream="master"/>
@@ -36,7 +36,7 @@
   <project dest-branch="master" name="rumprun.git" path="tools/rumprun" remote="SEL4PROJ" revision="e307da61f7d2204e14da8fbe19c630373265d123" upstream="master"/>
   <project dest-branch="master" name="seL4.git" path="kernel" revision="1adb7e9b9162902b3f9868232827b90456d04d53" upstream="master"/>
   <project dest-branch="master" name="seL4_libs.git" path="projects/seL4_libs" revision="a46a435a596ccb2cb0c559ed7976035b567a3ddb" upstream="master"/>
-  <project dest-branch="master" name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="8dc52bb3181b4e39431b9865a4284f3f9364ccdb" upstream="master"/>
+  <project dest-branch="master" name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="1967d540d7e8f665da94f6815dd042c322b52b21" upstream="master"/>
   <project dest-branch="master" name="seL4_tools.git" path="tools/seL4" revision="61bf7fa3e78d9b5c42c816b39eaf4e52dbbf6b93" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="griddle" src="cmake-tool/griddle"/>

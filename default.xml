@@ -22,11 +22,11 @@
   <project dest-branch="master" name="camkes-tool.git" path="projects/camkes-tool" revision="4baa1c6578be6f2ed59aa736b1361e21bb3ecec6" upstream="master">
     <linkfile dest="README.md" src="docs/index.md"/>
   </project>
-  <project dest-branch="master" name="camkes.git" path="projects/camkes" revision="2de63ba15174b61efa7adb5be16031eb62821f26" upstream="master">
+  <project dest-branch="master" name="camkes.git" path="projects/camkes" revision="8d43661a7406f20dfe7b8aedd7cfbf23d68b1c63" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
   <project dest-branch="master" name="capdl.git" path="projects/capdl" revision="b9889293be3e962a960b92f4d646b1462441944e" upstream="master"/>
-  <project dest-branch="master" name="cogent" path="tools/cogent" remote="nicta" revision="3b3ca7cc01cfaa95916348b1c79d9f07dc8849fb" upstream="master"/>
+  <project dest-branch="master" name="cogent" path="tools/cogent" remote="nicta" revision="bb5da372587bb527aee1fea29ba3cc7b554becc7" upstream="master"/>
   <project dest-branch="master" name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="89fcd8ddee159d25fc87eb0718a06ec50d8c32d2" upstream="master"/>
   <project dest-branch="sel4" name="musllibc.git" path="projects/musllibc" revision="2af3006b0ccf36ba9ac5123f539d577fd97c5350" upstream="sel4"/>
   <project dest-branch="refs/tags/v1.7.0" name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
@@ -42,5 +42,5 @@
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
   </project>
   <project dest-branch="master" name="sel4runtime" path="projects/sel4runtime" remote="SEL4PROJ" revision="8fddd5e8c1d76ee51b6c0d502e666ee431be32c6" upstream="master"/>
-  <project dest-branch="master" name="util_libs.git" path="projects/util_libs" revision="c0c8ddcfac95a09b50e82cfa88367145d7aeaa5e" upstream="master"/>
+  <project dest-branch="master" name="util_libs.git" path="projects/util_libs" revision="0ca571ab1e2d2cae45d87475b1ec5c3b60dd3808" upstream="master"/>
 </manifest>

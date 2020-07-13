@@ -19,14 +19,14 @@
   <default remote="seL4" revision="master"/>
   
   <project dest-branch="master" name="cakeml_libs.git" path="projects/cakeml_libs" remote="SEL4PROJ" revision="d67ca960f4b910e99bcd807f3d7e345fd07ac8b8" upstream="master"/>
-  <project dest-branch="master" name="camkes-tool.git" path="projects/camkes-tool" revision="3601894f519c0b7c952ae4bd5b04a8a98a07c18b" upstream="master">
+  <project dest-branch="master" name="camkes-tool.git" path="projects/camkes-tool" revision="b2a39af09d9847a95f1f2d48882f0ee8312d387c" upstream="master">
     <linkfile dest="README.md" src="docs/index.md"/>
   </project>
   <project dest-branch="master" name="camkes.git" path="projects/camkes" revision="8d43661a7406f20dfe7b8aedd7cfbf23d68b1c63" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
   <project dest-branch="master" name="capdl.git" path="projects/capdl" revision="592f213a75138dab4c4aa400b2810f7959dd86f8" upstream="master"/>
-  <project dest-branch="master" name="cogent" path="tools/cogent" remote="nicta" revision="033c617f9877e6de29a478d53271fa4975c0e5d3" upstream="master"/>
+  <project dest-branch="master" name="cogent" path="tools/cogent" remote="nicta" revision="2f88ba06cf78d777e4e14a028cf0e23c03e345bb" upstream="master"/>
   <project dest-branch="master" name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="89fcd8ddee159d25fc87eb0718a06ec50d8c32d2" upstream="master"/>
   <project dest-branch="sel4" name="musllibc.git" path="projects/musllibc" revision="2af3006b0ccf36ba9ac5123f539d577fd97c5350" upstream="sel4"/>
   <project dest-branch="refs/tags/v1.7.0" name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>

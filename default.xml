@@ -19,23 +19,23 @@
   <default remote="seL4" revision="master"/>
   
   <project dest-branch="master" name="cakeml_libs.git" path="projects/cakeml_libs" remote="SEL4PROJ" revision="d67ca960f4b910e99bcd807f3d7e345fd07ac8b8" upstream="master"/>
-  <project dest-branch="master" name="camkes-tool.git" path="projects/camkes-tool" revision="ffc55f7a75c9757459f95372b5a118e404c5e3c1" upstream="master">
+  <project dest-branch="master" name="camkes-tool.git" path="projects/camkes-tool" revision="45e504fd8083dd415a0ada204e85f8875a8099c2" upstream="master">
     <linkfile dest="README.md" src="docs/index.md"/>
   </project>
-  <project dest-branch="master" name="camkes.git" path="projects/camkes" revision="8d43661a7406f20dfe7b8aedd7cfbf23d68b1c63" upstream="master">
+  <project dest-branch="master" name="camkes.git" path="projects/camkes" revision="3b1afd3f32417a02c0912819657e53a659e47737" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
-  <project dest-branch="master" name="capdl.git" path="projects/capdl" revision="592f213a75138dab4c4aa400b2810f7959dd86f8" upstream="master"/>
-  <project dest-branch="master" name="cogent" path="tools/cogent" remote="nicta" revision="2f88ba06cf78d777e4e14a028cf0e23c03e345bb" upstream="master"/>
-  <project dest-branch="master" name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="89fcd8ddee159d25fc87eb0718a06ec50d8c32d2" upstream="master"/>
+  <project dest-branch="master" name="capdl.git" path="projects/capdl" revision="a8dd0da6af809e6d9d61236cb64256549a2cd146" upstream="master"/>
+  <project dest-branch="master" name="cogent" path="tools/cogent" remote="nicta" revision="87c62f7db801507e83263c84d0a7bf069d2d6599" upstream="master"/>
+  <project dest-branch="master" name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="f56cefdd3b592196268fde07905d744a0fc4d980" upstream="master"/>
   <project dest-branch="sel4" name="musllibc.git" path="projects/musllibc" revision="4a8335b2248d934e2e40386af4f1b0495b3c173d" upstream="sel4"/>
   <project dest-branch="refs/tags/v1.7.0" name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
-  <project dest-branch="master" name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="cfbfec4d8730607d28e9fc662744a4a61a3e35dd" upstream="master"/>
+  <project dest-branch="master" name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="cc8ba39fe8dad3b495d4b1184d1bb02f557de5e7" upstream="master"/>
   <project dest-branch="master" name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
   <project dest-branch="fix-32bit" name="riscv-pk" path="tools/riscv-pk" remote="SEL4PROJ" revision="d3293c7c23e923338318f3860b2f20dd0b51a016" upstream="fix-32bit"/>
   <project dest-branch="master" name="rumprun.git" path="tools/rumprun" remote="SEL4PROJ" revision="e307da61f7d2204e14da8fbe19c630373265d123" upstream="master"/>
-  <project dest-branch="master" name="seL4.git" path="kernel" revision="1adb7e9b9162902b3f9868232827b90456d04d53" upstream="master"/>
-  <project dest-branch="master" name="seL4_libs.git" path="projects/seL4_libs" revision="a46a435a596ccb2cb0c559ed7976035b567a3ddb" upstream="master"/>
+  <project dest-branch="master" name="seL4.git" path="kernel" revision="e1f6cf0ab02a68e29b2d1fc4ce2db7f89abc8ccc" upstream="master"/>
+  <project dest-branch="master" name="seL4_libs.git" path="projects/seL4_libs" revision="7501c848fe0665ac993afadf413d53417b8eaea2" upstream="master"/>
   <project dest-branch="master" name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="1967d540d7e8f665da94f6815dd042c322b52b21" upstream="master"/>
   <project dest-branch="master" name="seL4_tools.git" path="tools/seL4" revision="5ec6b173800a45d81618364d0bb89aea752f8cf5" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>

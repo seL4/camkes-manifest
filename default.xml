@@ -12,6 +12,7 @@
 -->
 <manifest>
   <remote fetch="../SEL4PROJ" name="SEL4PROJ"/>
+  <remote fetch="https://git.savannah.gnu.org/git/" name="lwip"/>
   <remote fetch="https://github.com/NICTA" name="nicta"/>
   <remote fetch="https://github.com/tass-belgium" name="picotcp"/>
   <remote fetch="../seL4" name="seL4"/>
@@ -19,22 +20,23 @@
   <default remote="seL4" revision="master"/>
   
   <project dest-branch="master" name="cakeml_libs.git" path="projects/cakeml_libs" remote="SEL4PROJ" revision="d67ca960f4b910e99bcd807f3d7e345fd07ac8b8" upstream="master"/>
-  <project dest-branch="master" name="camkes-tool.git" path="projects/camkes-tool" revision="d3b211c263954948e6d8befc28d69930b94c708e" upstream="master">
+  <project dest-branch="master" name="camkes-tool.git" path="projects/camkes-tool" revision="3c72f0ca178779de5c5a063498aab316c828e7e5" upstream="master">
     <linkfile dest="README.md" src="docs/index.md"/>
   </project>
   <project dest-branch="master" name="camkes.git" path="projects/camkes" revision="a4be020f804bcf648ad930ae42f6a9f4466c186b" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
   <project dest-branch="master" name="capdl.git" path="projects/capdl" revision="9c62d7b36788c22c03cee205fdb2032d84bd658a" upstream="master"/>
-  <project dest-branch="master" name="cogent" path="tools/cogent" remote="nicta" revision="51502cd819bedb6150c467da9ecf2bbd76adb84c" upstream="master"/>
-  <project dest-branch="master" name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="1d340cdc861a6f4b86eb2d2ff8105a2a7731c62b" upstream="master"/>
+  <project dest-branch="master" name="cogent" path="tools/cogent" remote="nicta" revision="2762f7b2bf153eb607337d39d5c3817fc9e2918b" upstream="master"/>
+  <project dest-branch="master" name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="81c8f853b4695d8f9b1dfa6d6bb56e6278c32f65" upstream="master"/>
+  <project dest-branch="refs/tags/STABLE-2_1_2_RELEASE" name="lwip.git" path="projects/lwip" remote="lwip" revision="159e31b689577dbf69cf0683bbaffbd71fa5ee10" upstream="refs/tags/STABLE-2_1_2_RELEASE"/>
   <project dest-branch="sel4" name="musllibc.git" path="projects/musllibc" revision="4a8335b2248d934e2e40386af4f1b0495b3c173d" upstream="sel4"/>
   <project dest-branch="refs/tags/v1.7.0" name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
   <project dest-branch="master" name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="947fa8e1723948f2792df33dcd3c43b15aca6296" upstream="master"/>
   <project dest-branch="master" name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
   <project dest-branch="fix-32bit" name="riscv-pk" path="tools/riscv-pk" remote="SEL4PROJ" revision="d3293c7c23e923338318f3860b2f20dd0b51a016" upstream="fix-32bit"/>
   <project dest-branch="master" name="rumprun.git" path="tools/rumprun" remote="SEL4PROJ" revision="e307da61f7d2204e14da8fbe19c630373265d123" upstream="master"/>
-  <project dest-branch="master" name="seL4.git" path="kernel" revision="0a36a1fafe8271986e019159bb3e6aa1aae5ca78" upstream="master"/>
+  <project dest-branch="master" name="seL4.git" path="kernel" revision="d989d2b85c2608f268aabd77bfb3ef3c6829b567" upstream="master"/>
   <project dest-branch="master" name="seL4_libs.git" path="projects/seL4_libs" revision="dc74a3a31b023b2522b0f1da2906f9a1149236ce" upstream="master"/>
   <project dest-branch="master" name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="1967d540d7e8f665da94f6815dd042c322b52b21" upstream="master"/>
   <project dest-branch="master" name="seL4_tools.git" path="tools/seL4" revision="ccc38660229116bd26807c7012636c70e1c873f3" upstream="master">
@@ -42,5 +44,5 @@
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
   </project>
   <project dest-branch="master" name="sel4runtime" path="projects/sel4runtime" remote="SEL4PROJ" revision="8fddd5e8c1d76ee51b6c0d502e666ee431be32c6" upstream="master"/>
-  <project dest-branch="master" name="util_libs.git" path="projects/util_libs" revision="0723c601f52bf7c86c56c56d71d8c05c6010710f" upstream="master"/>
+  <project dest-branch="master" name="util_libs.git" path="projects/util_libs" revision="831cf6ce2594e98d4a5e56b06f712511f8bc99f6" upstream="master"/>
 </manifest>

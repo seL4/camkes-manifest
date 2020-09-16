@@ -44,5 +44,5 @@
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
   </project>
   <project dest-branch="master" name="sel4runtime" path="projects/sel4runtime" remote="SEL4PROJ" revision="4e4705c7503ea82ed8611fb4f597e66706b57309" upstream="master"/>
-  <project dest-branch="master" name="util_libs.git" path="projects/util_libs" revision="9d20919f5a6193fd73859e35dbebabe13ad12d8b" upstream="master"/>
+  <project dest-branch="master" name="util_libs.git" path="projects/util_libs" revision="02d04caa4dec62204eb1b024be63572d1c23f0b8" upstream="master"/>
 </manifest>

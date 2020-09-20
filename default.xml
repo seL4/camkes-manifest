@@ -27,7 +27,7 @@
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
   <project dest-branch="master" name="capdl.git" path="projects/capdl" revision="767d3e1a8848ad3f698cce41d44def40fe8da61f" upstream="master"/>
-  <project dest-branch="master" name="cogent" path="tools/cogent" remote="nicta" revision="6d5b6ca14797db08bbb380c4741cd410c082a198" upstream="master"/>
+  <project dest-branch="master" name="cogent" path="tools/cogent" remote="nicta" revision="edf280803f13f508ab8e201c1b557a33d36c4e0d" upstream="master"/>
   <project dest-branch="master" name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="bda1560ec68a2d75f6c3e0df7c883d8b360a5c31" upstream="master"/>
   <project dest-branch="refs/tags/STABLE-2_1_2_RELEASE" name="lwip.git" path="projects/lwip" remote="lwip" revision="159e31b689577dbf69cf0683bbaffbd71fa5ee10" upstream="refs/tags/STABLE-2_1_2_RELEASE"/>
   <project dest-branch="sel4" name="musllibc.git" path="projects/musllibc" revision="4a8335b2248d934e2e40386af4f1b0495b3c173d" upstream="sel4"/>
@@ -36,13 +36,13 @@
   <project dest-branch="master" name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
   <project dest-branch="fix-32bit" name="riscv-pk" path="tools/riscv-pk" remote="SEL4PROJ" revision="d3293c7c23e923338318f3860b2f20dd0b51a016" upstream="fix-32bit"/>
   <project dest-branch="master" name="rumprun.git" path="tools/rumprun" remote="SEL4PROJ" revision="c811017b849526624b87c6dc03a58bac6ebfddc4" upstream="master"/>
-  <project dest-branch="master" name="seL4.git" path="kernel" revision="3c26d999ad916cfc377e6c941c7d7a3d76414aa7" upstream="master"/>
+  <project dest-branch="master" name="seL4.git" path="kernel" revision="b0612a6f3ba1221353444a4771066d7e85d47de6" upstream="master"/>
   <project dest-branch="master" name="seL4_libs.git" path="projects/seL4_libs" revision="3fd0ca63468f63b4e2fc7c2683facfa7c52a922b" upstream="master"/>
   <project dest-branch="master" name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="c15bec1db0ebc8eba0659a2a2a3a6c2696b59f17" upstream="master"/>
   <project dest-branch="master" name="seL4_tools.git" path="tools/seL4" revision="6404a788b696e069f99ed4e0a5775af81f9265f1" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
   </project>
-  <project dest-branch="master" name="sel4runtime" path="projects/sel4runtime" remote="SEL4PROJ" revision="0612156b1ba45ebf00f4f00b75ccdbcd358db902" upstream="master"/>
+  <project dest-branch="master" name="sel4runtime" path="projects/sel4runtime" remote="SEL4PROJ" revision="b15a663ceaf7798e39fcba9909fcc5d8359337cf" upstream="master"/>
   <project dest-branch="master" name="util_libs.git" path="projects/util_libs" revision="02d04caa4dec62204eb1b024be63572d1c23f0b8" upstream="master"/>
 </manifest>

@@ -36,7 +36,7 @@
   <project dest-branch="master" name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
   <project dest-branch="fix-32bit" name="riscv-pk" path="tools/riscv-pk" remote="SEL4PROJ" revision="d3293c7c23e923338318f3860b2f20dd0b51a016" upstream="fix-32bit"/>
   <project dest-branch="master" name="rumprun.git" path="tools/rumprun" remote="SEL4PROJ" revision="405fb8ed94b9db554749a9cda29a235ca6c856ed" upstream="master"/>
-  <project dest-branch="master" name="seL4.git" path="kernel" revision="4ee1f90a7d91cc7c84a31ac513bdbc13dd2f8e84" upstream="master"/>
+  <project dest-branch="master" name="seL4.git" path="kernel" revision="63432c91d54f9a1a1ab1ed278f788ba64ec6dba8" upstream="master"/>
   <project dest-branch="master" name="seL4_libs.git" path="projects/seL4_libs" revision="984ee48dec0310b367cf4a991da545c18ae6e1e8" upstream="master"/>
   <project dest-branch="master" name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="c15bec1db0ebc8eba0659a2a2a3a6c2696b59f17" upstream="master"/>
   <project dest-branch="master" name="seL4_tools.git" path="tools/seL4" revision="ffe3305d8d3926ccfa0fa8019063c786b75850d6" upstream="master">

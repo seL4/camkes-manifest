@@ -26,7 +26,7 @@
   <project dest-branch="master" name="camkes.git" path="projects/camkes" revision="446e5da16934bb1d11ecad950f4091cf03a26280" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
-  <project dest-branch="master" name="capdl.git" path="projects/capdl" revision="29b66b82fdae3a3791e18d9b6b7efaf2ad89096a" upstream="master"/>
+  <project dest-branch="master" name="capdl.git" path="projects/capdl" revision="80f8b905e3f7437f099922db0966a125bd2627b7" upstream="master"/>
   <project dest-branch="master" name="cogent" path="tools/cogent" remote="nicta" revision="9a9f56d3f9507ca6688d6be0fa639ded6ab0d478" upstream="master"/>
   <project dest-branch="master" name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="790ef0f52841f4f92a28f94a21380b80d23c3e76" upstream="master"/>
   <project dest-branch="refs/tags/STABLE-2_1_2_RELEASE" name="lwip.git" path="projects/lwip" remote="lwip" revision="159e31b689577dbf69cf0683bbaffbd71fa5ee10" upstream="refs/tags/STABLE-2_1_2_RELEASE"/>

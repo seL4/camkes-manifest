@@ -28,7 +28,7 @@
   </project>
   <project dest-branch="master" name="capdl.git" path="projects/capdl" revision="590b53e7d1e7e1978788830444c03f533d22f3fd" upstream="master"/>
   <project dest-branch="master" name="cogent" path="tools/cogent" remote="nicta" revision="52bb32d7a7d3effede360bcffb04e874c954ba8f" upstream="master"/>
-  <project dest-branch="master" name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="37620714be9c72fdaa9a0d7f116f04c1fe08a7dd" upstream="master"/>
+  <project dest-branch="master" name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="0a50a847ea05bcd01da37ad9c1f711fc14684413" upstream="master"/>
   <project dest-branch="refs/tags/STABLE-2_1_2_RELEASE" name="lwip.git" path="projects/lwip" remote="lwip" revision="159e31b689577dbf69cf0683bbaffbd71fa5ee10" upstream="refs/tags/STABLE-2_1_2_RELEASE"/>
   <project dest-branch="sel4" name="musllibc.git" path="projects/musllibc" revision="4a8335b2248d934e2e40386af4f1b0495b3c173d" upstream="sel4"/>
   <project dest-branch="refs/tags/v1.7.0" name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>

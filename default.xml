@@ -20,7 +20,7 @@
   <default remote="seL4" revision="master"/>
   
   <project dest-branch="master" name="cakeml_libs.git" path="projects/cakeml_libs" remote="SEL4PROJ" revision="d67ca960f4b910e99bcd807f3d7e345fd07ac8b8" upstream="master"/>
-  <project dest-branch="master" name="camkes-tool.git" path="projects/camkes-tool" revision="fa0d94d4a3021ba23b92b07e764d4a3e8d371e6e" upstream="master">
+  <project dest-branch="master" name="camkes-tool.git" path="projects/camkes-tool" revision="a0618cc7428638305aeebcabdb8c774be8d7bc5f" upstream="master">
     <linkfile dest="README.md" src="docs/index.md"/>
   </project>
   <project dest-branch="master" name="camkes.git" path="projects/camkes" revision="da0a3ba1f8c1e88335c73856c29316773a280d26" upstream="master">
@@ -36,7 +36,7 @@
   <project dest-branch="master" name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
   <project dest-branch="fix-32bit" name="riscv-pk" path="tools/riscv-pk" remote="SEL4PROJ" revision="d3293c7c23e923338318f3860b2f20dd0b51a016" upstream="fix-32bit"/>
   <project dest-branch="master" name="rumprun.git" path="tools/rumprun" remote="SEL4PROJ" revision="405fb8ed94b9db554749a9cda29a235ca6c856ed" upstream="master"/>
-  <project dest-branch="master" name="seL4.git" path="kernel" revision="0101071f70d3eb10af432ffa9594ad445f7e99bb" upstream="master"/>
+  <project dest-branch="master" name="seL4.git" path="kernel" revision="1f82755ef6c04fd9a54e1dabb0f85dc54cc6d21e" upstream="master"/>
   <project dest-branch="master" name="seL4_libs.git" path="projects/seL4_libs" revision="74de7febfdf927d169bc433f736a5c2b8e30725b" upstream="master"/>
   <project dest-branch="master" name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="c15bec1db0ebc8eba0659a2a2a3a6c2696b59f17" upstream="master"/>
   <project dest-branch="master" name="seL4_tools.git" path="tools/seL4" revision="31d847ce5f599c139c51f9a22843b0e2898ba4c5" upstream="master">

@@ -39,10 +39,10 @@
   <project dest-branch="master" name="seL4.git" path="kernel" revision="c2b7118fa8e5a2c4fece5bcf9ef880b2fb9e9d02" upstream="master"/>
   <project dest-branch="master" name="seL4_libs.git" path="projects/seL4_libs" revision="3c18332edd44adefd848c895053a538c68106677" upstream="master"/>
   <project dest-branch="master" name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="3bb4f1334b89c0da10c26250ece88f37489401d9" upstream="master"/>
-  <project dest-branch="master" name="seL4_tools.git" path="tools/seL4" revision="19c7d48f6993d6b61288dd5da82cbb18d8afc6bb" upstream="master">
+  <project dest-branch="master" name="seL4_tools.git" path="tools/seL4" revision="06881d14af9d591cf302adad97701dd6c6408c6a" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
   </project>
   <project dest-branch="master" name="sel4runtime" path="projects/sel4runtime" remote="SEL4PROJ" revision="2755b9d840a4600a09cb9e880b6c14c7d2177d09" upstream="master"/>
-  <project dest-branch="master" name="util_libs.git" path="projects/util_libs" revision="3e406b59f61bdab51a357b8ff046f77a3116cdd6" upstream="master"/>
+  <project dest-branch="master" name="util_libs.git" path="projects/util_libs" revision="788d25d24c586796015ec6293b1a70447159005d" upstream="master"/>
 </manifest>

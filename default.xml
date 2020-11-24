@@ -36,7 +36,7 @@
   <project dest-branch="master" name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
   <project dest-branch="fix-32bit" name="riscv-pk" path="tools/riscv-pk" remote="SEL4PROJ" revision="d3293c7c23e923338318f3860b2f20dd0b51a016" upstream="fix-32bit"/>
   <project dest-branch="master" name="rumprun.git" path="tools/rumprun" remote="SEL4PROJ" revision="405fb8ed94b9db554749a9cda29a235ca6c856ed" upstream="master"/>
-  <project dest-branch="master" name="seL4.git" path="kernel" revision="bad8d7440443343ff9b7e47d4564d64c8d0acdec" upstream="master"/>
+  <project dest-branch="master" name="seL4.git" path="kernel" revision="d4f59d37b142421f574a213e89592e319b73b0df" upstream="master"/>
   <project dest-branch="master" name="seL4_libs.git" path="projects/seL4_libs" revision="3c18332edd44adefd848c895053a538c68106677" upstream="master"/>
   <project dest-branch="master" name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="3bb4f1334b89c0da10c26250ece88f37489401d9" upstream="master"/>
   <project dest-branch="master" name="seL4_tools.git" path="tools/seL4" revision="021452dd83cd85a943b56be83f71f5dc2e74d2fb" upstream="master">
@@ -44,5 +44,5 @@
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
   </project>
   <project dest-branch="master" name="sel4runtime" path="projects/sel4runtime" remote="SEL4PROJ" revision="2755b9d840a4600a09cb9e880b6c14c7d2177d09" upstream="master"/>
-  <project dest-branch="master" name="util_libs.git" path="projects/util_libs" revision="788d25d24c586796015ec6293b1a70447159005d" upstream="master"/>
+  <project dest-branch="master" name="util_libs.git" path="projects/util_libs" revision="602a47a4c853eddcc277c03fcba1fd23afdb927a" upstream="master"/>
 </manifest>

@@ -31,18 +31,18 @@
     <project name="pruner.git" path="tools/pruner"/>
     <project name="seL4_libs.git" path="projects/seL4_libs"/>
     <project name="util_libs.git" path="projects/util_libs"/>
-    <project remote="SEL4PROJ" name="sel4runtime" path="projects/sel4runtime"/>
+    <project name="sel4runtime" path="projects/sel4runtime"/>
     <project name="musllibc.git" path="projects/musllibc" revision="sel4"/>
     <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="refs/tags/v1.7.0"/>
     <project name="lwip.git" path="projects/lwip" remote="lwip" revision="refs/tags/STABLE-2_1_2_RELEASE"/>
-    <project remote="SEL4PROJ" name="rumprun.git" path="tools/rumprun"/>
-    <project remote="SEL4PROJ" name="global-components.git" path="projects/global-components"/>
+    <project name="rumprun.git" path="tools/rumprun"/>
+    <project name="global-components.git" path="projects/global-components"/>
     <project name="camkes.git" path="projects/camkes">
         <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
     </project>
-    <project remote="SEL4PROJ" name="seL4_projects_libs.git" path="projects/seL4_projects_libs"/>
-    <project remote="SEL4PROJ" name="projects_libs.git" path="projects/projects_libs"/>
-    <project remote="SEL4PROJ" name="cakeml_libs.git" path="projects/cakeml_libs"/>
-    <project remote="SEL4PROJ" name="riscv-pk" path="tools/riscv-pk" revision="fix-32bit"/>
+    <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs"/>
+    <project name="projects_libs.git" path="projects/projects_libs"/>
+    <project name="cakeml_libs.git" path="projects/cakeml_libs"/>
+    <project name="riscv-pk" path="tools/riscv-pk" revision="fix-32bit"/>
     <project remote="nicta" name="cogent" path="tools/cogent" revision="master"/>
 </manifest>

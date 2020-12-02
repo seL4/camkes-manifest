@@ -16,7 +16,7 @@ systems that can be studied, and individually built and run.
 
 For general instructions on how to use this repository, see [sel4.systems](https://docs.sel4.systems/RepoCheatsheet).
 
-For general information about CAmkES see [the CAmkES pages on seL4.systems](http://sel4.systems/CAmkES).
+For general information about CAmkES see [the CAmkES pages on seL4.systems](https://docs.sel4.systems/projects/camkes/).
 
 For detailed information about CAmkES see documentation in [the camkes-tool repo](https://github.com/seL4/camkes-tool/blob/master/docs/index.md).
 

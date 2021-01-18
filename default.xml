@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-     Copyright 2018, Data61, CSIRO
+     Copyright 2021, Data61, CSIRO (ABN 41 687 119 230)
+
      SPDX-License-Identifier: BSD-2-Clause
 -->
 <manifest>
@@ -16,12 +17,12 @@
   <project name="camkes-tool.git" path="projects/camkes-tool" revision="b213bec0097756bfbe5a3cef26670d67c36157d0" upstream="master" dest-branch="master">
     <linkfile src="docs/index.md" dest="README.md"/>
   </project>
-  <project name="camkes.git" path="projects/camkes" revision="2c14cf80f6cded6bf77ce6016ce3d5f70e068c0f" upstream="master" dest-branch="master">
+  <project name="camkes.git" path="projects/camkes" revision="8976abc1c46ca719a9ca1ca77295c8a2521184cf" upstream="master" dest-branch="master">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="e955a1e3d9409366112733894c763234ecd910ac" upstream="master" dest-branch="master"/>
+  <project name="capdl.git" path="projects/capdl" revision="7a517efc91428a1eb01c123f12b4decf3d072805" upstream="master" dest-branch="master"/>
   <project name="cogent" path="tools/cogent" remote="nicta" revision="7f8b944c36d5e5b6b8dd39660a8642278d44963d" upstream="master" dest-branch="master"/>
-  <project name="global-components.git" path="projects/global-components" revision="34797e42bdfd97ad5757533ac9e291ec03c59e08" upstream="master" dest-branch="master"/>
+  <project name="global-components.git" path="projects/global-components" revision="8aa5e8464bde2adedcca20e43d139effbeef77f6" upstream="master" dest-branch="master"/>
   <project name="lwip.git" path="projects/lwip" remote="lwip" revision="159e31b689577dbf69cf0683bbaffbd71fa5ee10" upstream="refs/tags/STABLE-2_1_2_RELEASE" dest-branch="refs/tags/STABLE-2_1_2_RELEASE"/>
   <project name="musllibc.git" path="projects/musllibc" revision="4a8335b2248d934e2e40386af4f1b0495b3c173d" upstream="sel4" dest-branch="sel4"/>
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0" dest-branch="refs/tags/v1.7.0"/>
@@ -29,7 +30,7 @@
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master" dest-branch="master"/>
   <project name="riscv-pk" path="tools/riscv-pk" revision="d3293c7c23e923338318f3860b2f20dd0b51a016" upstream="fix-32bit" dest-branch="fix-32bit"/>
   <project name="rumprun.git" path="tools/rumprun" revision="405fb8ed94b9db554749a9cda29a235ca6c856ed" upstream="master" dest-branch="master"/>
-  <project name="seL4.git" path="kernel" revision="0d35551966e787006149ec8a0046c3daeb9fc6dc" upstream="master" dest-branch="master"/>
+  <project name="seL4.git" path="kernel" revision="93ab2543d9d8a84d1d5a66c4f8883bcbac35c009" upstream="master" dest-branch="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="3c18332edd44adefd848c895053a538c68106677" upstream="master" dest-branch="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" revision="bee92f982525ba58758df8ad4512cdda1c0f82e6" upstream="master" dest-branch="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="2f97243012afb42975d29a24752675bf68f0a67a" upstream="master" dest-branch="master">
@@ -37,5 +38,5 @@
     <linkfile src="cmake-tool/griddle" dest="griddle"/>
   </project>
   <project name="sel4runtime" path="projects/sel4runtime" revision="2755b9d840a4600a09cb9e880b6c14c7d2177d09" upstream="master" dest-branch="master"/>
-  <project name="util_libs.git" path="projects/util_libs" revision="835e96ac320469ddc72bab66c2f64199c993233f" upstream="master" dest-branch="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="64ab4bc0124a5f3d04f928cdf166259fbd945f9f" upstream="master" dest-branch="master"/>
 </manifest>

@@ -14,7 +14,7 @@
   <default remote="seL4" revision="master"/>
   
   <project name="cakeml_libs.git" path="projects/cakeml_libs" revision="d67ca960f4b910e99bcd807f3d7e345fd07ac8b8" upstream="master" dest-branch="master"/>
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="86ea1350530662d2328362e28ae5c790ffa80f91" upstream="master" dest-branch="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="c1f7000c83513d9c4591a4134b646e76d9ac0829" upstream="master" dest-branch="master">
     <linkfile src="docs/index.md" dest="README.md"/>
   </project>
   <project name="camkes.git" path="projects/camkes" revision="b17c3151d27dc5c46180b8023de9c0d885d305e6" upstream="master" dest-branch="master">
@@ -33,10 +33,10 @@
   <project name="seL4.git" path="kernel" revision="fd7a848b59b55a7865439028879c61dc803fc471" upstream="master" dest-branch="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="3c18332edd44adefd848c895053a538c68106677" upstream="master" dest-branch="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" revision="2e30fdeb1d32f1ac252c94b8d6dcf2b9f4ee17b5" upstream="master" dest-branch="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="4572d8ef4a132a7fb358500b9e672b8ea82d6c57" upstream="master" dest-branch="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="f086b4b818d51519a6d00f6934d97c2a3a834cbe" upstream="master" dest-branch="master">
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
     <linkfile src="cmake-tool/griddle" dest="griddle"/>
   </project>
   <project name="sel4runtime" path="projects/sel4runtime" revision="2755b9d840a4600a09cb9e880b6c14c7d2177d09" upstream="master" dest-branch="master"/>
-  <project name="util_libs.git" path="projects/util_libs" revision="730d328f3b14d77418515433132f3b75dde7345b" upstream="master" dest-branch="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="b6f99879e59950f39ee35472ab15eac1efb0f139" upstream="master" dest-branch="master"/>
 </manifest>

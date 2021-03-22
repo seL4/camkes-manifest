@@ -10,7 +10,7 @@
   <remote name="nicta" fetch="https://github.com/NICTA"/>
   <remote name="picotcp" fetch="https://github.com/tass-belgium"/>
   <remote name="seL4" fetch="../seL4"/>
-  
+  <remote name="opensbi" fetch="https://github.com/riscv"/>
   <default remote="seL4" revision="master"/>
   
   <project name="cakeml_libs.git" path="projects/cakeml_libs" revision="d67ca960f4b910e99bcd807f3d7e345fd07ac8b8" upstream="master" dest-branch="master"/>
@@ -28,7 +28,7 @@
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0" dest-branch="refs/tags/v1.7.0"/>
   <project name="projects_libs.git" path="projects/projects_libs" revision="88736edacee0d6583824befbedb337fdd4c9bb4e" upstream="master" dest-branch="master"/>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master" dest-branch="master"/>
-  <project name="riscv-pk" path="tools/riscv-pk" revision="d3293c7c23e923338318f3860b2f20dd0b51a016" upstream="fix-32bit" dest-branch="fix-32bit"/>
+  <project name="opensbi" path="tools/opensbi" remote="opensbi" revision="234ed8e427f4d92903123199f6590d144e0d9351" upstream="master"/>
   <project name="rumprun.git" path="tools/rumprun" revision="405fb8ed94b9db554749a9cda29a235ca6c856ed" upstream="master" dest-branch="master"/>
   <project name="seL4.git" path="kernel" revision="fd7a848b59b55a7865439028879c61dc803fc471" upstream="master" dest-branch="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="3c18332edd44adefd848c895053a538c68106677" upstream="master" dest-branch="master"/>

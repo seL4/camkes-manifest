@@ -7,6 +7,7 @@
     <remote name="seL4" fetch="../seL4"/>
     <remote name="SEL4PROJ" fetch="../SEL4PROJ"/>
     <remote fetch="https://git.savannah.gnu.org/git/" name="lwip"/>
+    <remote name="opensbi" fetch="https://github.com/riscv"/>
     <remote fetch="https://github.com/tass-belgium" name="picotcp"/>
     <remote fetch="https://github.com/NICTA" name="nicta"/>
     <!-- default revision for each project, and name of the remote -->
@@ -36,6 +37,6 @@
     <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs"/>
     <project name="projects_libs.git" path="projects/projects_libs"/>
     <project name="cakeml_libs.git" path="projects/cakeml_libs"/>
-    <project name="riscv-pk" path="tools/riscv-pk" revision="fix-32bit"/>
     <project remote="nicta" name="cogent" path="tools/cogent" revision="master"/>
+    <project name="opensbi" remote="opensbi" revision="234ed8e427f4d92903123199f6590d144e0d9351" path="tools/opensbi"/>
 </manifest>

@@ -14,30 +14,30 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="cakeml_libs.git" path="projects/cakeml_libs" revision="d67ca960f4b910e99bcd807f3d7e345fd07ac8b8" upstream="master" dest-branch="master"/>
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="67843c629fd0132e7626db0417847a54f2a4e2be" upstream="master" dest-branch="master">
+  <project name="cakeml_libs.git" path="projects/cakeml_libs" revision="cba6d6ba3440c75853cdfa3429cd0a7e5e9b270d" upstream="master" dest-branch="master"/>
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="1e562fe0c93d0485b45c31c57d84b621a3988575" upstream="master" dest-branch="master">
     <linkfile src="docs/index.md" dest="README.md"/>
   </project>
-  <project name="camkes.git" path="projects/camkes" revision="f920d75a877406b65dadda6084dc3090506230e6" upstream="master" dest-branch="master">
+  <project name="camkes.git" path="projects/camkes" revision="cb16a1c46eee4d9c08d81dce135619acb77f6e92" upstream="master" dest-branch="master">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="7a517efc91428a1eb01c123f12b4decf3d072805" upstream="master" dest-branch="master"/>
-  <project name="cogent" path="tools/cogent" remote="nicta" revision="b828526fed1311e12a8c6e1c0dd1ac792325d641" upstream="master" dest-branch="master"/>
+  <project name="capdl.git" path="projects/capdl" revision="2e97986776c809bc7409f92f5a80eeeff226cd67" upstream="master" dest-branch="master"/>
+  <project name="cogent" path="tools/cogent" remote="nicta" revision="e7df05691a36708157483a14ba22d764c1b0975e" upstream="master" dest-branch="master"/>
   <project name="global-components.git" path="projects/global-components" revision="02133497ed126910ec0f4ddb98b997e481d91ffa" upstream="master" dest-branch="master"/>
   <project name="lwip.git" path="projects/lwip" remote="lwip" revision="159e31b689577dbf69cf0683bbaffbd71fa5ee10" upstream="refs/tags/STABLE-2_1_2_RELEASE" dest-branch="refs/tags/STABLE-2_1_2_RELEASE"/>
-  <project name="musllibc.git" path="projects/musllibc" revision="690b6d75eac7172a4147395ecd155f7c9b910c12" upstream="sel4" dest-branch="sel4"/>
+  <project name="musllibc.git" path="projects/musllibc" revision="c7aa943a2ad4fccaccf52a1f957bf8860f57f5b0" upstream="sel4" dest-branch="sel4"/>
   <project name="opensbi" path="tools/opensbi" remote="opensbi" revision="234ed8e427f4d92903123199f6590d144e0d9351"/>
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0" dest-branch="refs/tags/v1.7.0"/>
-  <project name="projects_libs.git" path="projects/projects_libs" revision="88736edacee0d6583824befbedb337fdd4c9bb4e" upstream="master" dest-branch="master"/>
+  <project name="projects_libs.git" path="projects/projects_libs" revision="3b5c4cdf9e1753c76d0c797cf70c90307714f94d" upstream="master" dest-branch="master"/>
   <project name="pruner.git" path="tools/pruner" revision="53761816db6e5ff4d5742d09c4678595a1e594a3" upstream="master" dest-branch="master"/>
   <project name="rumprun.git" path="tools/rumprun" revision="405fb8ed94b9db554749a9cda29a235ca6c856ed" upstream="master" dest-branch="master"/>
-  <project name="seL4.git" path="kernel" revision="d1ffbe0ad660bbeaacc7ad6d3b56a6827b86afb7" upstream="master" dest-branch="master"/>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="d5b36675f890eeda58a3bb2b8d158dc683dcc803" upstream="master" dest-branch="master"/>
+  <project name="seL4.git" path="kernel" revision="41497c6e60eda3eb7dbc38baf3d9677a1132c624" upstream="master" dest-branch="master"/>
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="c0724b90939ecf21babb9dd20f72130df07b2a8a" upstream="master" dest-branch="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" revision="2e30fdeb1d32f1ac252c94b8d6dcf2b9f4ee17b5" upstream="master" dest-branch="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="3d78c6f6f856ca1763bf8472753b3aa2460a6e63" upstream="master" dest-branch="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="b64893955c68f5add9d14d1e788abbfbfae18252" upstream="master" dest-branch="master">
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
     <linkfile src="cmake-tool/griddle" dest="griddle"/>
   </project>
-  <project name="sel4runtime" path="projects/sel4runtime" revision="2755b9d840a4600a09cb9e880b6c14c7d2177d09" upstream="master" dest-branch="master"/>
-  <project name="util_libs.git" path="projects/util_libs" revision="8d843e2820b6e5d18833d529be6fb7c56377c34c" upstream="master" dest-branch="master"/>
+  <project name="sel4runtime" path="projects/sel4runtime" revision="e1c51c9b506708398bb1ffbf9098ae82855d3c14" upstream="master" dest-branch="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="8f0fa145d5a595cd570a3b8fdb67abb396f98175" upstream="master" dest-branch="master"/>
 </manifest>

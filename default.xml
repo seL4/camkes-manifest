@@ -15,7 +15,7 @@
   <default remote="seL4" revision="master"/>
   
   <project name="cakeml_libs.git" path="projects/cakeml_libs" revision="cba6d6ba3440c75853cdfa3429cd0a7e5e9b270d" upstream="master" dest-branch="master"/>
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="1e562fe0c93d0485b45c31c57d84b621a3988575" upstream="master" dest-branch="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="e12114fea7a3f8ff99ee17e621f0e2dedcaf0c93" upstream="master" dest-branch="master">
     <linkfile src="docs/index.md" dest="README.md"/>
   </project>
   <project name="camkes.git" path="projects/camkes" revision="cb16a1c46eee4d9c08d81dce135619acb77f6e92" upstream="master" dest-branch="master">
@@ -31,10 +31,10 @@
   <project name="projects_libs.git" path="projects/projects_libs" revision="3b5c4cdf9e1753c76d0c797cf70c90307714f94d" upstream="master" dest-branch="master"/>
   <project name="pruner.git" path="tools/pruner" revision="53761816db6e5ff4d5742d09c4678595a1e594a3" upstream="master" dest-branch="master"/>
   <project name="rumprun.git" path="tools/rumprun" revision="405fb8ed94b9db554749a9cda29a235ca6c856ed" upstream="master" dest-branch="master"/>
-  <project name="seL4.git" path="kernel" revision="027a7c4a25fcfafabe53f575ce7d32029afa8cd0" upstream="master" dest-branch="master"/>
+  <project name="seL4.git" path="kernel" revision="7dc6dffa0fe8a0dba459276237fa73c4b1ba62e2" upstream="master" dest-branch="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="9c0d209d67adda2558db28f5abbae994770d0340" upstream="master" dest-branch="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" revision="2e30fdeb1d32f1ac252c94b8d6dcf2b9f4ee17b5" upstream="master" dest-branch="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="d03f1b2bf7352eae41f48696e25acb2fb4ff08aa" upstream="master" dest-branch="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="f68510a62aa74a3dca0157ec6c8974809f073a1f" upstream="master" dest-branch="master">
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
     <linkfile src="cmake-tool/griddle" dest="griddle"/>
   </project>

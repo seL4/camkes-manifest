@@ -14,7 +14,7 @@
   <default remote="seL4" revision="master"/>
   
   <project name="cakeml_libs.git" path="projects/cakeml_libs" revision="0d3f232e795a7e79bd3ecd831636507711275a0a" upstream="master" dest-branch="master"/>
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="b9e28ad9436650561e7739571a20f2b13514390b" upstream="master" dest-branch="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="72bc01ee1dfaf8fea6f1d716a6403d0c5658a5a9" upstream="master" dest-branch="master">
     <linkfile src="docs/index.md" dest="README.md"/>
   </project>
   <project name="camkes.git" path="projects/camkes" revision="7eaf33cf92347e84d0161803a8f9b599596345de" upstream="master" dest-branch="master">
@@ -31,12 +31,12 @@
   <project name="pruner.git" path="tools/pruner" revision="6df378e8d91856d204e4d024796b91c6802d0501" upstream="master" dest-branch="master"/>
   <project name="rumprun.git" path="tools/rumprun" revision="04464ab931c28ca1c78e807741d82a4792660183" upstream="master" dest-branch="master"/>
   <project name="seL4.git" path="kernel" revision="f3addaa0fb7e22a7741d56593a21251d3036bfb0" upstream="master" dest-branch="master"/>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="5b268cceca13d5ba0f16bee624e3973d46ba8f30" upstream="master" dest-branch="master"/>
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="3678de2c63c270d2e7ed9c56aa40c2e4ba2a5735" upstream="master" dest-branch="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" revision="b0573e4896f87bb1b898b39c6ee044fbc2221095" upstream="master" dest-branch="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="6211394b3f83eed47a2abe80b81af608846cdb66" upstream="master" dest-branch="master">
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
     <linkfile src="cmake-tool/griddle" dest="griddle"/>
   </project>
   <project name="sel4runtime" path="projects/sel4runtime" revision="93f86fa390841b04bc2c72472656b130e679d3be" upstream="master" dest-branch="master"/>
-  <project name="util_libs.git" path="projects/util_libs" revision="e3ec2e06749cc3c9219f136deeb08426fcc17c4e" upstream="master" dest-branch="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="eb8bf91389a1cc3d8be6ba46ba4e822bee409473" upstream="master" dest-branch="master"/>
 </manifest>

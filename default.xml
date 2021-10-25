@@ -14,15 +14,15 @@
   <default remote="seL4" revision="master"/>
   
   <project name="cakeml_libs.git" path="projects/cakeml_libs" revision="0d3f232e795a7e79bd3ecd831636507711275a0a" upstream="master" dest-branch="master"/>
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="e87442c8cc87c372e13f5062a252ae622123bd52" upstream="master" dest-branch="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="fa6ab0b6b6a340e899e875a1c7b1dcc0dcf1bdf9" upstream="master" dest-branch="master">
     <linkfile src="docs/index.md" dest="README.md"/>
   </project>
   <project name="camkes.git" path="projects/camkes" revision="20ef3480ee2f3dfc0a36b80ccf44b56c903c76af" upstream="master" dest-branch="master">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
   <project name="capdl.git" path="projects/capdl" revision="55507a13e9314c1bf9a47e3ad3a17897d8c80dcc" upstream="master" dest-branch="master"/>
-  <project name="cogent" path="tools/cogent" remote="nicta" revision="1d4aeb7a3803c477eb5e3ae943304c3c84d9a449" upstream="master" dest-branch="master"/>
-  <project name="global-components.git" path="projects/global-components" revision="3cde1557ee59e98d81e91b4a0e45d347c2f50f0f" upstream="master" dest-branch="master"/>
+  <project name="cogent" path="tools/cogent" remote="nicta" revision="6b4ffc7f86458f2f6f89bf9e90089e611935ec43" upstream="master" dest-branch="master"/>
+  <project name="global-components.git" path="projects/global-components" revision="df8b9e42ef4a7b288f2d47859dbae66db1ff1cb3" upstream="master" dest-branch="master"/>
   <project name="lwip.git" path="projects/lwip" remote="lwip" revision="159e31b689577dbf69cf0683bbaffbd71fa5ee10" upstream="refs/tags/STABLE-2_1_2_RELEASE" dest-branch="refs/tags/STABLE-2_1_2_RELEASE"/>
   <project name="musllibc.git" path="projects/musllibc" revision="c7aa943a2ad4fccaccf52a1f957bf8860f57f5b0" upstream="sel4" dest-branch="sel4"/>
   <project name="opensbi" path="tools/opensbi" remote="opensbi" revision="234ed8e427f4d92903123199f6590d144e0d9351" upstream="refs/tags/v0.9" dest-branch="refs/tags/v0.9"/>

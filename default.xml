@@ -21,7 +21,7 @@
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
   <project name="capdl.git" path="projects/capdl" revision="55507a13e9314c1bf9a47e3ad3a17897d8c80dcc" upstream="master" dest-branch="master"/>
-  <project name="cogent" path="tools/cogent" remote="nicta" revision="6b4ffc7f86458f2f6f89bf9e90089e611935ec43" upstream="master" dest-branch="master"/>
+  <project name="cogent" path="tools/cogent" remote="nicta" revision="10dea667c9b43c77cadd40a8e2feaae569f8aa0d" upstream="master" dest-branch="master"/>
   <project name="global-components.git" path="projects/global-components" revision="df8b9e42ef4a7b288f2d47859dbae66db1ff1cb3" upstream="master" dest-branch="master"/>
   <project name="lwip.git" path="projects/lwip" remote="lwip" revision="159e31b689577dbf69cf0683bbaffbd71fa5ee10" upstream="refs/tags/STABLE-2_1_2_RELEASE" dest-branch="refs/tags/STABLE-2_1_2_RELEASE"/>
   <project name="musllibc.git" path="projects/musllibc" revision="c7aa943a2ad4fccaccf52a1f957bf8860f57f5b0" upstream="sel4" dest-branch="sel4"/>
@@ -38,5 +38,5 @@
     <linkfile src="cmake-tool/griddle" dest="griddle"/>
   </project>
   <project name="sel4runtime" path="projects/sel4runtime" revision="c27050513503f615137950cb3918f6f040f34407" upstream="master" dest-branch="master"/>
-  <project name="util_libs.git" path="projects/util_libs" revision="c3c3733f0a311a6fd8bd460d0ca0da1ac08d6cc4" upstream="master" dest-branch="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="280f7bb58290ea3d719d86894655a03f36d347e2" upstream="master" dest-branch="master"/>
 </manifest>

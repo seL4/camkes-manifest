@@ -24,7 +24,7 @@
   <project name="cogent" path="tools/cogent" remote="nicta" revision="f34fdbd12aed2ec7ddb33b98e671ebe398550712" upstream="master" dest-branch="master"/>
   <project name="global-components.git" path="projects/global-components" revision="df8b9e42ef4a7b288f2d47859dbae66db1ff1cb3" upstream="master" dest-branch="master"/>
   <project name="lwip.git" path="projects/lwip" remote="lwip" revision="159e31b689577dbf69cf0683bbaffbd71fa5ee10" upstream="refs/tags/STABLE-2_1_2_RELEASE" dest-branch="refs/tags/STABLE-2_1_2_RELEASE"/>
-  <project name="musllibc.git" path="projects/musllibc" revision="aa82031dd861f7ade4c3738b417de34120b01f15" upstream="sel4" dest-branch="sel4"/>
+  <project name="musllibc.git" path="projects/musllibc" revision="384ed9edeba71e67c7430711fc1e28a3279f5724" upstream="sel4" dest-branch="sel4"/>
   <project name="opensbi" path="tools/opensbi" remote="opensbi" revision="234ed8e427f4d92903123199f6590d144e0d9351" upstream="refs/tags/v0.9" dest-branch="refs/tags/v0.9"/>
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0" dest-branch="refs/tags/v1.7.0"/>
   <project name="projects_libs.git" path="projects/projects_libs" revision="baf58d797b2e89da637367da25229a1acfdad06f" upstream="master" dest-branch="master"/>
@@ -37,6 +37,6 @@
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
     <linkfile src="cmake-tool/griddle" dest="griddle"/>
   </project>
-  <project name="sel4runtime" path="projects/sel4runtime" revision="6e1f8136e0627e1a349a6dc08879c2999fb9957d" upstream="master" dest-branch="master"/>
+  <project name="sel4runtime" path="projects/sel4runtime" revision="d935dd05da0cf959e9fd0140af913dc6fdaa0221" upstream="master" dest-branch="master"/>
   <project name="util_libs.git" path="projects/util_libs" revision="b0cedde66a6b5a3ef1bc072f9a08a4e6bd68935c" upstream="master" dest-branch="master"/>
 </manifest>

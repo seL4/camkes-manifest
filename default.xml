@@ -17,7 +17,7 @@
   <project name="camkes-tool.git" path="projects/camkes-tool" revision="bceec3634b2c107c3b8136d2128b0ad94f1accac" upstream="master" dest-branch="master">
     <linkfile src="docs/index.md" dest="README.md"/>
   </project>
-  <project name="camkes.git" path="projects/camkes" revision="5f977abea6f0403f19021231fe21fbca9c55d976" upstream="master" dest-branch="master">
+  <project name="camkes.git" path="projects/camkes" revision="aef13286d77e477cbaa552689195d144e186398d" upstream="master" dest-branch="master">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
   <project name="capdl.git" path="projects/capdl" revision="234063c8e46b78ce70d1057fc9a3a2165850f791" upstream="master" dest-branch="master"/>
@@ -30,7 +30,7 @@
   <project name="projects_libs.git" path="projects/projects_libs" revision="ff11dd472c79c2a2c9e09910b85d0fc2f965670d" upstream="master" dest-branch="master"/>
   <project name="pruner.git" path="tools/pruner" revision="6df378e8d91856d204e4d024796b91c6802d0501" upstream="master" dest-branch="master"/>
   <project name="rumprun.git" path="tools/rumprun" revision="04464ab931c28ca1c78e807741d82a4792660183" upstream="master" dest-branch="master"/>
-  <project name="seL4.git" path="kernel" revision="a961f9e46caf4f1cf83acfdc60637ad9e9cc5e0d" upstream="master" dest-branch="master"/>
+  <project name="seL4.git" path="kernel" revision="b865b3ce52965e0d5dcdd2f6cdc6bb689fce7709" upstream="master" dest-branch="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="d8ae2c44e92d1bf19891344eb038752565f0b30e" upstream="master" dest-branch="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" revision="eee72e93a1f5f9310cc3c76da8e084dea83b06eb" upstream="master" dest-branch="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="5fee50c854d2af42cfffeb744c4d2bf6447e183c" upstream="master" dest-branch="master">

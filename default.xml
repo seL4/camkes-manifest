@@ -21,7 +21,7 @@
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
   <project name="capdl.git" path="projects/capdl" revision="ad6f24ee93553f9096f48daa05092087ac1191f8" upstream="master" dest-branch="master"/>
-  <project name="cogent" path="tools/cogent" remote="nicta" revision="2a71cbea04583fdee3f80824e876ae50a968e2f2" upstream="master" dest-branch="master"/>
+  <project name="cogent" path="tools/cogent" remote="nicta" revision="29e2fda9775fd9fd6224afcb5ee72ae0827a92a6" upstream="master" dest-branch="master"/>
   <project name="global-components.git" path="projects/global-components" revision="c1adb10449eec43faffce2e440c63c92ccc0b986" upstream="master" dest-branch="master"/>
   <project name="lwip.git" path="projects/lwip" remote="lwip" revision="159e31b689577dbf69cf0683bbaffbd71fa5ee10" upstream="refs/tags/STABLE-2_1_2_RELEASE" dest-branch="refs/tags/STABLE-2_1_2_RELEASE"/>
   <project name="musllibc.git" path="projects/musllibc" revision="3d6b939e8f05cb1d2a1a8c8166609bf2e652e975" upstream="sel4" dest-branch="sel4"/>
@@ -30,7 +30,7 @@
   <project name="projects_libs.git" path="projects/projects_libs" revision="abd5ea88f2b6463d7e6eac94b1b79792422fc5a1" upstream="master" dest-branch="master"/>
   <project name="pruner.git" path="tools/pruner" revision="6df378e8d91856d204e4d024796b91c6802d0501" upstream="master" dest-branch="master"/>
   <project name="rumprun.git" path="tools/rumprun" revision="04464ab931c28ca1c78e807741d82a4792660183" upstream="master" dest-branch="master"/>
-  <project name="seL4.git" path="kernel" revision="b8ef00e09a1273d9f436dc67db4761cd4711295f" upstream="master" dest-branch="master"/>
+  <project name="seL4.git" path="kernel" revision="4ce6cbe9ea4c6656edd98d76bcf5ad3e10caf313" upstream="master" dest-branch="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="c5a599ef6c580a8a232aef23043ec426867e5e16" upstream="master" dest-branch="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" revision="44cf596607719b48459ed4a3d189c80c96303435" upstream="master" dest-branch="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="2f15ba2dc6a08c30b74c722b0673131d2aab32ac" upstream="master" dest-branch="master">

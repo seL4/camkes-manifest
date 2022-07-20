@@ -22,7 +22,7 @@
   </project>
   <project name="capdl.git" path="projects/capdl" revision="a9419eaa4c2f3d7f9dfaf380e2400836ca6316fa" upstream="master" dest-branch="master"/>
   <project name="cogent" path="tools/cogent" remote="nicta" revision="26c8660fef924a6bac7dab8746da56929d9ddc06" upstream="master" dest-branch="master"/>
-  <project name="global-components.git" path="projects/global-components" revision="29f6340721627aea4b988439488b411bf36573a9" upstream="master" dest-branch="master"/>
+  <project name="global-components.git" path="projects/global-components" revision="9dfd54c4c07d3ba30f75bdc993fdb9ffcbe90f92" upstream="master" dest-branch="master"/>
   <project name="lwip.git" path="projects/lwip" remote="lwip" revision="159e31b689577dbf69cf0683bbaffbd71fa5ee10" upstream="refs/tags/STABLE-2_1_2_RELEASE" dest-branch="refs/tags/STABLE-2_1_2_RELEASE"/>
   <project name="musllibc.git" path="projects/musllibc" revision="3d6b939e8f05cb1d2a1a8c8166609bf2e652e975" upstream="sel4" dest-branch="sel4"/>
   <project name="opensbi" path="tools/opensbi" remote="opensbi" revision="234ed8e427f4d92903123199f6590d144e0d9351" upstream="refs/tags/v0.9" dest-branch="refs/tags/v0.9"/>

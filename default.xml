@@ -14,14 +14,14 @@
   <default remote="seL4" revision="master"/>
   
   <project name="cakeml_libs.git" path="projects/cakeml_libs" revision="0d3f232e795a7e79bd3ecd831636507711275a0a" upstream="master" dest-branch="master"/>
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="9a1313f4ea24a11fe2b61b681d84769985cc1963" upstream="master" dest-branch="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="a5c709b1b299b756933991765207d8ac25a37fb8" upstream="master" dest-branch="master">
     <linkfile src="docs/index.md" dest="README.md"/>
   </project>
   <project name="camkes.git" path="projects/camkes" revision="aef13286d77e477cbaa552689195d144e186398d" upstream="master" dest-branch="master">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
   <project name="capdl.git" path="projects/capdl" revision="3fa3a1b5b57c67175d109e2fe15a42aa641ee601" upstream="master" dest-branch="master"/>
-  <project name="cogent" path="tools/cogent" remote="nicta" revision="26c8660fef924a6bac7dab8746da56929d9ddc06" upstream="master" dest-branch="master"/>
+  <project name="cogent" path="tools/cogent" remote="nicta" revision="3e16350b0a281f81eaa4af52b0a4417254365600" upstream="master" dest-branch="master"/>
   <project name="global-components.git" path="projects/global-components" revision="9dfd54c4c07d3ba30f75bdc993fdb9ffcbe90f92" upstream="master" dest-branch="master"/>
   <project name="lwip.git" path="projects/lwip" remote="lwip" revision="159e31b689577dbf69cf0683bbaffbd71fa5ee10" upstream="refs/tags/STABLE-2_1_2_RELEASE" dest-branch="refs/tags/STABLE-2_1_2_RELEASE"/>
   <project name="musllibc.git" path="projects/musllibc" revision="3d6b939e8f05cb1d2a1a8c8166609bf2e652e975" upstream="sel4" dest-branch="sel4"/>
@@ -30,7 +30,7 @@
   <project name="projects_libs.git" path="projects/projects_libs" revision="abd5ea88f2b6463d7e6eac94b1b79792422fc5a1" upstream="master" dest-branch="master"/>
   <project name="pruner.git" path="tools/pruner" revision="6df378e8d91856d204e4d024796b91c6802d0501" upstream="master" dest-branch="master"/>
   <project name="rumprun.git" path="tools/rumprun" revision="04464ab931c28ca1c78e807741d82a4792660183" upstream="master" dest-branch="master"/>
-  <project name="seL4.git" path="kernel" revision="d84f3fcb4a2b2d040c68c16306d60101c7547ce3" upstream="master" dest-branch="master"/>
+  <project name="seL4.git" path="kernel" revision="b7f2a1fb6fd3c520bf9eb6cc0dcc51eec4746800" upstream="master" dest-branch="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="c5a599ef6c580a8a232aef23043ec426867e5e16" upstream="master" dest-branch="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" revision="39c5097e3b8ec8d84513d4f2a9a342650cf21a50" upstream="master" dest-branch="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="9eef25ad10295d7ccddf6b46fa12318f0cff6dcb" upstream="master" dest-branch="master">

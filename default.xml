@@ -22,7 +22,7 @@
   </project>
   <project name="capdl.git" path="projects/capdl" revision="3fa3a1b5b57c67175d109e2fe15a42aa641ee601" upstream="master" dest-branch="master"/>
   <project name="cogent" path="tools/cogent" remote="nicta" revision="89c1403e728a0ecec8c475ca118159c6f04f778a" upstream="master" dest-branch="master"/>
-  <project name="global-components.git" path="projects/global-components" revision="0b23bb8ee54f2d32506834f62d304930625cad5f" upstream="master" dest-branch="master"/>
+  <project name="global-components.git" path="projects/global-components" revision="b7f15666a09339b688f5402b96909392c3cbf93c" upstream="master" dest-branch="master"/>
   <project name="lwip.git" path="projects/lwip" remote="lwip" revision="159e31b689577dbf69cf0683bbaffbd71fa5ee10" upstream="refs/tags/STABLE-2_1_2_RELEASE" dest-branch="refs/tags/STABLE-2_1_2_RELEASE"/>
   <project name="musllibc.git" path="projects/musllibc" revision="3d6b939e8f05cb1d2a1a8c8166609bf2e652e975" upstream="sel4" dest-branch="sel4"/>
   <project name="opensbi" path="tools/opensbi" remote="opensbi" revision="234ed8e427f4d92903123199f6590d144e0d9351" upstream="refs/tags/v0.9" dest-branch="refs/tags/v0.9"/>
@@ -32,7 +32,7 @@
   <project name="rumprun.git" path="tools/rumprun" revision="04464ab931c28ca1c78e807741d82a4792660183" upstream="master" dest-branch="master"/>
   <project name="seL4.git" path="kernel" revision="da39051cbee2bf6ee79dc7e6948de7fd7127bef9" upstream="master" dest-branch="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="0aa8d43fe53564e40248215d2b3b5cedddcc1ee3" upstream="master" dest-branch="master"/>
-  <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" revision="39c5097e3b8ec8d84513d4f2a9a342650cf21a50" upstream="master" dest-branch="master"/>
+  <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" revision="b3f09a03f941b16bd48a060d26cf20a32c065e14" upstream="master" dest-branch="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="60c0d06fa8bb1b0cd767ae9f1eb94d95f3b141e8" upstream="master" dest-branch="master">
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
     <linkfile src="cmake-tool/griddle" dest="griddle"/>

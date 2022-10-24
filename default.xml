@@ -32,7 +32,7 @@
   <project name="rumprun.git" path="tools/rumprun" revision="04464ab931c28ca1c78e807741d82a4792660183" upstream="master" dest-branch="master"/>
   <project name="seL4.git" path="kernel" revision="7ac893897c88b93e07a7181d3ad2ac41f6a26d5a" upstream="master" dest-branch="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="0aa8d43fe53564e40248215d2b3b5cedddcc1ee3" upstream="master" dest-branch="master"/>
-  <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" revision="a4dcf491c739fa98cae37246cbf095e13b0e9922" upstream="master" dest-branch="master"/>
+  <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" revision="f98b8619de57f258fe8082ebb8ef65bb893c7c38" upstream="master" dest-branch="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="60c0d06fa8bb1b0cd767ae9f1eb94d95f3b141e8" upstream="master" dest-branch="master">
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
     <linkfile src="cmake-tool/griddle" dest="griddle"/>

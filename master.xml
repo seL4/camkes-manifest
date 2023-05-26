@@ -9,7 +9,6 @@
     <remote fetch="https://git.savannah.gnu.org/git/" name="lwip"/>
     <remote name="opensbi" fetch="https://github.com/riscv"/>
     <remote fetch="https://github.com/tass-belgium" name="picotcp"/>
-    <remote fetch="https://github.com/NICTA" name="nicta"/>
     <!-- default revision for each project, and name of the remote -->
     <default revision="master" remote="seL4"/>
     <!-- list of 'projects' (i.e repositories), path is relative to the path in remote above -->
@@ -37,6 +36,5 @@
     <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs"/>
     <project name="projects_libs.git" path="projects/projects_libs"/>
     <project name="cakeml_libs.git" path="projects/cakeml_libs"/>
-    <project remote="nicta" name="cogent" path="tools/cogent" revision="master"/>
     <project name="opensbi" remote="opensbi" revision="refs/tags/v0.9" path="tools/opensbi"/>
 </manifest>

@@ -19,7 +19,7 @@
   <project name="camkes.git" path="projects/camkes" revision="3eff84e818c1f8de1b286ed17bc13f220a7555c5" upstream="master" dest-branch="master">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="364ad6aab91fbc3140d451b395576817228bfbcb" upstream="master" dest-branch="master"/>
+  <project name="capdl.git" path="projects/capdl" revision="14d8811e20534253e8be1fe6f9755a338b58fc0a" upstream="master" dest-branch="master"/>
   <project name="global-components.git" path="projects/global-components" revision="0a53b39805f44870b65bd33dfe7535a8856de281" upstream="master" dest-branch="master"/>
   <project name="lwip.git" path="projects/lwip" remote="lwip" revision="159e31b689577dbf69cf0683bbaffbd71fa5ee10" upstream="refs/tags/STABLE-2_1_2_RELEASE" dest-branch="refs/tags/STABLE-2_1_2_RELEASE"/>
   <project name="musllibc.git" path="projects/musllibc" revision="3d6b939e8f05cb1d2a1a8c8166609bf2e652e975" upstream="sel4" dest-branch="sel4"/>
@@ -28,8 +28,8 @@
   <project name="projects_libs.git" path="projects/projects_libs" revision="1e7f0b6ec0405b3288c606fd7e782660ace4aa07" upstream="master" dest-branch="master"/>
   <project name="pruner.git" path="tools/pruner" revision="6df378e8d91856d204e4d024796b91c6802d0501" upstream="master" dest-branch="master"/>
   <project name="rumprun.git" path="tools/rumprun" revision="0be59c66494209d1d379fea5dbdd09aa23f54934" upstream="master" dest-branch="master"/>
-  <project name="seL4.git" path="kernel" revision="6dbfeccd7cee8b2099c1f6aa146ccc460e48996e" upstream="master" dest-branch="master"/>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="24921e85cc0b7ce1028a78dce638c46d8ecfc613" upstream="master" dest-branch="master"/>
+  <project name="seL4.git" path="kernel" revision="2317b402a8fbc0dfcc0e016d88b33527b6e36460" upstream="master" dest-branch="master"/>
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="173c80c7f4da12bbe8330488d5b04267dadf4b57" upstream="master" dest-branch="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" revision="82e0e3f85e7f8b403388e7d7a894ab583b6c8a8a" upstream="master" dest-branch="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="a9d1b6d2b127830d6205e46c983d63e5bb561449" upstream="master" dest-branch="master">
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>

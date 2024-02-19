@@ -28,10 +28,10 @@
   <project name="projects_libs.git" path="projects/projects_libs" revision="1e7f0b6ec0405b3288c606fd7e782660ace4aa07" upstream="master" dest-branch="master"/>
   <project name="pruner.git" path="tools/pruner" revision="6df378e8d91856d204e4d024796b91c6802d0501" upstream="master" dest-branch="master"/>
   <project name="rumprun.git" path="tools/rumprun" revision="0be59c66494209d1d379fea5dbdd09aa23f54934" upstream="master" dest-branch="master"/>
-  <project name="seL4.git" path="kernel" revision="a8eebabf58990c00706c0830fe8e3edca2eaf7e4" upstream="master" dest-branch="master"/>
+  <project name="seL4.git" path="kernel" revision="31ca173e174afd18a38ee70a918a8e9f7869b31e" upstream="master" dest-branch="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="f3443015111db398747b05b74f0668bb4c92044e" upstream="master" dest-branch="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" revision="4662171c6026c789974acdc60efc9f7ee96de64e" upstream="master" dest-branch="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="92124ea258e0d9b315882503ce6c82ce4ba710a0" upstream="master" dest-branch="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="24a7ecaeef984d8670dc49eecd261111152c270a" upstream="master" dest-branch="master">
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
     <linkfile src="cmake-tool/griddle" dest="griddle"/>
   </project>

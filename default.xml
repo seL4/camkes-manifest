@@ -13,7 +13,7 @@
   <default remote="seL4" revision="master"/>
   
   <project name="cakeml_libs.git" path="projects/cakeml_libs" revision="fd76a2567d5aa8685b5e44fd167a7ece05d2ef7c" upstream="master" dest-branch="master"/>
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="380ebf961c7ab99dd00ddbef13fb19fa4572a1d0" upstream="master" dest-branch="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="1503c41347d5044b8c69490f23987e5b838ae234" upstream="master" dest-branch="master">
     <linkfile src="docs/index.md" dest="README.md"/>
   </project>
   <project name="camkes.git" path="projects/camkes" revision="62c37db3f9ba6cccc322ea3bc340c6f00b79e673" upstream="master" dest-branch="master">
@@ -31,7 +31,7 @@
   <project name="seL4.git" path="kernel" revision="c8ee04268800a5b14dd565032dc969d7a2f621cc" upstream="master" dest-branch="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="959d4c38b8ace52ac2082f4d29ed1ce6f7b33536" upstream="master" dest-branch="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" revision="366cc9088f2d10d52fb25f7d4680eb94418bffb7" upstream="master" dest-branch="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="b305af4dd306630ecfd2776d41d54b6d9964055c" upstream="master" dest-branch="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="8baa9d653c084ba9d2214c479cb50dd807f5a4bd" upstream="master" dest-branch="master">
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
     <linkfile src="cmake-tool/griddle" dest="griddle"/>
   </project>

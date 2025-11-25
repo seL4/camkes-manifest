@@ -19,7 +19,7 @@
   <project name="camkes.git" path="projects/camkes" revision="4da77e31cac558b58472e4e5ae6e0b24f22e2672" upstream="master" dest-branch="master">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="f04b257b5405de895c6ca8426c3b5d6fa2d63ab9" upstream="master" dest-branch="master"/>
+  <project name="capdl.git" path="projects/capdl" revision="79624efab687e0bdbe29ce45847d1d86dd7c73ff" upstream="master" dest-branch="master"/>
   <project name="global-components.git" path="projects/global-components" revision="ad0d2891ff5f15a37de2980e103b7024960b5a26" upstream="master" dest-branch="master"/>
   <project name="lwip.git" path="projects/lwip" remote="lwip" revision="159e31b689577dbf69cf0683bbaffbd71fa5ee10" upstream="refs/tags/STABLE-2_1_2_RELEASE" dest-branch="refs/tags/STABLE-2_1_2_RELEASE"/>
   <project name="musllibc.git" path="projects/musllibc" revision="b0005f86fecbd6d0257b15363a5b013446914265" upstream="sel4" dest-branch="sel4"/>

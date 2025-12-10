@@ -5,8 +5,6 @@
 -->
 <manifest>
     <remote name="seL4" fetch="../seL4"/>
-    <remote name="SEL4PROJ" fetch="../SEL4PROJ"/>
-    <remote fetch="https://git.savannah.gnu.org/git/" name="lwip"/>
     <remote name="opensbi" fetch="https://github.com/riscv"/>
     <remote fetch="https://github.com/tass-belgium" name="picotcp"/>
     <!-- default revision for each project, and name of the remote -->
@@ -27,7 +25,7 @@
     <project name="sel4runtime" path="projects/sel4runtime"/>
     <project name="musllibc.git" path="projects/musllibc" revision="sel4"/>
     <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="refs/tags/v1.7.0"/>
-    <project name="lwip.git" path="projects/lwip" remote="lwip" revision="refs/tags/STABLE-2_1_2_RELEASE"/>
+    <project name="lwip.git" path="projects/lwip" revision="refs/tags/STABLE-2_1_2_RELEASE"/>
     <project name="rumprun.git" path="tools/rumprun"/>
     <project name="global-components.git" path="projects/global-components"/>
     <project name="camkes.git" path="projects/camkes">

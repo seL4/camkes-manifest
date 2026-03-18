@@ -14,7 +14,7 @@
   <project name="camkes-tool.git" path="projects/camkes-tool" revision="54db1ff2725a91cce700fe33f46dece800b10b9e" upstream="master" dest-branch="master">
     <linkfile src="docs/index.md" dest="README.md"/>
   </project>
-  <project name="camkes.git" path="projects/camkes" revision="4da77e31cac558b58472e4e5ae6e0b24f22e2672" upstream="master" dest-branch="master">
+  <project name="camkes.git" path="projects/camkes" revision="122cd328621974b21917e8b4a06d8274a6b564ae" upstream="master" dest-branch="master">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
   <project name="capdl.git" path="projects/capdl" revision="79624efab687e0bdbe29ce45847d1d86dd7c73ff" upstream="master" dest-branch="master"/>

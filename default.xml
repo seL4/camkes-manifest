@@ -11,13 +11,13 @@
   <default remote="seL4" revision="master"/>
   
   <project name="cakeml_libs.git" path="projects/cakeml_libs" revision="fd76a2567d5aa8685b5e44fd167a7ece05d2ef7c" upstream="master" dest-branch="master"/>
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="6161d39c2f2a6a8714a649b739e7d71487543db1" upstream="master" dest-branch="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="eea1b0186b3f6b384865ade086588560fa761154" upstream="master" dest-branch="master">
     <linkfile src="docs/index.md" dest="README.md"/>
   </project>
   <project name="camkes.git" path="projects/camkes" revision="d8cc099e3ec518c2e1459794d70d17d83cce1873" upstream="master" dest-branch="master">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="1b9570f972b8503cdab94e7c15137e6232ac4122" upstream="master" dest-branch="master"/>
+  <project name="capdl.git" path="projects/capdl" revision="5cdc6a67f47aebac838a31c8701fb907a973808b" upstream="master" dest-branch="master"/>
   <project name="global-components.git" path="projects/global-components" revision="dd6a1ec846c422da85fdd6900df182095f9b7425" upstream="master" dest-branch="master"/>
   <project name="lwip.git" path="projects/lwip" revision="159e31b689577dbf69cf0683bbaffbd71fa5ee10" upstream="refs/tags/STABLE-2_1_2_RELEASE" dest-branch="refs/tags/STABLE-2_1_2_RELEASE"/>
   <project name="musllibc.git" path="projects/musllibc" revision="b0005f86fecbd6d0257b15363a5b013446914265" upstream="sel4" dest-branch="sel4"/>
